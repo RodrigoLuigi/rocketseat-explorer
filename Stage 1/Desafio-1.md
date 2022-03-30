@@ -1,4 +1,4 @@
-<img src=''>
+<img src='boost_yourself.jpg' alt='wallpaper boost yourself' height='275' width='100%'>
 
 # Comunicação eficiente
 
