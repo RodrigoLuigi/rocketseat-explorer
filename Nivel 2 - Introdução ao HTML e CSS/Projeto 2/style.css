@@ -11,7 +11,7 @@ body {
 .page {
   width: 1000px;
   margin: 0 auto;
-  padding-top: 65px;
+  padding-top: 28px;
 }
 
 nav {
@@ -35,8 +35,15 @@ a {
   text-decoration: none;
 }
 
-ul li a:hover {
+ul li a{
   font-weight: bold;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  
+  opacity: 1;
 }
 
 h1, ul {
