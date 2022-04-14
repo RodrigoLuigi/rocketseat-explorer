@@ -2,7 +2,7 @@
 
   📍 Aqui você encontrará todos os projetos e exercícios que estou desenvolvendo ao longo da minha jornada no curso Explorer da RocketSeat, bem como outros projetos de estudo que faço ao longo da jornada.
 
-# :list: Módulos do Explorer
+# 📓 Módulos do Explorer
 
 ### **Stage 01: Fundamentos da programação Web**
   Neste módulo, vimos conceitos básicos sobre programação: como e por que programar. Entendemos o que é lógica, aprender várias dicas e até mesmo possíveis ações para melhorarmos esse ponto.
