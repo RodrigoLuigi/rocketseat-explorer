@@ -1,8 +1,8 @@
- # <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center"> Explorer - RocketSeat  
+ # <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - RocketSeat  
 
   📍 Aqui você encontrará todos os projetos e exercícios que estou desenvolvendo ao longo da minha jornada no curso Explorer da RocketSeat, bem como outros projetos de estudo que faço ao longo da jornada.
 
-# :space_invader: Módulos do Explorer
+# :list: Módulos do Explorer
 
 ### **Stage 01: Fundamentos da programação Web**
   Neste módulo, vimos conceitos básicos sobre programação: como e por que programar. Entendemos o que é lógica, aprender várias dicas e até mesmo possíveis ações para melhorarmos esse ponto.
