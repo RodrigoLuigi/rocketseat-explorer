@@ -9,7 +9,7 @@
 
   🔗  [Mapa da jornada]()<br>
   🔗  [Fundamentos da Programação Web]()<br>
-  * Desafios <br>
+  * **Desafios** <br>
   🔗  [Comunicação eficiente]()<br>
   🔗  [Lógica do Café]()<br>
   
@@ -21,7 +21,7 @@
   🔗  [Introdução ao CSS]()<br>
   🔗  [Projeto 1]()<br>
   🔗  [Projeto 2]()<br>
-   * Desafios <br>
+   * **Desafios** <br>
   🔗  [Desafio Fase 01]()<br>
   🔗  [Desafio Fase 02]()<br>
   🔗  [Desafio Acessibilidade]()<br>
