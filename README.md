@@ -8,7 +8,7 @@
   Neste módulo, vimos conceitos básicos sobre programação: como e por que programar. Entendemos o que é lógica, aprender várias dicas e até mesmo possíveis ações para melhorarmos esse ponto.
   Além disso, iremos abordar sobre o que é e como funciona a WEB e entender melhor os conceitos de Front-end e Back-end.
 
-  :chain: [Stage 01](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Nivel%201%20-%20Fundamentos%20Programa%C3%A7%C3%A3o%20Web)
+  🔗 [Stage 01](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Nivel%201%20-%20Fundamentos%20Programa%C3%A7%C3%A3o%20Web)
   * Mapa da jornada
   * Fundamentos da Programação Web
   * Desafios / Comunicação eficiente / Lógica do Café
