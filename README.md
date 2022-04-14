@@ -5,7 +5,7 @@
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 01: Fundamentos da programação Web**_](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2001%20-%20Fundamentos%20Programa%C3%A7%C3%A3o%20Web)
   Neste módulo, vimos conceitos básicos sobre programação: como e por que programar. Entendemos o que é lógica, aprender várias dicas e até mesmo possíveis ações para melhorarmos esse ponto.
-  Além disso, iremos abordar sobre o que é e como funciona a WEB e entender melhor os conceitos de Front-end e Back-end.
+  Além disso, abordamos sobre o que é e como funciona a WEB e entender melhor os conceitos de Front-end e Back-end.
 
   🔗  [Mapa da jornada](https://github.com/RodrigoLuigi/Explorer---RocketSeat/blob/master/Stage%2001%20-%20Fundamentos%20Programa%C3%A7%C3%A3o%20Web/Landing%2001%20-%20Mapa%20da%20Jornada.pdf)<br>
   🔗  [Fundamentos da Programação Web](https://github.com/RodrigoLuigi/Explorer---RocketSeat/blob/master/Stage%2001%20-%20Fundamentos%20Programa%C3%A7%C3%A3o%20Web/Stage%2001%20-%20Fundamentos%20da%20programao%20WEB.pdf)<br>
