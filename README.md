@@ -27,6 +27,6 @@
   🔗  [Desafio Acessibilidade]()<br>
   🔗  [Desafio Recriando layout]()
 
-### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> **Stage 03: Avançando no HTML e CSS**
+### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 03: Avançando no HTML e CSS**_]()
 
  **Loading...**
