@@ -1,172 +1,172 @@
-# <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Projeto 01
+# <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Projeto 01 HTML / CSS
 
-### 📌 Nessa aula apresentamos a ferramenta Figma e o projeto que iremos desenvolver durante o Stage 02.
-### Introdução ao Figma e Projeto 1 HTML / CSS.
+### 📌 Trabalhando com a ferramenta Figma e o projeto que iremos desenvolver durante o Stage 02. Aprendemos sobre o Figma a ferramenta dos Web designer e como transformar um layout em html e css. Desenvolvemos a estrutura html, buscando sempre as melhores tags para se utilizar de forma semântica, utilizamos links, posicionamentos , espaçamentos , fontes , bordas , alinhamentos e textos.
 
-### **Figma**
-* Ferramenta de design UI/UX estudo das cores, posicionamento , layout e melhor interação com usuário.
-Projeto simples , no qual iremos trabalhar com imagens, títulos propriedades de texto , links , cores , entre outros...
 
-### **O que iremos aprender** 
-* imagens, textos, fonts, tamanhos, cores , negritos, links, linhas , bordas, posicionamento de elementos, alinhamento, espaço , e todo o básico de HTML e CSS estruturado de forma semântica.
 
-## Início Projeto
+### **Introdução ao Figma.**
+* Figma
+
+    - Ferramenta de design UI/UX estudo das cores, posicionamento , layout e melhor interação com usuário.
+
+### **O que desenvolvemos neste Projeto?** 
+* Projeto simples , no qual trabalhamos com imagens, textos, fonts, tamanhos, cores , negritos, links, linhas , bordas, posicionamento de elementos, alinhamento, espaço , e todo o básico de HTML e CSS estruturado de forma semântica.
+
+
+### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**Início Projeto**_
 
 ### 📌 Codificamos a estrutura inicial do nosso projeto, passando por todos os elementos do HTML *(head, meta, body)*.
 
-### _**Estrutura do HTML**_
-### **< !DOCTYPE *html*>**
-DEFINE O TIPO DE DOCUMENTO COMO HTML5
-### **< html *lang*="pt-br">**  
-LINGUAGEM QUE VAMOS UTILIZAR NO DOCUMENTO 
-**< head>**
-### **<meta *charset*="UTF-8">**
-CONFIGURAÇÂO DE TEXTO PARA CARACTERES ESPECIAIS
-### **<meta *name*="viewport" *content*="width=device-width, initial-scale=1.0">**  
-**VIEWPORT** É TODA ÀREA VISIVEL DO NAVEGADOR , VARIA DE ACORDO COM O TAMANHO DE TELA DO DISPOSITIVO
-### **< title>Móveis customizados</ title>**
-TÍTULO DA PÁGINA
-**</ head>**
+    Estrutura do HTML
 
-### **< body>**
-CONTEÚDO DA PÁGINA
-### **</ body>**
+    <!-- Define o tipo de documento como HTML5-->
+    <!DOCTYPE html>
 
-### **</ html>**
+    <!-- Linguagem que vamos utilizar no documento -->
+    <html lang="pt-br">  
 
-SVG é um arquivo de imagem no formato de HTML, mantém a qualidade e é um arquivo mais leve.
+    <head>
+    
+    <!-- Configuração de texto para caracteres especiais -->
+    <meta charset="UTF-8">
+ 
+    <!-- 'viewport' é toda área visivel do navegador, varia de acordo com o tamanho de tela do dispositivo -->
+    <meta *name*="viewport" *content*="width=device-width, initial-scale=1.0">  
+   
+    < title>Móveis customizados</ title>
+    TÍTULO DA PÁGINA
+    </head>
 
-- Estrutura HTML:   uma div contendo uma imagem, um texto grande , dois parágrafos pequenos , mais uma div contendo dois links,  e  uma imagem(balls).
+    <body>
+    CONTEÚDO DA PÁGINA
+    </body>
 
-Nessa aula organizamos a posição dos nossos elementos respeitando a ordem do HTML e aprendemos sobre `block`
- e `inline`
- e acrescentamos mais dois novos elementos `<span>`
- e `<strong>`
+    </html>
 
-Existem 2 tipos de elementos de especificação de como os elementos ficarão posicionados que é : um abaixo do outro, ou,  um ao lado do outro 
 
-os que ficam um abaixo do outro tem uma especificação de “bloco” (display: block;) 
+
+### **Estrutura HTML do Projeto:**   
+* uma div contendo uma imagem
+* um texto grande
+* dois parágrafos pequenos 
+* uma div contendo dois links 
+* uma imagem(balls) em formato de **SVG**
+
+**SVG** é um arquivo de imagem no formato de HTML, mantém a qualidade e é um arquivo mais leve.
+
+Estudo de posicionamento dos elementos, respeitando a ordem do HTML e conceitos sobre `block` e `inline` e acrescentamos mais dois novos elementos `<span>` e `<strong>`.
+
+Existem 2 tipos de elementos de especificação de como os elementos ficarão posicionados que é: **um abaixo do outro**, ou, **um ao lado do outro**. 
+
+Os que ficam **um abaixo do outro** tem uma especificação de `block` (`display: block;`) 
 
 ex. div, h1, p...
 
-os que ficam um ao lado do outro tem especificação “in-line”(display: inline;)
+os que ficam **um ao lado do outro** tem especificação `in-line` (`display: inline;`)
 
-img, a, i...
+ex. img, a, i...
 
-Nessa aula aplicamos fontes customizadas e demos inicio a estilização do nosso projeto 01.
+Aplicamos fontes customizadas, e demos início a estilização do nosso projeto.
 
-- Fonts
-    - **[Open Sans - Google Fonts](https://fonts.google.com/specimen/Open+Sans?query=open+sans)**
-    - **[Inter - Google Fonts](https://fonts.google.com/specimen/Inter?query=inter)**
+* **Fonts**
+
+   🔗 **[Open Sans - Google Fonts](https://fonts.google.com/specimen/Open+Sans?query=open+sans)**
+
+   🔗 **[Inter - Google Fonts](https://fonts.google.com/specimen/Inter?query=inter)**
+
+A tag `<link>` faz referência `href` a algum css externo, e o `"rel"` é a relação da página com esse link, que no caso é `preconnect` como no exemplo a seguir.
     
-    A tag <link>  faz referência “href” a algum css externo como no exemplo: e o real é qual a relação desse link no caso “preconnect”.
+    Ex.    <link rel=”preconnect” href=”https://fonts.googleapis.com”> 
     
-    <link rel=”preconnect” href=”https://fonts.googleapis.com”> 
+
+O arquivo `.css` é inserido no `<head>` do HTML através de um **link**, utilizando a referência do arquivo `style.css` que está na pasta raiz do projeto, e que possui uma relação de **stylesheet** ( folha de estilo).
     
-    o arquivo .css é inserido no <head> do HTML através de um link, utilizando a referência do arquivo style.css que está na pasta raiz do projeto, e que possui uma relação de stylesheet ( folha de estilo).
+    Ex.    <link rel=”stylesheet” href=”style.css”>
     
-    Ex.
-    
-    <link rel=”stylesheet” href=”style.css”>
-    
-    foi aplicado:
-    
-    font-family: ‘Inter’, sans serif; ,
-    
-    e
-    
-    font-family: ‘Open Sans’, sans serif;
-    
-    nos seletores de body , h1, a,
+Foi adicionado cores aos textos do nosso projeto de acordo com o layout do Figma. Também foram aplicado propriedades de `fonts` e `color` do CSS.
 
-    Nessa aula começamos a dar cores ao textos do nosso projeto de acordo com o layout do Figma. Também aprendemos algumas propriedades do CSS: `color`
-, `font-size`
-, `line-height`
-, `font-weight`
+        font-size     line-height     font-weight     text-align
 
-è uma numeração que vai de 0 a F e se repetem em pares de 2 
+A propriedade `color: #FF9900;` é uma numeração que vai de 0 a F e se repetem em pares de 2. 
 
-ex.
+        Ex. #FF9900
 
-#FF9900 ou seja FF é a quantidade de vermelho,
+        FF é a quantidade de vermelho
+        99 é a quantidade de verde 
+        00 é a quantidade de azul
 
- o 99 é a quantidade de verde ,
+        todos variam de 0 a F  
 
-e o 00 é a quantidade de azul
+        #FF0000 = vermelho
+        #00FF00 = verde
+        #0000FF = azul
 
-todos variam de 0 a F  
+Fizemos alguns ajustes nos textos do nosso projeto e trabalhamos algumas **tags** para quebrar linhas e utilizar espaços em textos.
 
-#FF0000 = vermelhor ,
+Utilizamos a tag `<br/>` para fazer quebras de linha em textos pelo html e também utilizamos a sintaxe `&nbsp;` para dar espaços
 
-#00FF00 = verde ,
+Aplicamos conceitos e propriedades `margin` do CSS, utilizando o **shorthand** em um trecho de código, e ajustamos os espaçamentos do nosso projeto. Também foi utilizado um seletor especial **`'+'`**.
 
-#0000FF = azul
+        Ex. Seletor especial ‘ + ‘
 
-foi aplicado a propriedade color em <span>, <p>,<a>
+        footer a + a {
+        }  
+        
+    O seletor pega o 'a' que anterior a ele tenha um 'a' ou seja utiliza o espaço entre os dois 'a'. 
 
-Nessa aula fizemos alguns ajustes nos textos do nosso projeto e aprendemos como quebrar linhas e uma maneira de utilizar espaços.
+### **Propriedades de margin**
 
-utilizamos a tag <br/> para fazer quebras de linha em textos pelo html e também utilizamos a sintaxe &nbsp; para dar espaços
+        Ex. 
 
-Nessa aula aprendemos sobre as propriedades `margin`
- do CSS, aplicamos o *shorthand*
- em um trecho de código e ajustamos os espaçamentos do nosso projeto.
+        magin: 10px 15px 8px 5px;  
+        top ,  right , bottom , left
 
-Seletor especial ‘ + ‘ 
+        margin: 10px 15px 8px;
+        top right/left bottom
 
-Ex. a + a , ou seja ele pega o ‘a’ que anterior a ele tenha um ‘a’  ou seja utiliza o espaço entre os dois ‘a’.
+        margin: 10px 15px;
+        top/bottom right/left
 
-Ex. propriedades de margin:
+        margin: 10px;
+        global
 
-magin: 10px 15px 8px 5px;
+        margin-top: **px;
 
-margin: 10px 15px 8px
+        margin-right: **px;
 
-margin: 10px 15px
+        margin-bottom: **px;
 
-margin: 10px
+        margin-left: **px;
 
-margin-top: ***
+Adicionamos uma linha em nossa página com a propriedade `border`
+do CSS
 
-margin-right: ***
+        Propriedades:
 
-margin-bottom: ***
+        border-color: green; - cor
 
-margin-left: ***
+        border-style: solid; - estilo
 
-Nessa aula aprendemos como adicionar uma linha em nossa página com a propriedade `border`
- do CSS
+        height: 2px; - altura 
 
-utilizamos as propriedades
+        border: green solid 2px; - Borda de cor verde sólida e com altura de 2px.
 
-border-color: green; - cor
+Posicionamento de elementos na página utilizando a propriedade `position`
+do CSS.
 
-border-style: solid; - estilo
+        temos valores do tipo:
 
-height: 2px - altura 
+        position: absolute;
 
-border: green solid 2px
+        position: fixed;
 
-ficaria uma borda de cor verde sólida e com altura de 2px.
+        position: relative;
 
-Nessa aula nós aprendemos sobre posicionamento de elementos na página utilizando a propriedade `position`
- do CSS.
+        position: static; (padrão)
 
-temos valores do tipo:
+        position: sticky;
 
-position: absolute;
-
-position: fixed;
-
-position: relative;
-
-position: static; (padrão)
-
-position: sticky;
-
-Ao criar um position , estamos criando um novo contexto, como se existisse uma folha  em cima de outra folha ou camadas uma em cima da outra para que possamos posicionar o elemento;
-
-Aprendemos sobre o Figma a ferramenta dos Web designer e como transformar em html e css , aprendemos ao html quais as melhores tags para se utilizar de forma semântica como utilizar links, posicionamentos , espaçamentos , fontes , bordas , alinhamentos ,textos ...
+Ao criar um position , estamos criando um novo contexto, como se existisse uma folha em cima de outra folha, ou camadas, uma em cima da outra, para que possamos posicionar o elemento;
 
 ## Screenshots
 

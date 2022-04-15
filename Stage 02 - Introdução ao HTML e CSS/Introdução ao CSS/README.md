@@ -1,6 +1,6 @@
 # <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Introdução ao CSS
 
-### 📌 Introdução ao CSS (Cascading Style Sheets), o CSS é tudo que vai dar estilos ao nosso site. Vimos sobre propriedades, seletores e suas especificidades.
+### 📌 Introdução ao CSS (Cascading Style Sheets), o CSS é tudo que vai dar estilos ao nosso site. Propriedades, seletores e suas especificidades.
 
 ## <img src="https://imgur.com/dsdsHjr.png" width="32px" align="center"> **CSS**
 O CSS ou Cascading Style Sheet , trabalha em conjunto com o HTML, e é utilizado como folha de estilo em cascata , que define através de tags as configurações de estilo ou layout de uma página html. O último seletor sempre terá um especificidade(prioridade) maior pelo CSS que por ser uma folha de estilo em cascata ele irá considerar o ultimo seletor lido pelo arquivo. Para uma especificidade ser absoluta , também podemos utilizar o CSS in-line.
