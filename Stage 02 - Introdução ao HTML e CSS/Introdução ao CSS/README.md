@@ -12,7 +12,7 @@ Ex.
 
   color: red; **-** define o texto com a cor vermelha através de ( propriedade: valor ; ) 
 
- **}**                          
+ }                          
 
  **</ style> -** fechamento da tag
 
@@ -33,5 +33,5 @@ Aprendendo CSS **-** texto
 
 ## Screenshots
 
-<img src="https://imgur.com/M49f7v5.png">
+<img src="https://imgur.com/Q26Yg8B.png">
 
