@@ -16,7 +16,7 @@ Ex.
 
  **</ style> -** fechamento da tag
 
-## <img src="https://imgur.com/JvOmHZg.png" width="32px" align="center">  **HTML**
+## <img src="https://imgur.com/JvOmHZg.png" width="42px" align="center">  **HTML**
 
 **< p> -** tag de parágrafo
 
