@@ -5,9 +5,8 @@
 
 
 ### **Introdução ao Figma.**
-* Figma
 
-    - Ferramenta de design UI/UX estudo das cores, posicionamento , layout e melhor interação com usuário.
+Ferramenta de design UI/UX estudo das cores, posicionamento , layout e melhor interação com usuário.
 
 ### **O que desenvolvemos neste Projeto?** 
 * Projeto simples , no qual trabalhamos com imagens, textos, fonts, tamanhos, cores , negritos, links, linhas , bordas, posicionamento de elementos, alinhamento, espaço , e todo o básico de HTML e CSS estruturado de forma semântica.
@@ -15,7 +14,7 @@
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**Início Projeto**_
 
-### 📌 Codificamos a estrutura inicial do nosso projeto, passando por todos os elementos do HTML *(head, meta, body)*.
+ Codificamos a estrutura inicial do nosso projeto, passando por todos os elementos do HTML *(head, meta, body)*.
 
     Estrutura do HTML
 
