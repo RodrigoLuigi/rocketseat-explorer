@@ -12,8 +12,7 @@ Projeto simples , no qual iremos trabalhar com imagens, títulos propriedades de
 
 ## Início Projeto
 
-### 📌 Nessa aula codificamos a estrutura inicial do nosso projeto, passando por todos os elementos do HTML *(head, meta, body)*.
-<br>
+### 📌 Codificamos a estrutura inicial do nosso projeto, passando por todos os elementos do HTML *(head, meta, body)*.
 
 ### _**Estrutura do HTML**_
 ### **< !DOCTYPE *html*>**
