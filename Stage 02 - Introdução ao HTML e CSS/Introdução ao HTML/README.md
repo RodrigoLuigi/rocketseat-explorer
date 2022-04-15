@@ -12,7 +12,7 @@ Usamos sintaxe que é uma maneira certa para escrever seguindo regras **HTML**.
 
 O que faz o **HTML** ser **hypertext** são as adições de **links** em **textos** utilizando as **tags de marcação**.
 
-**Ex.**   <a href=”https://link.com”>TEXTO</a>
+**Ex.** <  a href=”https://link.com”>TEXTO</ a>
 
 
 ## Screenshots
