@@ -44,11 +44,3 @@ Ferramenta de design UI/UX estudo das cores, posicionamento , layout e melhor in
 ## Screenshots
 
 <img src="">
-
-
-
-
-## Screenshots
-
-<img src="">
-
