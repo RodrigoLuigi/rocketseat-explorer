@@ -1,8 +1,8 @@
-# <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Desafio Fase 02 
+# <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Desafio Acessibilidade
 
-### **Acessibilidade**
+### **Semântica e acessibilidade**
 
-Sabemos que a maior parte do conteúdo disponível na internet hoje pode se tornar acessível apenas com a utilização correta dos elementos do HTML.
+### Sabemos que a maior parte do conteúdo disponível na internet hoje pode se tornar acessível apenas com a utilização correta dos elementos do HTML.
 
 ### 📌 Nesse desafio, recebemos um código do Projeto 2 que não aprensenta semântica correta. O código sofreu algumas alterações e a missão é reestruturar o HTML de forma semântica, e ajustar seletores CSS para consertar o layout com base no original.
 
