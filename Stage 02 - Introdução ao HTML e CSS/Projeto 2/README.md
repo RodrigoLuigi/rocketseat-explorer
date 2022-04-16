@@ -34,7 +34,8 @@ Projeto simples de uma página estática. Desenvolvemos toda a estrutura html, b
 
 ## 📚 Stack utilizada
 
-## <img src="https://imgur.com/JvOmHZg.png" width="42px" align="center">  **HTML**  <img src="https://imgur.com/dsdsHjr.png" width="42px" align="center">  **CSS**
+## <img src="https://imgur.com/JvOmHZg.png" width="42px" align="center">  **HTML**
+## <img src="https://imgur.com/dsdsHjr.png" width="42px" align="center">  **CSS**
 
 
 ## Screenshots
