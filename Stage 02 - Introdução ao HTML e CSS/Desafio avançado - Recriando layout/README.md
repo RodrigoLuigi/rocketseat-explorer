@@ -35,8 +35,8 @@ Projeto simples de uma página estática. Desenvolvemos toda a estrutura html, b
 
   | **Cores**               |                                                 |
 | ----------------- | ---------------------------------------------------------------- |
-| ![#2F2E41](https://via.placeholder.com/10/2F2E41?text=+) #2F2E41       | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
-| ![#00bfa6](https://via.placeholder.com/10/00bfa6?text=+) #00bfa6       | ![#C2C2C2](https://via.placeholder.com/10/C2C2C2?text=+) #C2C2C2 |
+| ![#2F2E41](https://via.placeholder.com/10/2F2E41?text=+) #2F2E41       | ![#C2C2C2](https://via.placeholder.com/10/C2C2C2?text=+) #C2C2C2 |
+| ![#00bfa6](https://via.placeholder.com/10/00bfa6?text=+) #00bfa6       | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
 
 
 ## 📚 Stack utilizada
