@@ -1,4 +1,4 @@
-# <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Projeto 2
+# <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Projeto 1
 
 ### 📌 Trabalhando com a ferramenta Figma desenvolvemos o projeto para transformar um layout em html e css.
 
