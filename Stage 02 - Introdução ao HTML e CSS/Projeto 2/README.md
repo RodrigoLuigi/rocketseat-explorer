@@ -2,12 +2,12 @@
 
 ### 📌 Trabalhando com a ferramenta Figma desenvolvemos o projeto para transformar um layout em html e css.
 
+# <br>:book Aprendizados
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
 Projeto simples de uma página estática. Desenvolvemos toda a estrutura html, buscando sempre as melhores tags para se utilizar de forma semântica, utilizamos fontes e cores personalizadas, links, posicionamentos , espaçamentos , bordas, alinhamentos, introduzimos novas propriedades e conceitos de **Flexbox** e **BoxModel**.
 
-## Aprendizados
 
 -  Tags semânticas;
 -  Conceitos do Box Model;
