@@ -1,4 +1,4 @@
-# <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Projeto 02 HTML / CSS
+# <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Projeto 2
 
 ### 📌 Trabalhando com a ferramenta Figma desenvolvemos o projeto para transformar um layout em html e css.
 
@@ -32,7 +32,10 @@ Projeto simples de uma página estática. Desenvolvemos toda a estrutura html, b
 | ![#1F1534](https://via.placeholder.com/10/1F1534?text=+) #1F1534       |  |
 
 
+## 📚 Stack utilizada
 
+## <img src="https://imgur.com/JvOmHZg.png" width="42px" align="center">  **HTML**
+## <img src="https://imgur.com/dsdsHjr.png" width="42px" align="center">  **CSS**
 
 
 ## Screenshots
