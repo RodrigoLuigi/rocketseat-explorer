@@ -2,7 +2,7 @@
 
 ### **Corrigindo Bug's**
 
-### 📌 Nesse desafio, recebemos um código "quebrado" do Projeto 1. O código sofreu algumas alterações e a missão é reestruturar o HTML, refatoração de tags não utilizadas e ajustes de CSS para consertar o layout com base no original.
+### 📌 Nesse desafio, recebemos um código "quebrado" do Projeto 2. O código sofreu algumas alterações e a missão é reestruturar o HTML, refatoração de tags não utilizadas e ajustes de CSS para consertar o layout com base no original.
 
 # <br>:book: Aprendizados
 
