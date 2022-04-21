@@ -27,9 +27,9 @@
   🔗  [Desafio Acessibilidade](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2002%20-%20Introdu%C3%A7%C3%A3o%20ao%20HTML%20e%20CSS/Codigo%20do%20desafio%20-%20Acessibilidade)<br>
   🔗  [Desafio Recriando layout](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2002%20-%20Introdu%C3%A7%C3%A3o%20ao%20HTML%20e%20CSS/Desafio%20avan%C3%A7ado%20-%20Recriando%20layout)
 
-### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 03: Avançando no HTML e CSS**_]()
+### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 03: Avançando no HTML e CSS**_](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2003%20-%20Avan%C3%A7ando%20no%20HTML%20e%20CSS)
   Neste módulo desenvolvemos formulários no HTML e vários tipos de inputs. Aprenderemos sobre responsividade, para que o nosso projeto se adapte a vários tipos de dispositivos. Trabalhamos com Grid no CSS e transições a animações para deixar o nosso projeto ainda mais robusto.
 
-  🔗  [Projeto 1]()<br>
+  🔗  [Projeto 1](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2003%20-%20Avan%C3%A7ando%20no%20HTML%20e%20CSS/Projeto%201)<br>
 
   **Loading...**
