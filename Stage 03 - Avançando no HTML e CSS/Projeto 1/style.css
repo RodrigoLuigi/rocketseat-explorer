@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 
-body, input, button, select, textarea {
+body,
+input,
+button,
+select,
+textarea {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -26,6 +30,7 @@ body::before {
 
 .page {
   max-width: 736px;
+  /**/
   margin: auto;
 }
 
@@ -59,6 +64,7 @@ form {
   min-height: 300px;
 
   padding: 64px;
+  /* 64px original*/
 
   display: flex;
   flex-direction: column;
@@ -107,7 +113,7 @@ fieldset legend {
 
   font-size: 12px;
   line-height: 20px;
-  
+
   color: #a9a7af;
 }
 
@@ -115,14 +121,14 @@ fieldset legend {
   color: #6c6a71;
 }
 
-.input-wrapper input, 
+.input-wrapper input,
 .input-wrapper textarea,
 .input-wrapper select {
   background: #FAFAFC;
 
   border: 1px solid #E6E6F0;
   border-radius: 8px;
-  
+
   height: 56px;
 
   padding: 0 24px;
@@ -152,7 +158,7 @@ fieldset legend {
   gap: 20px;
 }
 
-.col-3 > div:nth-child(1) {
+.col-3>div:nth-child(1) {
   width: 100%;
 }
 
@@ -161,7 +167,7 @@ fieldset legend {
 }
 
 .checkbox-wrapper label {
-  display:flex;
+  display: flex;
   align-items: center;
   gap: 16px;
 
@@ -170,7 +176,7 @@ fieldset legend {
 
 .checkbox-wrapper input {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   width: 24px;
   height: 24px;
@@ -188,11 +194,11 @@ fieldset legend {
   border-radius: 8px;
 }
 
-.checkbox-wrapper input:checked + label::before {
+.checkbox-wrapper input:checked+label::before {
   background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.00016 16.1698L4.83016 11.9998L3.41016 13.4098L9.00016 18.9998L21.0002 6.99984L19.5902 5.58984L9.00016 16.1698Z' fill='%2342D3FF'/%3E%3C/svg%3E%0A");
 }
 
-.checkbox-wrapper input:focus + label::before {
+.checkbox-wrapper input:focus+label::before {
   outline: 2px solid black;
 }
 
@@ -229,10 +235,30 @@ footer .button {
   color: #FFFFFF;
 }
 
-footer .button:hover{
+footer .button:hover {
   background: #06c45b;
 }
 
 input:invalid {
   border: 1px solid #FF1010;
+}
+
+@media screen and (max-width: 620px) {
+  header {
+    margin: 74px auto;
+  }
+
+  form {
+    padding: 10px;
+  }
+
+  .col-3 {
+    flex-wrap: wrap;
+  }
+
+  .col-3>div:nth-child(1) input {
+    width: 100%;
+  }
+
+
 }
