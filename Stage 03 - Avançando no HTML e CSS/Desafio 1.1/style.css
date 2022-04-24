@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  /* 10px */
+}
+
+body {
+  font-size: 1.6rem;
+  background: #BFD7E4;
+  font-family: 'Poppins', sans-serif;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  min-height: 46.5rem;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  background-color: #293241;
+}
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto 10rem;
+}
+
+header {
+  min-height: 46.5rem;
+
+  padding-top: 10.7rem;
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+  position: relative;
+}
+
+header h1 {
+  font-size: 3.6rem;
+  line-height: 4.5rem;
+  font-family: 'Staatliches', cursive;
+
+  text-transform: uppercase;
+}
+
+header p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+  height: 4.6rem;
+}
+
+.form-header {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  background: #F67669;
+  padding: 50px 0;
+  border-radius: 20px 20px 0 0;
+
+  text-align: center;
+
+  color: #FFFFFF;
+  font-family: 'Staatliches', cursive;
+}
+
+.form-header h2 {
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+}
+
+form {
+  background-color: #FFFFFF;
+
+  padding: 3.1rem 6.4rem;
+  min-height: 30rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.7rem;
+}
+
+fieldset {
+  border: none;
+}
+
+.input-wrapper-info {
+  display: flex;
+  gap: 2.2rem;
+}
+
+.input-wrapper-info .info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.input-wrapper-info label,
+.input-wrapper label,
+.checkbox-wrapper {
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #4E4958;
+  margin-bottom: 8px;
+}
+
+.input-wrapper-info input,
+.input-wrapper input,
+.input-wrapper select,
+.input-wrapper textarea {
+  height: 5.5rem;
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  padding: 0 2.4rem;
+
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+
+  color: #6c6a71;
+}
+
+.input-wrapper span {
+  font-size: 12px;
+  line-height: 20px;
+  margin-left: 0.9rem;
+
+  color: #C1BCCC;
+}
+
+.input-wrapper span:hover {
+  color: #8a8792;
+}
+
+fieldset legend {
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+
+  color: #253B51;
+
+  border-bottom: 1px solid #E6E6F0;
+
+  padding-bottom: 7.9px;
+  margin-bottom: 3rem;
+}
+
+.input-wrapper select {
+  max-width: 30rem;
+}
+
+.input-wrapper textarea {
+  height: 16rem;
+}
+
+.checkbox-wrapper {
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+.col-3 {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.col-3>div:first-child {
+  width: 50%;
+}
+
+.data-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+footer{
+  display: flex;
+  background: #ffffff;
+  padding: 2.3rem 6.4rem 6.4rem;
+
+  border-radius: 0 0 2rem 2rem;
+}
+
+footer .button{
+width: 100%; 
+height: 5.1rem;
+
+background: #F67669;
+border-radius: 8px;
+border: none; 
+
+font-family: 'Staatliches', cursive;
+font-size: 20px;
+line-height: 26px;
+
+color: #FFFFFF;
+}
