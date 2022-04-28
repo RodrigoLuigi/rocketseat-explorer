@@ -1,0 +1,260 @@
+/*===== RESET =====*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*===== ROOT CONFIG =====*/
+:root {
+
+  --ff-heading: 'Staatliches', cursive;
+  --ff-texting: 'Palanquin', sans-serif;
+
+  /* COLORS */
+  --hue: 250;
+
+  --bg-primary: hsl(233, 100%, 97%);
+  --bg-secondary: hsl(218, 17%, 62%);
+  --bg-headign: hsla(275, 18%, 79%);
+
+  --fc-primary: hsl(var(--hue), 0%, 100%);
+  --fc-secondary: hsl(var(--hue), 50%, 80%);
+  --fc-secondary-dark: hsl(var(--hue), 100%, 11%, 1);
+
+  /* FONTS */
+  font-size: 62.5%;
+  /*10px*/
+  --fs-body: 1.6rem;
+  --fs-heading: clamp(3.5rem, 1rem + 3vw, 4.6rem);
+  --fs-heading-sm: clamp(1.6rem, 0.5rem + 3vw, 2rem);
+}
+
+/*===== ROOT CONFIG =====*/
+body {
+  font-family: var(--ff-texting);
+  font-size: var(--fs-body);
+  background-color: var(--bg-primary);
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 27.9rem;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  background: var(--bg-secondary);
+}
+
+/*===== LAYOUT MOBILE-FIRST CONFIG =====*/
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+header img {
+  display: block;
+  width: 13.7rem;
+  height: 13.7rem;
+  margin: 3.2rem auto;
+}
+
+header h1 {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-heading);
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin-bottom: 4.9rem;
+
+  color: var(--fc-primary);
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+
+  background: var(--bg-headign);
+}
+
+header p {
+  font-size: 1.6rem;
+  line-height: 2rem;
+
+  color: var(--fc-secondary-dark);
+
+  padding: 4rem 3rem 0;
+
+
+  text-align: center;
+}
+
+.card-wrapper {
+  display: grid;
+
+  gap: 3.2rem;
+
+  width: 32rem;
+  margin: 6.3rem auto;
+}
+
+.card {
+  position: relative;
+  animation: downtop 700ms 350ms backwards;
+}
+
+.card img {
+  border-radius: 15px;
+
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+  transition: all 200ms;
+  /*filter: brightness(0.5);*/
+}
+
+.card img:hover {
+  transform: scale(1.1);
+  filter: brightness(1);
+}
+
+.card h2 {
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+
+  width: 11.2rem;
+  text-align: center;
+  background-color: var(--bg-headign);
+  border-radius: 20px;
+
+  font-size: 2rem;
+  line-height: 3.4rem;
+
+  letter-spacing: 0.05em;
+
+  color: #4A4E69;
+}
+
+.footer {
+  display: none;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+/*===== ANIMATIONS =====*/
+@keyframes topdown {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes downtop {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*========== RESPONSIVO ============*/
+
+@media (min-width: 700px) {
+  header p {
+    padding: 4rem 6rem 0;
+  }
+
+  .card-wrapper {
+    grid-template-columns: 1fr 1fr;
+
+    width: 100%;
+    padding: 0 6rem;
+  }
+
+  .footer {
+    display: block;
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    flex-direction: row;
+    min-height: 100vh;
+  }
+
+  body::before {
+    width: 0;
+  }
+
+  header {
+    max-width: 32vw;
+    background-color: var(--bg-secondary);
+  }
+
+  header img {
+    width: 21rem;
+  }
+
+  header p {
+    padding-top: 0;
+    color: var(--fc-primary);
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "A B C"
+      "D B F"
+      "D E F";
+
+    justify-content: center;
+    gap: 3.2rem;
+
+    margin: auto;
+    padding: 3rem 6rem;
+    width: 70vw;
+    height: 100%;
+  }
+
+  .card-wrapper div:nth-child(1) {
+    grid-area: A;
+  }
+
+  .card-wrapper div:nth-child(2) {
+    grid-area: B;
+  }
+
+  .card-wrapper div:nth-child(3) {
+    grid-area: C;
+  }
+
+  .card-wrapper div:nth-child(4) {
+    grid-area: D;
+  }
+
+  .card-wrapper div:nth-child(5) {
+    grid-area: E;
+  }
+
+  .card-wrapper div:nth-child(6) {
+    grid-area: F;
+  }
+
+  .card img {
+    min-height: 22rem;
+  }
+}
