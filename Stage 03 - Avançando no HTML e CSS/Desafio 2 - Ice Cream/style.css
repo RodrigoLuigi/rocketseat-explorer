@@ -1,13 +1,16 @@
+/*==== RESET ====*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/*==== ROOT CONFIG ====*/
 :root {
   font-size: 62.5%;
 }
 
+/*==== BASE ====*/
 body {
   font-family: 'Staatliches', cursive;
   font-size: 1.6rem;
@@ -38,6 +41,7 @@ header h1 {
   background: #CBC0D3;
 }
 
+/*==== LAYOUT CONFIG  ====*/
 .container {
   width: 32rem;
   margin: 0 auto;
