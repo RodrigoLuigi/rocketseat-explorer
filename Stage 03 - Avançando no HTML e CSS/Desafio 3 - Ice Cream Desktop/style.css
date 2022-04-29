@@ -47,7 +47,7 @@ body::before {
   left: 0;
   z-index: -1;
 
-  background: var(--bg-secondary);
+  background: linear-gradient(var(--bg-secondary), var(--bg-secondary), rgb(197, 158, 184) ) ;
 }
 
 /*===== LAYOUT MOBILE-FIRST CONFIG =====*/
@@ -206,7 +206,7 @@ header p {
 
   header {
     max-width: 32vw;
-    background-color: var(--bg-secondary);
+    background: linear-gradient(var(--bg-secondary), var(--bg-secondary), rgb(197, 158, 184) ) ;
   }
 
   header img {
@@ -214,6 +214,7 @@ header p {
   }
 
   header p {
+    font-size: 2rem;
     padding-top: 0;
     color: var(--fc-primary);
   }
