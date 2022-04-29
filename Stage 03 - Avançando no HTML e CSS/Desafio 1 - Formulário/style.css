@@ -1,15 +1,17 @@
+/*==== RESET ====*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/*==== ROOT CONFIG ====*/
 :root {
   font-size: 62.5%;
   /*10 px*/
 
 }
 
+/*==== BASE ====*/
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 1.6rem;
@@ -36,6 +38,7 @@ body::before {
   animation: topdown 900ms;
 }
 
+/*==== LAYOUT CONFIG ====*/
 .container {
   max-width: 75rem;
   margin: 0 auto;
@@ -61,6 +64,7 @@ header p {
   line-height: 30px;
 }
 
+/*==== FORM CONFIG ====*/
 form {
   background: #FFFFFF;
   border-radius: 20px 20px 0px 0px;
@@ -250,6 +254,7 @@ input:invalid {
   }
 }
 
+/*==== ANIMATION ====*/
 @keyframes topdown{
     0% {
       opacity: 0;
