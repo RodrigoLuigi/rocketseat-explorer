@@ -9,7 +9,7 @@
 
   🔗  [Mapa da jornada](https://github.com/RodrigoLuigi/Explorer---RocketSeat/blob/master/Stage%2001%20-%20Fundamentos%20Programa%C3%A7%C3%A3o%20Web/Landing%2001%20-%20Mapa%20da%20Jornada.pdf)<br>
   🔗  [Fundamentos da Programação Web](https://github.com/RodrigoLuigi/Explorer---RocketSeat/blob/master/Stage%2001%20-%20Fundamentos%20Programa%C3%A7%C3%A3o%20Web/Stage%2001%20-%20Fundamentos%20da%20programao%20WEB.pdf)<br>
-  
+
   * **Desafios** <br>
   🔗  [Comunicação eficiente](https://github.com/RodrigoLuigi/Explorer---RocketSeat/blob/master/Stage%2001%20-%20Fundamentos%20Programa%C3%A7%C3%A3o%20Web/Comunicao%20eficiente.pdf)<br>
   🔗  [Lógica do Café](https://github.com/RodrigoLuigi/Explorer---RocketSeat/blob/master/Stage%2001%20-%20Fundamentos%20Programa%C3%A7%C3%A3o%20Web/Desafio%20do%20Cafe.pdf)<br>
@@ -37,9 +37,9 @@
   🔗  [Projeto 3](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2003%20-%20Avan%C3%A7ando%20no%20HTML%20e%20CSS/Projeto%203)<br>
 
    * **Desafios** <br>
-  🔗  [Desafio 01 - Formulário](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2002%20-%20Introdu%C3%A7%C3%A3o%20ao%20HTML%20e%20CSS/Codigo%20do%20desafio%20-%20Fase%2001)<br>
-  🔗  [Desafio 02 - Ice Cream Mobile-First](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2002%20-%20Introdu%C3%A7%C3%A3o%20ao%20HTML%20e%20CSS/Codigo%20do%20desafio%20-%20Fase%2002)<br>
-  🔗  [Desafio 03 - Ice Cream Desktop Responsivo](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2002%20-%20Introdu%C3%A7%C3%A3o%20ao%20HTML%20e%20CSS/Codigo%20do%20desafio%20-%20Acessibilidade)<br>
+  🔗  [Desafio 01 - Formulário](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2003%20-%20Avan%C3%A7ando%20no%20HTML%20e%20CSS/Desafio%201%20-%20Formul%C3%A1rio)<br>
+  🔗  [Desafio 02 - Ice Cream Mobile-First](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2003%20-%20Avan%C3%A7ando%20no%20HTML%20e%20CSS/Desafio%202%20-%20Ice%20Cream)<br>
+  🔗  [Desafio 03 - Ice Cream Desktop Responsivo](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2003%20-%20Avan%C3%A7ando%20no%20HTML%20e%20CSS/Desafio%203%20-%20Ice%20Cream%20Desktop)<br>
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 04 - Introdução à programação, lógica e algoritmos com JavaScript**_]()
 Neste módulo desenvolvemos: Variáveis, operadores matemáticos, tipos de dados no JavaScript, operadores comparativos, estruturas de repetição e condicionais, Arrays e aprenderemos sobre funções no JavaScript e como utilizá-las.
