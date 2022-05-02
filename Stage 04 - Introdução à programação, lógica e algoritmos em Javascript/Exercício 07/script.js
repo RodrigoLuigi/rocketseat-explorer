@@ -9,40 +9,32 @@
 
 */
 
-let option
-let items = []
+let list = [];
+let op;
 
-while (option != 3) {
-
-  option = Number(prompt(`
-    Olá usuário! Digite o número da opção desejada
-    
-    1. Cadastrar um item na lista
-    2. Mostrar itens cadastrados
-    3. Sair do programa
-  `))
-
-  if(option == ''){
-    alert("Digite a opção do menu!")
-  }else{
-    if (option == 1) {
-      let item = prompt("Digite o nome do item")
-      items.push(item)
-    } else if (option == 2) {
+while(op != 3){
+  op = Number(prompt(`
+  Seja bem vindo! Digite o número da opção desejada:
   
-      if (items.length == 0) {
-        alert("Não existem itens cadastrados")
-      } else {
-        alert(items)
-      }
+  1. Cadastrar um item na lista
+  2. Ver itens cadastrados
+  3. Sair
+  `));
   
-    } else {
-      alert("Tchau")
-    }
+  if(op == 1){
+    const item = prompt("Digite o item a ser cadastrado: ");
+    list.push(item);
   }
-
- 
-
-  console.log(option, items)
-
+  if(op == 2){
+    if(list == ''){
+      alert("Não existem itens cadastrados!");
+    }else{
+      alert(list);
+    }
+  } 
+  if(op == 3){
+    alert('Adios!');
+  } 
 }
+
+console.log(op, items);
