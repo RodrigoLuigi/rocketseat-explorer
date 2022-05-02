@@ -40,13 +40,17 @@ Digite a opção desejada:
     const sum = firstNumber + secondNumber;
     const verify = sum % 2;
     if (verify == 0) {
-      alert(`A soma dos números é Par!`);
+      alert(`A soma dos números é Par! SOMA: ${sum}`);
     } else {
-      alert(`A soma dos números é Impar!`);
+      alert(`A soma dos números é Impar! SOMA: ${sum}`);
     }
   } else if (op == 7) {
     if (firstNumber == secondNumber) {
-      alert("Os números são iguais!")
+      alert(`
+      Os números são iguais! 
+      nº1 - ${firstNumber}
+      nº2 - ${secondNumber} 
+      `)
     } else {
       alert("Os números são diferentes!")
     }
