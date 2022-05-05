@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  /*10px*/
+  --ff-heading: 'Roboto', sans-serif;
+
+  --hue: 250;
+
+  --bg-color: hsl(var(--hue), 5%, 7%);
+
+  --fc-text: hsl(var(--hue), 100%, 100%);
+  --fc-primary: hsl(194, 100%, 63%);
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--ff-heading);
+  color: var(--fc-text);
+
+  background-color: var(--bg-color);
+}
+
+button {
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+#timer {
+  font-size: 8.8rem;
+
+  display: flex;
+}
