@@ -1,4 +1,5 @@
 import Timer from "./timer.js";
+import Controls from "./controls.js";
 
 const buttonPlay = document.querySelector('.play');
 const buttonPause = document.querySelector('.pause');
@@ -9,49 +10,41 @@ const buttonSoundOff = document.querySelector('.sound-off');
 const minutesDisplay = document.querySelector('.minutes');
 const secondsDisplay = document.querySelector('.seconds');
 
+const controls = Controls({
+    buttonPlay,
+    buttonPause,
+    buttonSet,
+    buttonStop,
+})
 
 const timer = Timer({
     minutesDisplay,
-    secondsDisplay ,
-    resetControls, 
+    secondsDisplay,
+    resetControls: controls.reset,
 });
 
-function resetControls() {
-    buttonPlay.classList.remove('hide')
-    buttonPause.classList.add('hide')
-    buttonSet.classList.remove('hide')
-    buttonStop.classList.add('hide')
-}
-
-
 buttonPlay.addEventListener('click', () => {
-    buttonPlay.classList.add('hide')
-    buttonPause.classList.remove('hide')
-    buttonSet.classList.add('hide')
-    buttonStop.classList.remove('hide')
-
+    controls.play();
     timer.countDown();
 });
 
 buttonPause.addEventListener('click', () => {
-    buttonPlay.classList.remove('hide')
-    buttonPause.classList.add('hide')
-
+    controls.pause();
     timer.hold();
 });
 
 buttonStop.addEventListener('click', () => {
-    resetControls();
+    controls.reset();
     timer.reset();
 });
 
 buttonSet.addEventListener('click', () => {
-    let newMinutes = prompt('Digite o tempo.');
+    let newMinutes = controls.getMinutes();
 
-     if(!newMinutes){
+    if (!newMinutes) {
         timer.reset();
         return
-    } 
+    }
     timer.updateDisplay(newMinutes, 0);
     timer.updateMinutes(newMinutes);
 });
