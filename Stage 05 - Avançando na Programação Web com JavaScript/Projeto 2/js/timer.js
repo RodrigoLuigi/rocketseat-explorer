@@ -1,11 +1,13 @@
+import Sounds from "./sounds.js"
+
 export default function Timer({
   minutesDisplay,
   secondsDisplay,
   resetControls,
 }) {
 
-let timerTimeOut;
-let minutes = Number(minutesDisplay.textContent);
+  let timerTimeOut;
+  let minutes = Number(minutesDisplay.textContent);
 
   function updateMinutes(newMinutes) {
     minutes = newMinutes;
@@ -27,16 +29,18 @@ let minutes = Number(minutesDisplay.textContent);
     timerTimeOut = setTimeout(function () {
       let minutes = Number(minutesDisplay.textContent);
       let seconds = Number(secondsDisplay.textContent);
+      let isFinished = minutes <= 0 && seconds <= 0
 
-      if (minutes <= 0 && seconds <= 0) {
+      if (isFinished) {
         resetControls();
         updateDisplay();
+        Sounds().timeEnd();
         return
       }
 
       if (seconds <= 0) {
 
-        seconds = 5;
+        seconds = 60;
 
         --minutes
       }
@@ -47,7 +51,7 @@ let minutes = Number(minutesDisplay.textContent);
     }, 1000)
   }
 
-  function hold(){
+  function hold() {
     clearTimeout(timerTimeOut);
   }
 
