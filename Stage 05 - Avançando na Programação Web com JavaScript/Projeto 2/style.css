@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ff-heading: 'Roboto', sans-serif;
+
+  --bg-color: hsl(240, 5%, 7%);
+
+  --hue: 194;
+  --primary-color: hsl(var(--hue), 100%, 63%);
+
+  --bg-primary-light: hsla(var(--hue), 100%, 63%, 0.13);
+  --text-color: hsl(0, 0%, 100%);
+
+
+  font-size: 62.5%;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--ff-heading);
+
+  color: var(--text-color);
+  background-color: var(--bg-color);
+
+  display: grid;
+  min-height: 95vh;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+button svg {
+  width: clamp(3.2rem, 2rem + 12vw, 6.4rem);
+}
+
+.play svg path,
+.pause svg path,
+.sound-on svg path {
+  fill: var(--primary-color);
+}
+
+main {
+  align-self: end;
+  justify-self: center;
+}
+
+#timer {
+  font-size: clamp(4rem, 4rem + 11vw, 8.8rem);
+  display: flex;
+
+  margin-bottom: 1.6rem;
+}
+
+#controls {
+  background-color: var(--bg-primary-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+
+  border-radius: 9999px;
+
+  width: clamp(10rem, 10rem + 30vw, 22.8rem);
+  height: clamp(8rem, 5rem + 10vw, 10.8rem);
+}
+
+footer {
+  align-self: flex-end;
+  justify-self: end;
+
+  padding: 0 4rem 3.2rem 0;
+}
