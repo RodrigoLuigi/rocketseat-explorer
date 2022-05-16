@@ -17,18 +17,21 @@ export default function Events({
     controls.play();
     timer.countDown();
     sound.pressButton();
+    sound.bgAudio.play();
   });
 
   buttonPause.addEventListener('click', () => {
     controls.pause();
     timer.hold();
     sound.pressButton();
+    sound.bgAudio.pause();
   });
 
   buttonStop.addEventListener('click', () => {
     controls.reset();
     timer.reset();
     sound.pressButton();
+    sound.bgAudio.pause();
   });
 
   buttonSet.addEventListener('click', () => {
@@ -46,14 +49,14 @@ export default function Events({
     buttonSoundOn.classList.add('hide')
     buttonSoundOff.classList.remove('hide')
     sound.pressButton();
-    sound.bgAudio.pause();
+    sound.bgAudio.muted= true;
   });
 
   buttonSoundOff.addEventListener('click', () => {
     buttonSoundOn.classList.remove('hide')
     buttonSoundOff.classList.add('hide')
     sound.pressButton();
-    sound.bgAudio.play();
+    sound.bgAudio.muted = false;
   });
 
 }

@@ -13,6 +13,10 @@ export default function(){
     kitchenTimer.play();
   }
 
+  function soundMute(){
+    bgAudio.muted = true;
+  }
+
   return {
     pressButton,
     timeEnd,
