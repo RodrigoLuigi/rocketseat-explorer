@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --ff-heading: 'Roboto', sans-serif;
+
+  --bg-primary: hsla(240, 9%, 89%);
+  --bg-secondary: hsl(194, 97%, 31%);
+
+  --text-color: hsl(240, 6%, 21%);
+  --bg-color: #FFFFFF;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--ff-heading);
+
+  background-color: var(--bg-color);
+  color: var(--text-color);
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  gap:  clamp(4rem, 4rem + 10vw, 19.2rem);
+
+  max-width: 91rem;
+}
+
+@media(max-width: 738px){
+  main{
+    flex-direction: column;
+    gap: 5rem;
+  }
+}
+
+button {
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+button svg path {
+  fill: var(--text-color);
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 32.1rem;
+}
+
+#timer {
+  font-size: 12.6rem;
+  display: flex;
+
+  margin-bottom: 1.7rem;
+}
+
+#controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sounds {
+  max-width: 30.8rem;
+  display: grid;
+  grid-template-areas: "A B"
+    "C D";
+  gap: 3.2rem
+}
+
+.music-1 {
+  grid-area: "A";
+}
+
+.music-2 {
+  grid-area: "B";
+}
+
+.music-3 {
+  grid-area: "C";
+}
+
+.music-4 {
+  grid-area: "D";
+}
+
+.sounds button {
+  padding: 4rem;
+  border-radius: 2.4rem;
+  background-color: var(--bg-primary);
+}
+
+section .active {
+  background-color: var(--bg-secondary);
+}
+
+section>.active svg path {
+  fill: #FFFFFF;
+}
