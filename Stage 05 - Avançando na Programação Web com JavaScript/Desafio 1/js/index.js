@@ -5,10 +5,13 @@ const buttonDecreaseTime = document.querySelector('.decrease-time');
 const minutesDisplay = document.querySelector('.minutes');
 const secondsDisplay = document.querySelector('.seconds');
 let timerTimeOut;
-let minutesDefault = Number(minutesDisplay.textContent);
+let minutes = Number(minutesDisplay.textContent);
+let minutoAtual;
 
-function updateDisplay(minutes, seconds) {
-  minutesDisplay.textContent = String(minutes).padStart(2, '0');
+
+
+function updateDisplay(newMinutes, seconds) {
+  minutesDisplay.textContent = String(newMinutes).padStart(2, '0');
   secondsDisplay.textContent = String(seconds).padStart(2, '0');
 }
 
@@ -20,7 +23,7 @@ function countDown() {
     let isFinished = minutes <= 0 && seconds <= 0;
 
     if (isFinished) {
-      updateDisplay(minutesDefault, 0)
+      resetTimer();
       return
     }
 
@@ -29,7 +32,8 @@ function countDown() {
 
       --minutes;
     }
-
+    
+    currentTime = minutes;
     updateDisplay(minutes, seconds - 1)
     countDown();
   }, 1000);
@@ -42,9 +46,35 @@ buttonPlay.addEventListener('click', () => {
 
 buttonStop.addEventListener('click', () => {
   clearTimeout(timerTimeOut)
-  updateDisplay(minutesDefault, 0)
+  updateDisplay(minutes, 0)
 })
 
 buttonIcreaseTime.addEventListener('click', () => {
-  updateDisplay(minutesDefault + 5, 0);
+  let newMinutes = getMinutes(currentTime, +5);
+  updateDisplay(newMinutes, 0);
+  updateMinutes(newMinutes);
 })
+
+buttonDecreaseTime.addEventListener('click', () => {
+  let newMinutes = getMinutes(currentTime, -5);
+  updateDisplay(newMinutes, 0);
+  updateMinutes(newMinutes);''
+})
+
+function getMinutes(currentTime, time){
+  let newMinutes = currentTime + time;
+
+  if(newMinutes<0){
+    return 0
+  }
+  return newMinutes
+}
+
+function updateMinutes(newMinutes){
+  minutesDisplay.textContent = newMinutes 
+}
+
+function resetTimer(){
+  clearTimeout(timerTimeOut);
+  updateDisplay(minutes , 0);
+}
