@@ -1,9 +1,4 @@
-export default function Controls({
-  buttonPlay,
-  buttonPause,
-  buttonSet,
-  buttonStop,
-}) {
+export default function Controls({buttonPlay,  buttonPause,  buttonSet,  buttonStop,}) {
 
   function play() {
     buttonPlay.classList.add('hide');
