@@ -10,7 +10,6 @@ import {
   buttonSoundFirePlace
 }
 from "./elements.js"
-import sounds from "./sounds.js";
 
 export default function Events({
   controls,
