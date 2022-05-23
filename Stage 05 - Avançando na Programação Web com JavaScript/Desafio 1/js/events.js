@@ -4,12 +4,13 @@ import {
   buttonStop,
   buttonIcreaseTime,
   buttonDecreaseTime,
-  buttonSound1,
-  buttonSound2,
-  buttonSound3,
-  buttonSound4,
+  buttonSoundForest,
+  buttonSoundRain,
+  buttonSoundCoffeShop,
+  buttonSoundFirePlace
 }
 from "./elements.js"
+import sounds from "./sounds.js";
 
 export default function Events({
   controls,
@@ -34,7 +35,9 @@ export default function Events({
     controls.reset();
     timer.reset();
     sound.pressButton();
-    sound.bgAudio.pause();
+
+    sound.reset();
+    controls.soundReset();
   })
 
   buttonIcreaseTime.addEventListener('click', () => {
@@ -58,23 +61,47 @@ export default function Events({
     sound.pressButton();
   })
 
-  buttonSound1.addEventListener('click', () => {
-    sound.bgAudioForest.play();
-    controls.sound1();
+  buttonSoundForest.addEventListener('click', () => {
+    controls.soundForest();
+    sound.reset();
+
+    if (buttonSoundForest.classList.contains('active')) {
+      sound.forest.play();
+    } else {
+      sound.forest.pause();
+    }
   })
 
-  buttonSound2.addEventListener('click', () => {
-    controls.sound2();
-   
+  buttonSoundRain.addEventListener('click', () => {
+    controls.soundRain();
+    sound.reset();
+
+    if (buttonSoundRain.classList.contains('active')) {
+      sound.rain.play();
+    } else {
+      sound.rain.pause();
+    }
   })
 
-  buttonSound3.addEventListener('click', () => {
-    controls.sound3();
-    
+  buttonSoundCoffeShop.addEventListener('click', () => {
+    controls.soundCoffeShop();
+    sound.reset();
+
+    if (buttonSoundCoffeShop.classList.contains('active')) {
+      sound.coffeShop.play();
+    } else {
+      sound.coffeShop.pause();
+    }
   })
 
-  buttonSound4.addEventListener('click', () => {
-    controls.sound4();
-   
+  buttonSoundFirePlace.addEventListener('click', () => {
+    controls.soundFirePlace();
+    sound.reset();
+
+    if (buttonSoundFirePlace.classList.contains('active')) {
+      sound.firePlace.play();
+    } else {
+      sound.firePlace.pause();
+    }
   })
 }

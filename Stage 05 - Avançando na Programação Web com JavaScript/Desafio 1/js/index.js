@@ -10,10 +10,10 @@ import {
   buttonStop,
   minutesDisplay,
   secondsDisplay,
-  buttonSound1,
-  buttonSound2,
-  buttonSound3,
-  buttonSound4
+  buttonSoundForest,
+  buttonSoundRain,
+  buttonSoundCoffeShop,
+  buttonSoundFirePlace
 }
 from "./elements.js"
 
@@ -22,10 +22,10 @@ const controls = Controls({
   buttonPause,
   buttonStop,
   minutesDisplay,
-  buttonSound1,
-  buttonSound2,
-  buttonSound3,
-  buttonSound4
+  buttonSoundForest,
+  buttonSoundRain,
+  buttonSoundCoffeShop,
+  buttonSoundFirePlace
 })
 
 const timer = Timer({

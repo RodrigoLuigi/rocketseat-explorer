@@ -2,10 +2,10 @@ export default function Controls({
   buttonPlay,
   buttonPause,
   minutesDisplay,
-  buttonSound1,
-  buttonSound2,
-  buttonSound3,
-  buttonSound4
+  buttonSoundForest,
+  buttonSoundRain,
+  buttonSoundCoffeShop,
+  buttonSoundFirePlace
 }) {
 
 
@@ -36,32 +36,39 @@ export default function Controls({
     return newMinutes;
   }
 
-  function sound1() {
-    buttonSound1.classList.toggle('active');
-    buttonSound2.classList.remove('active');
-    buttonSound3.classList.remove('active');
-    buttonSound4.classList.remove('active');
+  function soundForest() {
+    buttonSoundForest.classList.toggle('active')
+    buttonSoundRain.classList.remove('active');
+    buttonSoundCoffeShop.classList.remove('active');
+    buttonSoundFirePlace.classList.remove('active');
   }
 
-  function sound2() {
-    buttonSound1.classList.remove('active');
-    buttonSound2.classList.toggle('active');
-    buttonSound3.classList.remove('active');
-    buttonSound4.classList.remove('active');
+  function soundRain() {
+    buttonSoundForest.classList.remove('active');
+    buttonSoundRain.classList.toggle('active');
+    buttonSoundCoffeShop.classList.remove('active');
+    buttonSoundFirePlace.classList.remove('active');
   }
 
-  function sound3() {
-    buttonSound1.classList.remove('active');
-    buttonSound2.classList.remove('active');
-    buttonSound3.classList.toggle('active');
-    buttonSound4.classList.remove('active');
+  function soundCoffeShop() {
+    buttonSoundForest.classList.remove('active');
+    buttonSoundRain.classList.remove('active');
+    buttonSoundCoffeShop.classList.toggle('active');
+    buttonSoundFirePlace.classList.remove('active');
   }
 
-  function sound4() {
-    buttonSound1.classList.remove('active');
-    buttonSound2.classList.remove('active');
-    buttonSound3.classList.remove('active');
-    buttonSound4.classList.toggle('active');
+  function soundFirePlace() {
+    buttonSoundForest.classList.remove('active');
+    buttonSoundRain.classList.remove('active');
+    buttonSoundCoffeShop.classList.remove('active');
+    buttonSoundFirePlace.classList.toggle('active');
+  }
+
+  function soundReset(){
+    buttonSoundForest.classList.remove('active');
+    buttonSoundRain.classList.remove('active');
+    buttonSoundCoffeShop.classList.remove('active');
+    buttonSoundFirePlace.classList.remove('active');
   }
 
   return {
@@ -69,9 +76,10 @@ export default function Controls({
     pause,
     reset,
     getMinutes,
-    sound1,
-    sound2,
-    sound3,
-    sound4
+    soundForest,
+    soundRain,
+    soundCoffeShop,
+    soundFirePlace,
+    soundReset
   }
 }

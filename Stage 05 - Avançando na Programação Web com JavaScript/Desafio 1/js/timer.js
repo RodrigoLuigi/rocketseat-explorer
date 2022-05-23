@@ -27,15 +27,18 @@ export default function Timer({
 
       if (isFinished) {
         Sounds().timeEnd();
-        reset();
-        resetControls();
-        alert('O tempo acabou!');
+        setTimeout(() => {
+          reset();
+          resetControls();
+          alert('O tempo acabou!');
 
-        return  
+        }, 200)
+
+        return
       }
 
       if (seconds <= 0) {
-        seconds = 10;
+        seconds = 60;
 
         --minutes;
       }
@@ -45,8 +48,8 @@ export default function Timer({
     }, 1000);
 
   }
-  
-  function getSeconds(){
+
+  function getSeconds() {
     return currentSecond;
   }
 
@@ -65,6 +68,6 @@ export default function Timer({
     countDown,
     getSeconds,
     reset,
-    hold,    
+    hold,
   }
 }
