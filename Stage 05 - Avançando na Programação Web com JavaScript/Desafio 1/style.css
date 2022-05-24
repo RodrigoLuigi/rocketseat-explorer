@@ -64,6 +64,7 @@ main {
   justify-content: center;
 
   background-image: url('./assets/images/pomodoro.png');
+  background-color: rgba(0, 0, 0, 0.822);
   
   background-size: cover; 
   background-position: center;
