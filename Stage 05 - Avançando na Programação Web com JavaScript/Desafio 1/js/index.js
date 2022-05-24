@@ -13,7 +13,8 @@ import {
   buttonSoundForest,
   buttonSoundRain,
   buttonSoundCoffeShop,
-  buttonSoundFirePlace
+  buttonSoundFirePlace,
+  display
 }
 from "./elements.js"
 
@@ -25,7 +26,8 @@ const controls = Controls({
   buttonSoundForest,
   buttonSoundRain,
   buttonSoundCoffeShop,
-  buttonSoundFirePlace
+  buttonSoundFirePlace,
+  display
 })
 
 const timer = Timer({

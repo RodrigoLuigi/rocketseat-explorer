@@ -31,9 +31,10 @@ export default function Events({
   })
 
   buttonStop.addEventListener('click', () => {
+    sound.pressButton();
+    
     controls.reset();
     timer.reset();
-    sound.pressButton();
 
     sound.reset();
     controls.soundReset();

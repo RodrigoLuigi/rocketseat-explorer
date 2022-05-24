@@ -1,10 +1,11 @@
+/* BASIC RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
+/* ROOT ELEMENTS */
 :root {
   font-size: 62.5%;
   --ff-heading: 'Roboto', sans-serif;
@@ -12,18 +13,12 @@
   --hue: 194;
   --bg-primary: hsl(var(--hue), 9%, 89%);
   --bg-secondary: hsl(var(--hue), 97%, 31%);
+  --bg-display-primary: hsla(0, 0%, 50%, 0.59);
 
   --text-color: hsl(var(--hue), 6%, 21%);
   --bg-color: hsl(var(--hue), 0%, 100%);
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*pode ser transparent também*/
 
-}
-
-/*======= Dark-mode config =======*/
-.dark-mode{
-  --bg-primary: hsl(var(--hue), 1%, 38%);
-  --text-color: hsl(var(--hue), 0%, 100%);
-  --bg-color: hsl(var(--hue), 0%, 0%);
 }
 
 /*====== BASE =======*/
@@ -35,8 +30,7 @@ body {
   font-size: 1.6rem;
   font-family: var(--ff-heading);
 
-  background-color: var(--bg-color);
-  color: var(--text-color);
+  color: var(--bg-color);
 
   display: grid;
   align-items: center;
@@ -44,8 +38,6 @@ body {
 
   min-height: 100vh;
 }
-
-
 
 button {
   background-color: transparent;
@@ -60,11 +52,9 @@ button svg path {
 /*====== MAIN / PLAYER TIMER/ PLAYER SOUND =======*/
 main {
   display: flex;
-  gap:  clamp(4rem, 4rem + 10vw, 19.2rem);
+  gap:  clamp(4rem, 2rem + 10vw, 19.2rem);
 
   max-width: 91rem;
-   
-  animation: topDown 900ms ;
 }
 
 /* ========== PLAYER ========== */
@@ -72,11 +62,17 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* max-width: 32.1rem; */
 
-  background-color: rgba(92, 91, 91, 0.363);
+  background-image: url('./assets/images/pomodoro.png');
+  background-color: rgba(0, 0, 0, 0.822);
+  
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 1rem;
   border-radius: 2rem;
+
+  animation: toRight 950ms;
 }
 
 /* Player-Timer Display */
@@ -86,7 +82,7 @@ main {
 
   margin-bottom: 1.7rem;
 
-  background-color: var(--bg-primary);
+  background-color: var(--bg-display-primary);
   padding: 1rem;
   border-radius: 1rem; 
 }
@@ -96,6 +92,14 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  background-color: var(--bg-display-primary);
+  padding: 1rem;
+  border-radius: 1rem; 
+}
+
+#controls button svg path{
+  fill: var(--bg-color);
 }
 
 /* ========== PLAYER SOUND ========== */
@@ -106,7 +110,9 @@ main {
   display: grid;
   grid-template-areas: "A B"
     "C D";
-  gap: 3.2rem
+  gap: 3.2rem;
+
+  animation: toLeft 950ms
 }
 
 .music-1 {
@@ -135,9 +141,7 @@ section .active,
 section>.active svg path {
   background-color: var(--bg-secondary);
   fill: var(--bg-color);
-
 }
-
 
 /*========== RESPONSIVE ==========*/
 @media(max-width: 800px){
@@ -152,7 +156,7 @@ section>.active svg path {
   }
 }
 
-/* ANIMATION */
+/*========== ANIMATIONS ==========*/
 @keyframes topDown{
   0%{
     opacity: 0;
@@ -161,5 +165,26 @@ section>.active svg path {
   100%{
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes toRight{
+  0%{
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes toLeft{
+  0%{
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
   }
 }

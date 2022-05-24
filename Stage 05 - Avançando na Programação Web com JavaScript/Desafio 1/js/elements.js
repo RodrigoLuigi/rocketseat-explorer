@@ -10,6 +10,7 @@ const buttonSoundRain = document.querySelector('.music-2')
 const buttonSoundCoffeShop = document.querySelector('.music-3')
 const buttonSoundFirePlace = document.querySelector('.music-4')
 // DISPLAY
+const display = document.querySelector('.player');
 const minutesDisplay = document.querySelector('.minutes');
 const secondsDisplay = document.querySelector('.seconds');
 
@@ -24,5 +25,6 @@ export {
   buttonSoundForest,
   buttonSoundRain,
   buttonSoundCoffeShop,
-  buttonSoundFirePlace
+  buttonSoundFirePlace,
+  display,
 }

@@ -5,7 +5,8 @@ export default function Controls({
   buttonSoundForest,
   buttonSoundRain,
   buttonSoundCoffeShop,
-  buttonSoundFirePlace
+  buttonSoundFirePlace,
+  display
 }) {
 
 
@@ -37,13 +38,17 @@ export default function Controls({
   }
 
   function soundForest() {
-    buttonSoundForest.classList.toggle('active')
+    display.style.backgroundImage = "url('./assets/images/forest.jpg')"
+
+    buttonSoundForest.classList.toggle('active');
     buttonSoundRain.classList.remove('active');
     buttonSoundCoffeShop.classList.remove('active');
     buttonSoundFirePlace.classList.remove('active');
   }
 
   function soundRain() {
+    display.style.backgroundImage = "url('./assets/images/rain.jpeg')"
+
     buttonSoundForest.classList.remove('active');
     buttonSoundRain.classList.toggle('active');
     buttonSoundCoffeShop.classList.remove('active');
@@ -51,6 +56,8 @@ export default function Controls({
   }
 
   function soundCoffeShop() {
+    display.style.backgroundImage = "url('./assets/images/coffe-shop.jpg')"
+
     buttonSoundForest.classList.remove('active');
     buttonSoundRain.classList.remove('active');
     buttonSoundCoffeShop.classList.toggle('active');
@@ -58,13 +65,17 @@ export default function Controls({
   }
 
   function soundFirePlace() {
+    display.style.backgroundImage = "url('./assets/images/fire-place.jpg')"
+
     buttonSoundForest.classList.remove('active');
     buttonSoundRain.classList.remove('active');
     buttonSoundCoffeShop.classList.remove('active');
     buttonSoundFirePlace.classList.toggle('active');
   }
 
-  function soundReset(){
+  function soundReset(){   
+    display.style.backgroundImage = "url('./assets/images/pomodoro.png')"
+
     buttonSoundForest.classList.remove('active');
     buttonSoundRain.classList.remove('active');
     buttonSoundCoffeShop.classList.remove('active');
