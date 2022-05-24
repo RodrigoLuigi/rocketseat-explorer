@@ -112,7 +112,7 @@ main {
     "C D";
   gap: 3.2rem;
 
-  animation: toLeft 950ms
+  animation: toLeft 950ms;
 }
 
 .music-1 {
@@ -142,6 +142,11 @@ section>.active svg path {
   background-color: var(--bg-secondary);
   fill: var(--bg-color);
 }
+.sounds .active{
+  transition: 300ms;
+
+  transform: scale(1.13);
+}
 
 /*========== RESPONSIVE ==========*/
 @media(max-width: 800px){
@@ -151,6 +156,9 @@ section>.active svg path {
 }
 
 @media(max-width: 738px){
+  body{
+    min-height: 90vh;
+  }
   main{
     flex-direction: column;
   }
