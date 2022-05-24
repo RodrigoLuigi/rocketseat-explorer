@@ -9,22 +9,26 @@
   font-size: 62.5%;
   --ff-heading: 'Roboto', sans-serif;
 
-  --bg-primary: hsla(240, 9%, 89%);
-  --bg-secondary: hsl(194, 97%, 31%);
+  --hue: 194;
+  --bg-primary: hsl(var(--hue), 9%, 89%);
+  --bg-secondary: hsl(var(--hue), 97%, 31%);
 
-  --text-color: hsl(240, 6%, 21%);
-  --bg-color: #FFFFFF;
+  --text-color: hsl(var(--hue), 6%, 21%);
+  --bg-color: hsl(var(--hue), 0%, 100%);
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*pode ser transparent também*/
 
 }
 
-.hide{
-  display: none;
+/*======= Dark-mode config =======*/
+.dark-mode{
+  --bg-primary: hsl(var(--hue), 1%, 38%);
+  --text-color: hsl(var(--hue), 0%, 100%);
+  --bg-color: hsl(var(--hue), 0%, 0%);
 }
 
-button>.pause svg path{
-  width: 100%;
-  height: 100%;
+/*====== BASE =======*/
+.hide{
+  display: none;
 }
 
 body {
@@ -41,19 +45,7 @@ body {
   min-height: 100vh;
 }
 
-main {
-  display: flex;
-  gap:  clamp(4rem, 4rem + 10vw, 19.2rem);
 
-  max-width: 91rem;
-}
-
-@media(max-width: 738px){
-  main{
-    flex-direction: column;
-    gap: 5rem;
-  }
-}
 
 button {
   background-color: transparent;
@@ -65,28 +57,52 @@ button svg path {
   fill: var(--text-color);
 }
 
+/*====== MAIN / PLAYER TIMER/ PLAYER SOUND =======*/
+main {
+  display: flex;
+  gap:  clamp(4rem, 4rem + 10vw, 19.2rem);
+
+  max-width: 91rem;
+   
+  animation: topDown 900ms ;
+}
+
+/* ========== PLAYER ========== */
 .player {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 32.1rem;
+  /* max-width: 32.1rem; */
+
+  background-color: rgba(92, 91, 91, 0.363);
+  padding: 1rem;
+  border-radius: 2rem;
 }
 
+/* Player-Timer Display */
 #timer {
   font-size: 12.6rem;
   display: flex;
 
   margin-bottom: 1.7rem;
+
+  background-color: var(--bg-primary);
+  padding: 1rem;
+  border-radius: 1rem; 
 }
 
+/* Player-Timer Controls */
 #controls {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
+/* ========== PLAYER SOUND ========== */
 .sounds {
-  max-width: 30.8rem;
+  background-color: rgba(92, 91, 91, 0.363);
+  padding: 2rem;
+  border-radius: 2rem;
   display: grid;
   grid-template-areas: "A B"
     "C D";
@@ -115,10 +131,35 @@ button svg path {
   background-color: var(--bg-primary);
 }
 
-section .active {
+section .active,
+section>.active svg path {
   background-color: var(--bg-secondary);
+  fill: var(--bg-color);
+
 }
 
-section>.active svg path {
-  fill: #FFFFFF;
+
+/*========== RESPONSIVE ==========*/
+@media(max-width: 800px){
+  main{
+    gap: 2rem
+  }
+}
+
+@media(max-width: 738px){
+  main{
+    flex-direction: column;
+  }
+}
+
+/* ANIMATION */
+@keyframes topDown{
+  0%{
+    opacity: 0;
+    transform: translateY(-50px)
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
