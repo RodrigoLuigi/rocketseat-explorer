@@ -98,8 +98,15 @@ main {
   border-radius: 1rem; 
 }
 
+#controls .play svg path{
+  fill: rgb(0, 138, 202) ;
+}
+#controls .pause svg path{
+  fill: rgb(238, 255, 0) ;
+}
+
 #controls button:active{
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 #controls button svg path{

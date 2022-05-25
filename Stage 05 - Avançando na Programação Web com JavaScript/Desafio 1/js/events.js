@@ -22,7 +22,6 @@ export default function Events({
     controls.play();
     timer.countDown();
     sound.pressButton();
-    buttonPause.style.filter = 'invert()';
   })
 
   buttonPause.addEventListener('click', () => {
