@@ -10,11 +10,12 @@
 
 Projeto de um Focus Timer Pomodoro ou cronômetro para marcar um determinado período de tempo para ajudar a focar nas atividades do dia a dia. Foi desenvolvido toda a estrutura do html, buscando sempre as melhores tags para se utilizar de forma semântica, estilização CSS, e funcionalidades através do JavaScript.
 
+-  Animation
 -  Tags semânticas;
--  Refatoração;
 -  Acessibilidade;
--  Modulação do JavaScript (escalabilidade)
+-  Modulação do JavaScript
 -  Injeção de dependências
+-  Refatoração;
 -  Clean-code
 -  Manipulação do DOM
 
@@ -24,7 +25,7 @@ Projeto de um Focus Timer Pomodoro ou cronômetro para marcar um determinado per
     
 
 
-  | **Cores**               |                                                 |
+| **Cores**               |                                                 |
 | ----------------- | ---------------------------------------------------------------- |
 | ![#FF9900](https://via.placeholder.com/10/FF9900?text=+) #FF9900       | ![#7D7987](https://via.placeholder.com/10/7D7987?text=+) #7D7987 |
 | ![#d9a7f1](https://via.placeholder.com/10/d9a7f1?text=+) #d9a7f1       | ![#835e99](https://via.placeholder.com/10/835e99?text=+) #835e99 |
