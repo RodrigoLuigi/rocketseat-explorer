@@ -14,7 +14,7 @@ import {
   buttonSoundRain,
   buttonSoundCoffeShop,
   buttonSoundFirePlace,
-  display
+  display,
 }
 from "./elements.js"
 
@@ -27,7 +27,7 @@ const controls = Controls({
   buttonSoundRain,
   buttonSoundCoffeShop,
   buttonSoundFirePlace,
-  display
+  display,
 })
 
 const timer = Timer({
@@ -39,4 +39,22 @@ const timer = Timer({
 const sound = Sounds();
 
 Events({controls, timer, sound});
+
+
+const buttonLight = document.querySelector('.light');
+const buttonDark = document.querySelector('.dark');
+const body = document.querySelector('body');
+
+buttonLight.addEventListener('click', ()=>{
+  buttonLight.classList.add('hide')
+  buttonDark.classList.remove('hide')
+  body.classList.add('dark-mode')
+
+})
+
+buttonDark.addEventListener('click', ()=>{
+  buttonLight.classList.remove('hide')
+  buttonDark.classList.add('hide')
+  body.classList.remove('dark-mode')
+})
 

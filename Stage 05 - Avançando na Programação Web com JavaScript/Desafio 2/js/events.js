@@ -7,7 +7,11 @@ import {
   buttonSoundForest,
   buttonSoundRain,
   buttonSoundCoffeShop,
-  buttonSoundFirePlace
+  buttonSoundFirePlace,
+  inputForest,
+  inputRain,
+  inputChoffeShop,
+  inputFirePlace,
 }
 from "./elements.js"
 
@@ -32,7 +36,7 @@ export default function Events({
 
   buttonStop.addEventListener('click', () => {
     sound.pressButton();
-    
+
     controls.reset();
     timer.reset();
 
@@ -104,4 +108,25 @@ export default function Events({
       sound.firePlace.pause();
     }
   })
+
+  inputForest.addEventListener('input', () => {
+    let volume = Number(inputForest.value / 100)
+    sound.volumeForest(volume);
+  })
+
+  inputRain.addEventListener('input', () => {
+    let volume = Number(inputRain.value / 100)
+    sound.volumeRain(volume);
+  })
+
+  inputChoffeShop.addEventListener('input', () => {
+    let volume = Number(inputChoffeShop.value / 100)
+    sound.volumeChoffeShop(volume);
+  })
+  
+  inputFirePlace.addEventListener('input', () => {
+    let volume = Number(inputFirePlace.value / 100)
+    sound.volumeFirePlace(volume);
+  })
+
 }

@@ -32,7 +32,7 @@ export default function Timer({
           resetControls();
           alert('O tempo acabou!');
 
-        }, 300)
+        }, 1000)
 
         return
       }

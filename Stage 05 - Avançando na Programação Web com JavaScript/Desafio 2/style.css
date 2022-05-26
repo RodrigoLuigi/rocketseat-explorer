@@ -13,12 +13,22 @@
   --hue: 194;
   --bg-primary: hsl(var(--hue), 9%, 89%);
   --bg-secondary: hsl(var(--hue), 97%, 31%);
+
   --bg-display-primary: hsla(0, 0%, 50%, 0.59);
 
-  --text-color: hsl(var(--hue), 6%, 21%);
+  --text-color: hsl(var(--hue), 6%, 1%);
   --bg-color: hsl(var(--hue), 0%, 100%);
+
+  --text-color-secondary: hsl(var(--hue), 0%, 100%);
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*pode ser transparent também*/
 
+}
+/*======= Dark-mode config =======*/
+.dark-mode{
+  --bg-primary: hsl(var(--hue), 1%, 38%);
+  --text-color: hsl(var(--hue), 0%, 100%);
+  --text-color-secondary: hsl(143, 94%, 50%);
+  --bg-color: hsl(var(--hue), 0%, 0%);
 }
 
 /*====== BASE =======*/
@@ -30,12 +40,14 @@ body {
   font-size: 1.6rem;
   font-family: var(--ff-heading);
 
-  color: var(--bg-color);
+  color: var(--text-color-secondary);
 
   display: grid;
   grid-template-rows: 0 1fr;
   
   min-height: 100vh;
+
+  background-color: var(--bg-color);
 }
 
 button {
@@ -57,10 +69,7 @@ header{
 
 /*====== MAIN / PLAYER TIMER/ PLAYER SOUND =======*/
 .container{
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
+  margin: auto;
 }
 
 main {
@@ -200,7 +209,8 @@ input[type=range]::-webkit-slider-thumb{
   grid-template-rows: 10rem 1fr;
   }
   main{
-    gap: 2rem
+    gap: 2rem;
+    padding-bottom: 2rem;
   }
 }
 

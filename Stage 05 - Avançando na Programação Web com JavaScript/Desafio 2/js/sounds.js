@@ -16,6 +16,13 @@ export default function () {
   coffeShop.loop = true;
   firePlace.loop = true;
 
+  // Volume Default
+
+  forest.volume = 0.5;
+  rain.volume = 0.5;
+  coffeShop.volume = 0.5;
+  firePlace.volume = 0.5;
+
   function pressButton() {
     buttonPressAudio.play();
   }
@@ -31,6 +38,22 @@ export default function () {
     firePlace.pause();
   }
 
+  function volumeForest(value) {
+    forest.volume = value;
+  }
+
+  function volumeRain(value) {
+    rain.volume = value;
+  }
+
+  function volumeChoffeShop(value) {
+    coffeShop.volume = value;
+  }
+
+  function volumeFirePlace(value) {
+    firePlace.volume = value;
+  }
+
   return {
     pressButton,
     timeEnd,
@@ -39,5 +62,9 @@ export default function () {
     rain,
     coffeShop,
     firePlace,
+    volumeForest,
+    volumeRain,
+    volumeChoffeShop,
+    volumeFirePlace
   }
 }

@@ -9,6 +9,11 @@ const buttonSoundForest = document.querySelector('.music-1')
 const buttonSoundRain = document.querySelector('.music-2')
 const buttonSoundCoffeShop = document.querySelector('.music-3')
 const buttonSoundFirePlace = document.querySelector('.music-4')
+// VOLUME
+const inputForest = document.querySelector('#inputForest');
+const inputRain = document.querySelector('#inputRain');
+const inputChoffeShop = document.querySelector('#inputCoffeShop');
+const inputFirePlace = document.querySelector('#inputFirePlace');
 // DISPLAY
 const display = document.querySelector('.player');
 const minutesDisplay = document.querySelector('.minutes');
@@ -20,11 +25,15 @@ export {
   buttonStop,
   buttonIcreaseTime,
   buttonDecreaseTime,
+  display,
   minutesDisplay,
   secondsDisplay,
   buttonSoundForest,
   buttonSoundRain,
   buttonSoundCoffeShop,
   buttonSoundFirePlace,
-  display,
+  inputForest,
+  inputRain,
+  inputChoffeShop,
+  inputFirePlace,
 }
