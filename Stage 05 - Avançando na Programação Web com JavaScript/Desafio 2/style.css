@@ -1,0 +1,244 @@
+/* BASIC RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ROOT ELEMENTS */
+:root {
+  font-size: 62.5%;
+  --ff-heading: 'Roboto', sans-serif;
+
+  --hue: 194;
+  --bg-primary: hsl(var(--hue), 9%, 89%);
+  --bg-secondary: hsl(var(--hue), 97%, 31%);
+  --bg-display-primary: hsla(0, 0%, 50%, 0.59);
+
+  --text-color: hsl(var(--hue), 6%, 21%);
+  --bg-color: hsl(var(--hue), 0%, 100%);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*pode ser transparent também*/
+
+}
+
+/*====== BASE =======*/
+.hide{
+  display: none;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--ff-heading);
+
+  color: var(--bg-color);
+
+  display: grid;
+  grid-template-rows: 0 1fr;
+  
+  min-height: 100vh;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button svg path {
+  fill: var(--text-color);
+}
+
+header{
+  display: flex; 
+  justify-content: end; 
+
+  margin: 3rem;
+}
+
+/*====== MAIN / PLAYER TIMER/ PLAYER SOUND =======*/
+.container{
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  gap:  clamp(4rem, 2rem + 10vw, 19.2rem);
+
+  max-width: 91rem;
+}
+
+/* ========== PLAYER ========== */
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-image: url('./assets/images/pomodoro.png');
+  background-color: rgba(0, 0, 0, 0.822);
+  
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  border-radius: 2rem;
+
+  animation: toRight 950ms;
+}
+
+/* Player-Timer Display */
+#timer {
+  font-size: 12.6rem;
+  display: flex;
+
+  margin-bottom: 1.7rem;
+
+  background-color: var(--bg-display-primary);
+  padding: 1rem;
+  border-radius: 1rem; 
+}
+
+/* Player-Timer Controls */
+#controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: var(--bg-display-primary);
+  padding: 1rem;
+  border-radius: 1rem; 
+}
+
+#controls .play svg path{
+  fill: rgb(0, 138, 202) ;
+}
+#controls .pause svg path{
+  fill: rgb(238, 255, 0) ;
+}
+
+#controls button:active{
+  transform: scale(1.2);
+}
+
+#controls button svg path{
+  fill: var(--bg-color);
+}
+
+/* ========== PLAYER SOUND ========== */
+.sounds {
+  background-color: rgba(92, 91, 91, 0.363);
+  padding: 2rem;
+  border-radius: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  gap: 3.2rem;
+
+  animation: toLeft 950ms;
+}
+
+.card{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.card button {
+  display: flex;
+  justify-content: center;
+  width: 13.3rem;
+  height: 13.9rem;
+  border-radius: 2.4rem;
+  background-color: var(--bg-primary);
+}
+
+.card button svg{
+  margin-top: 2.4rem;
+}
+
+.card input[type=range]{
+  -webkit-appearance: none;
+  position: absolute;
+  bottom: 2.4rem;
+
+  width: 9rem;
+  height: 4px;
+
+  background: var(--text-color);
+  border-radius: 5px; 
+}
+
+input[type=range]::-webkit-slider-thumb{
+  appearance: none;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background: var(--text-color);
+}
+
+.card>.active + input[type=range]::-webkit-slider-thumb,
+.card>.active + input[type=range]{
+  background: var(--bg-color);
+}
+
+.card .active,
+.card>.active svg path {
+  background-color: var(--bg-secondary);
+  fill: var(--bg-color);
+}
+.card .active{
+  transition: 300ms;
+
+  transform: scale(1.13);
+}
+
+/*========== RESPONSIVE ==========*/
+@media(max-width: 800px){
+  body{
+  grid-template-rows: 10rem 1fr;
+  }
+  main{
+    gap: 2rem
+  }
+}
+
+@media(max-width: 738px){
+  main{
+    flex-direction: column;
+  }
+}
+
+/*========== ANIMATIONS ==========*/
+@keyframes topDown{
+  0%{
+    opacity: 0;
+    transform: translateY(-50px)
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes toRight{
+  0%{
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes toLeft{
+  0%{
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
