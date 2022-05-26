@@ -41,6 +41,7 @@ export default function Events({
     timer.reset();
 
     sound.reset();
+    sound.volumeDefault()
     controls.soundReset();
   })
 

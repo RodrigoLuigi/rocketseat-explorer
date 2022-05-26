@@ -18,6 +18,11 @@ const inputFirePlace = document.querySelector('#inputFirePlace');
 const display = document.querySelector('.player');
 const minutesDisplay = document.querySelector('.minutes');
 const secondsDisplay = document.querySelector('.seconds');
+// DARK-MODE
+const buttonLight = document.querySelector('.light');
+const buttonDark = document.querySelector('.dark');
+const body = document.querySelector('body');
+
 
 export {
   buttonPlay,
@@ -36,4 +41,7 @@ export {
   inputRain,
   inputChoffeShop,
   inputFirePlace,
+  buttonLight,
+  buttonDark,
+  body
 }

@@ -3,6 +3,8 @@ import Timer from "./timer.js";
 import Controls from "./controls.js";
 
 import Events from "./events.js";
+import DarkMode from "./dark-mode.js";
+
 
 import {
   buttonPlay,
@@ -15,6 +17,10 @@ import {
   buttonSoundCoffeShop,
   buttonSoundFirePlace,
   display,
+  inputForest,
+  inputRain,
+  inputChoffeShop,
+  inputFirePlace,
 }
 from "./elements.js"
 
@@ -28,6 +34,10 @@ const controls = Controls({
   buttonSoundCoffeShop,
   buttonSoundFirePlace,
   display,
+  inputForest,
+  inputRain,
+  inputChoffeShop,
+  inputFirePlace,
 })
 
 const timer = Timer({
@@ -40,21 +50,6 @@ const sound = Sounds();
 
 Events({controls, timer, sound});
 
+DarkMode();
 
-const buttonLight = document.querySelector('.light');
-const buttonDark = document.querySelector('.dark');
-const body = document.querySelector('body');
-
-buttonLight.addEventListener('click', ()=>{
-  buttonLight.classList.add('hide')
-  buttonDark.classList.remove('hide')
-  body.classList.add('dark-mode')
-
-})
-
-buttonDark.addEventListener('click', ()=>{
-  buttonLight.classList.remove('hide')
-  buttonDark.classList.add('hide')
-  body.classList.remove('dark-mode')
-})
 

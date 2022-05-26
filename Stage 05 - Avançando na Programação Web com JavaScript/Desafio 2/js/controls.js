@@ -6,7 +6,11 @@ export default function Controls({
   buttonSoundRain,
   buttonSoundCoffeShop,
   buttonSoundFirePlace,
-  display
+  display,
+  inputForest,
+  inputRain,
+  inputChoffeShop,
+  inputFirePlace,
 }) {
 
 
@@ -38,7 +42,7 @@ export default function Controls({
   }
 
   function soundForest() {
-    display.style.backgroundImage = "url('./assets/images/forest.jpg')"
+    display.style.backgroundImage = "url('./assets/images/forest.jpg')";
 
     buttonSoundForest.classList.toggle('active');
     buttonSoundRain.classList.remove('active');
@@ -47,7 +51,7 @@ export default function Controls({
   }
 
   function soundRain() {
-    display.style.backgroundImage = "url('./assets/images/rain.jpeg')"
+    display.style.backgroundImage = "url('./assets/images/rain.jpeg')";
 
     buttonSoundForest.classList.remove('active');
     buttonSoundRain.classList.toggle('active');
@@ -56,7 +60,7 @@ export default function Controls({
   }
 
   function soundCoffeShop() {
-    display.style.backgroundImage = "url('./assets/images/coffe-shop.jpg')"
+    display.style.backgroundImage = "url('./assets/images/coffe-shop.jpg')";
 
     buttonSoundForest.classList.remove('active');
     buttonSoundRain.classList.remove('active');
@@ -65,7 +69,7 @@ export default function Controls({
   }
 
   function soundFirePlace() {
-    display.style.backgroundImage = "url('./assets/images/fire-place.jpg')"
+    display.style.backgroundImage = "url('./assets/images/fire-place.jpg')";
 
     buttonSoundForest.classList.remove('active');
     buttonSoundRain.classList.remove('active');
@@ -74,12 +78,16 @@ export default function Controls({
   }
 
   function soundReset(){   
-    display.style.backgroundImage = "url('./assets/images/pomodoro.png')"
+    display.style.backgroundImage = "url('./assets/images/pomodoro.png')";
 
     buttonSoundForest.classList.remove('active');
     buttonSoundRain.classList.remove('active');
     buttonSoundCoffeShop.classList.remove('active');
     buttonSoundFirePlace.classList.remove('active');
+    inputForest.value = 50;
+    inputRain.value = 50;
+    inputChoffeShop.value = 50;
+    inputFirePlace.value = 50;
   }
 
   return {
