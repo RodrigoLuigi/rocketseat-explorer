@@ -31,7 +31,7 @@ Projeto de um **timer ou cronômetro** para marcar um determinado período de te
 | ![#80808096](https://via.placeholder.com/10/80808096?text=+) #80808096       | ![#020303](https://via.placeholder.com/10/020303?text=+) #020303 |
 | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff       | ![#08f764](https://via.placeholder.com/10/08f764?text=+) #08f764 |
 
-| Cor               | Hexadecimal                                                |
+| Cor               | Hexadecimal                                                      |
 | ----------------- | ---------------------------------------------------------------- |
 | Cor exemplo       | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
 | Cor exemplo       | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
