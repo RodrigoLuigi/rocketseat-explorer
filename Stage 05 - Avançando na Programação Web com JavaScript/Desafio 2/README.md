@@ -2,7 +2,7 @@
 
 ### **Focu's Timer Pomodoro 3.0**
 
-### 📌 Nesse desafio, foi desenvolvido o Focus Timer 2.0 com base em layout do figma. 
+### 📌 Nesse desafio, foi desenvolvido o Focus Timer 3.0 com 2 opções de lauout , sendo um light-mode e o outro dark-mode , com base em layout do figma. 
 
 # <br>:book: Aprendizados
 
