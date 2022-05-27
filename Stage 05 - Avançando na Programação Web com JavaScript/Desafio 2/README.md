@@ -10,14 +10,18 @@
 
 Projeto de um **timer ou cronômetro** para marcar um determinado período de tempo, e um **menu de músicas** ambiente para ajudar a focar nas atividades do dia a dia. Foi desenvolvido toda a estrutura do html, buscando sempre as melhores tags para se utilizar de forma semântica, estilização CSS, e funcionalidades através do JavaScript.
 
--  Animation
 -  Tags semânticas;
 -  Acessibilidade;
--  Modulação do JavaScript
+-  Animation
+-  Media Queries
+-  Modulação do JavaScript (ES6 MODULES)
+-  Manipulação do DOM
+-  Funções de callbacks
+-  Recursividade
+-  Padrão Factory
 -  Injeção de dependências
 -  Refatoração;
 -  Clean-code
--  Manipulação do DOM
 
 | **Fontes** |
 | ----------------- | 
