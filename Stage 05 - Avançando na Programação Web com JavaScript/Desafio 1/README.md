@@ -28,7 +28,7 @@ Projeto de um **timer ou cronômetro** para marcar um determinado período de te
 | ----------------- | 
 | 🔗 **[Roboto - Google Fonts](https://fonts.google.com/specimen/Roboto)** |
     
-
+[#FF9900](https://via.placeholder.com/10/FF9900?text=+)
 
 | **Cores**               |                                                 |
 | ----------------- | ---------------------------------------------------------------- |
