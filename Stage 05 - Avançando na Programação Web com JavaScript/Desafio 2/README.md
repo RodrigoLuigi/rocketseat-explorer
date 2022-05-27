@@ -1,6 +1,6 @@
 # <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Desafio Fase 2
 
-### **Focu's Timer 3.0**
+### **Focu's Timer Pomodoro 3.0**
 
 ### 📌 Nesse desafio, foi desenvolvido o Focus Timer 2.0 com base em layout do figma. 
 
@@ -8,7 +8,7 @@
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
-Projeto de um Focus Timer Pomodoro ou cronômetro para marcar um determinado período de tempo para ajudar a focar nas atividades do dia a dia. Foi desenvolvido toda a estrutura do html, buscando sempre as melhores tags para se utilizar de forma semântica, estilização CSS, e funcionalidades através do JavaScript.
+Projeto de um **timer ou cronômetro** para marcar um determinado período de tempo, e um **menu de músicas** ambiente para ajudar a focar nas atividades do dia a dia. Foi desenvolvido toda a estrutura do html, buscando sempre as melhores tags para se utilizar de forma semântica, estilização CSS, e funcionalidades através do JavaScript.
 
 -  Animation
 -  Tags semânticas;
@@ -27,8 +27,9 @@ Projeto de um Focus Timer Pomodoro ou cronômetro para marcar um determinado per
 
 | **Cores**               |                                                 |
 | ----------------- | ---------------------------------------------------------------- |
-| ![#FF9900](https://via.placeholder.com/10/FF9900?text=+) #FF9900       | ![#7D7987](https://via.placeholder.com/10/7D7987?text=+) #7D7987 |
-| ![#d9a7f1](https://via.placeholder.com/10/d9a7f1?text=+) #d9a7f1       | ![#835e99](https://via.placeholder.com/10/835e99?text=+) #835e99 |
+| ![#e0e4e5](https://via.placeholder.com/10/e0e4e5?text=+) #e0e4e5       | ![#02789c](https://via.placeholder.com/10/02789c?text=+) #02789c |
+| ![#80808096](https://via.placeholder.com/10/80808096?text=+) #80808096       | ![#020303](https://via.placeholder.com/10/020303?text=+) #020303 |
+| ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff       | ![#08f764](https://via.placeholder.com/10/08f764?text=+) #08f764 |
 
 
 
