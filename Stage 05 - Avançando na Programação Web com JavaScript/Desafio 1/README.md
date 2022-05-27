@@ -8,16 +8,21 @@
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
-Projeto de um Focus Timer Pomodoro ou cronômetro para marcar um determinado período de tempo para ajudar a focar nas atividades do dia a dia. Foi desenvolvido toda a estrutura do html, buscando sempre as melhores tags para se utilizar de forma semântica, estilização CSS, e funcionalidades através do JavaScript.
+Projeto de um **timer ou cronômetro** para marcar um determinado período de tempo, e um **menu de músicas** ambiente para ajudar a focar nas atividades do dia a dia. Foi desenvolvido toda a estrutura do html, buscando sempre as melhores tags para se utilizar de forma semântica, estilização CSS, e funcionalidades através do JavaScript.
 
--  Animation
+
 -  Tags semânticas;
 -  Acessibilidade;
--  Modulação do JavaScript
+-  Animation
+-  Media Queries
+-  Modulação do JavaScript (ES6 MODULES)
+-  Manipulação do DOM
+-  Funções de callbacks
+-  Recursividade
+-  Padrão Factory
 -  Injeção de dependências
 -  Refatoração;
 -  Clean-code
--  Manipulação do DOM
 
 | **Fontes** |
 | ----------------- | 
@@ -27,7 +32,7 @@ Projeto de um Focus Timer Pomodoro ou cronômetro para marcar um determinado per
 
 | **Cores**               |                                                 |
 | ----------------- | ---------------------------------------------------------------- |
-| ![#FF9900](https://via.placeholder.com/10/FF9900?text=+) #FF9900       | ![#7D7987](https://via.placeholder.com/10/7D7987?text=+) #7D7987 |
+| ![#FF9900](https://via.placeholder.com/10/FF9900) #FF9900       | ![#7D7987](https://via.placeholder.com/10/7D7987?text=+) #7D7987 |
 | ![#d9a7f1](https://via.placeholder.com/10/d9a7f1?text=+) #d9a7f1       | ![#835e99](https://via.placeholder.com/10/835e99?text=+) #835e99 |
 
 
