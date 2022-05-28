@@ -62,3 +62,15 @@ Neste módulo desenvolvemos exercícios de lógica e estrutura de dados como: Va
  🔗 [Desafio Fase 01](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2005%20-%20Avan%C3%A7ando%20na%20Programa%C3%A7%C3%A3o%20Web%20com%20JavaScript/Desafio%201)<br>
  🔗 [Desafio Fase 02](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2005%20-%20Avan%C3%A7ando%20na%20Programa%C3%A7%C3%A3o%20Web%20com%20JavaScript/Desafio%202)<br>
 
+### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 06 - Javascript antes do framework**_](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2005%20-%20Avan%C3%A7ando%20na%20Programa%C3%A7%C3%A3o%20Web%20com%20JavaScript)
+ Neste módulo veremos sobre: Conceitos de SPA (Single Page Application), trabalharemos com eventos no JavaScript, assincronismo, promises, conceitos de POO (Programação Orientada a Objetos) como classes, herança e polimorfismo. Também traremos conceitos sobre imutabilidade, trataremos erros da aplicação utilizando métodos try, catch e throw, trabalharemos com localStorage, consumiremos API do Github e muito mais.
+
+ 🔗 [Projeto 1]()<br>
+ 🔗 [Projeto 2]()<br>
+* **Desafios**<br>
+ 🔗 [Desafio Fase 01]()<br>
+ 🔗 [Desafio Fase 02]()<br>
+
+  **Loading...**
+
+
