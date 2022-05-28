@@ -41,16 +41,15 @@
   🔗  [Desafio 02 - Ice Cream Mobile-First](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2003%20-%20Avan%C3%A7ando%20no%20HTML%20e%20CSS/Desafio%202%20-%20Ice%20Cream)<br>
   🔗  [Desafio 03 - Ice Cream Desktop Responsivo](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2003%20-%20Avan%C3%A7ando%20no%20HTML%20e%20CSS/Desafio%203%20-%20Ice%20Cream%20Desktop)<br>
 
-### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 04 - Introdução à programação, lógica e algoritmos com JavaScript**_]()
+### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 04 - Introdução à programação, lógica e algoritmos com JavaScript**_](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2004%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20programa%C3%A7%C3%A3o%2C%20l%C3%B3gica%20e%20algoritmos%20em%20Javascript)
 Neste módulo desenvolvemos: Variáveis, operadores matemáticos, tipos de dados no JavaScript, operadores comparativos, estruturas de repetição e condicionais, Arrays e aprenderemos sobre funções no JavaScript e como utilizá-las.
 
   🔗  [Projeto 1]()<br>
   🔗  [Projeto 2]()<br>
   🔗  [Projeto 3]()<br>
    * **Desafios** <br>
-  🔗  [Desafio 01 - loading]()<br>
-  🔗  [Desafio 02 - loading]()<br>
-  🔗  [Desafio 03 - loading]()<br>
+  🔗  [Desafio 01](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2004%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20programa%C3%A7%C3%A3o%2C%20l%C3%B3gica%20e%20algoritmos%20em%20Javascript/Desafio%201)<br>
+  🔗  [Desafio 02](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2004%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20programa%C3%A7%C3%A3o%2C%20l%C3%B3gica%20e%20algoritmos%20em%20Javascript/Desafio%202)<br>
 
   **Loading...**
 
