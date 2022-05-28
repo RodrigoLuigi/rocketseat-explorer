@@ -1,6 +1,6 @@
-# <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Desafio 1.1
+# <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Desafio Criando Formuários Avançado
 
-**Criando Formulário 2.0**
+### **Criando Formulário 2.0**
 
 
 ### 📌 Trabalhando com a ferramenta Figma desenvolvemos o projeto para transformar um layout em html e css.

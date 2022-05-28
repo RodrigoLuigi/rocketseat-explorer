@@ -1,6 +1,6 @@
 # <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Desafio Ice Cream Mobile-First
 
-### **Versão Mobile - Ice Cream Website**
+### **Versão Desk-top - Ice Cream Website**
 
 ### 📌 Trabalhando com a ferramenta Figma desenvolvemos o projeto para transformar um layout em html e css.
 
