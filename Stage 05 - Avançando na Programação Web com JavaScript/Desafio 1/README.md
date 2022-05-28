@@ -28,10 +28,11 @@ Projeto de um **timer ou cronômetro** para marcar um determinado período de te
 | ----------------- | 
 | 🔗 **[Roboto - Google Fonts](https://fonts.google.com/specimen/Roboto)** |
     
+[FF9900](https://www.hostinger.com.br/tutoriais/o-que-significa-erro-403)
 
 | **Cores**               |                                                 |
 | ----------------- | ---------------------------------------------------------------- |
-| ![#FF9900](https://www.hostinger.com.br/tutoriais/o-que-significa-erro-403) #FF9900       | ![#7D7987](https://via.placeholder.com/10/7D7987?text=+) #7D7987 |
+| ! #FF9900       | ![#7D7987](https://via.placeholder.com/10/7D7987?text=+) #7D7987 |
 | ![#d9a7f1](https://via.placeholder.com/10/d9a7f1?text=+) #d9a7f1       | ![#835e99](https://via.placeholder.com/10/835e99?text=+) #835e99 |
 
 
