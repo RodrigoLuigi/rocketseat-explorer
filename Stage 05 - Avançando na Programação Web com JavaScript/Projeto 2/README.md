@@ -1,8 +1,8 @@
-# <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Projeto 01 
+# <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Projeto 02
 
 ### **Focu's Timer**
 
-### 📌 Nesse desafio, foi desenvolvido o Focus Timer 1.0 com base em layout do figma. 
+### 📌 Clone do projeto 1 para fixar conteúdo e melhorar a prática. 
 
 # <br>:book: Aprendizados
 
