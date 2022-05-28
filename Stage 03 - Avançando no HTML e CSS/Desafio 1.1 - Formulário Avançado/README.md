@@ -1,6 +1,7 @@
-# <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Desafio 1
+# <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Desafio 1.1
 
-**Criando Formulário**
+**Criando Formulário 2.0**
+
 
 ### 📌 Trabalhando com a ferramenta Figma desenvolvemos o projeto para transformar um layout em html e css.
 
@@ -31,10 +32,10 @@ Projeto de uma página estática, na qual trabalhamos com formulários para capt
 
   | **Cores**               |                                                 |
 | ----------------- | ---------------------------------------------------------------- |
-| ![#E5E5E5](http://via.placeholder.com/12/E5E5E5?text=+) #E5E5E5       | ![#52586f](http://via.placeholder.com/12/52586f?text=+) #52586f |
-| ![#FFFFFF](http://via.placeholder.com/12/FFFFFF?text=+) #FFFFFF       | ![#535971](http://via.placeholder.com/12/535971?text=+) #535971 |
-| ![#6f837a](http://via.placeholder.com/12/6f837a?text=+) #6f837a | ![#FF5374](http://via.placeholder.com/12/FF5374?text=+) #FF5374 |
-| ![#FF1010](http://via.placeholder.com/12/FF1010?text=+) #FF1010       | ![#d0435f](http://via.placeholder.com/12/d0435f?text=+) #d0435f |
+| ![#BFD7E4](http://via.placeholder.com/12/BFD7E4?text=+) #BFD7E4       | ![#293241](http://via.placeholder.com/12/293241?text=+) #293241 |
+| ![#FFFFFF](http://via.placeholder.com/12/FFFFFF?text=+) #FFFFFF       | ![#F67669](http://via.placeholder.com/12/F67669?text=+) #F67669 |
+| ![#4E4958](http://via.placeholder.com/12/4E4958?text=+) #4E4958 | ![#FAFAFC](http://via.placeholder.com/12/FAFAFC?text=+) #FAFAFC |
+| ![#F67669](http://via.placeholder.com/12/F67669?text=+) #F67669       | ![#253B51](http://via.placeholder.com/12/253B51?text=+) #253B51 |
 
 ## 📚 Stack utilizada
 
