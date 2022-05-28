@@ -6,7 +6,7 @@
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
-Projeto simples de uma página estática, na qual trabalhamos com formulários para capturar dados através da web. Desenvolvemos um formulário clean com HTML e CSS, utilizamos campos de entrada(imput) , selects, check-box, campos de texto, submit elém da configuração de estilos seguindo layout do Figma.
+Projeto de uma página estática, na qual trabalhamos com formulários para capturar dados através da web. Desenvolvemos um formulário clean com HTML e CSS, utilizamos campos de entrada(imput) , selects, check-box, campos de texto, submit elém da configuração de estilos seguindo layout do Figma e validação de inputs.
 
 - Ferramenta Figma;
 - Tags semânticas;
@@ -23,16 +23,16 @@ Projeto simples de uma página estática, na qual trabalhamos com formulários p
 | **Fontes** |
 | ----------------- | 
 | 🔗 **[Poppins - Google Fonts](https://fonts.google.com/specimen/Poppins?query=Poppins)** |
-| 🔗 **[Archivo - Google Fonts](https://fonts.google.com/specimen/Archivo?query=Archivo)** |
+| 🔗 **[Staatliches - Google Fonts](https://fonts.google.com/specimen/Staatliches?query=staa)** |
     
 
 
   | **Cores**               |                                                 |
 | ----------------- | ---------------------------------------------------------------- |
-| ![#E5E5E5](https://via.placeholder.com/10/E5E5E5?text=+) #E5E5E5       | ![#121214](https://via.placeholder.com/10/121214?text=+) #121214 |
-| ![#FAFAFC](https://via.placeholder.com/10/FAFAFC?text=+) #FAFAFC       | ![#4E4958](https://via.placeholder.com/10/4E4958?text=+) #4E4958 |
-| ![#06c45b](https://via.placeholder.com/10/06c45b?text=+) #06c45b | ![#6c6a71](https://via.placeholder.com/10/6c6a71?text=+) #6c6a71 |
-| ![#42D3FF](https://via.placeholder.com/10/42D3FF?text=+) #42D3FF       | ![#a9a7af](https://via.placeholder.com/10/a9a7af?text=+) #a9a7af |
+| ![#E5E5E5](http://via.placeholder.com/12/E5E5E5?text=+) #E5E5E5       | ![#52586f](http://via.placeholder.com/12/52586f?text=+) #52586f |
+| ![#FFFFFF](http://via.placeholder.com/12/FFFFFF?text=+) #FFFFFF       | ![#535971](http://via.placeholder.com/12/535971?text=+) #535971 |
+| ![#6f837a](http://via.placeholder.com/12/6f837a?text=+) #6f837a | ![#FF5374](http://via.placeholder.com/12/FF5374?text=+) #FF5374 |
+| ![#FF1010](http://via.placeholder.com/12/FF1010?text=+) #FF1010       | ![#d0435f](http://via.placeholder.com/12/d0435f?text=+) #d0435f |
 
 ## 📚 Stack utilizada
 
