@@ -11,16 +11,16 @@
 
 Projeto de uma página estática, na qual trabalhamos com formulários para capturar dados através da web. Desenvolvemos um formulário clean com HTML e CSS, utilizamos campos de entrada(imput) , selects, check-box, campos de texto, submit elém da configuração de estilos seguindo layout do Figma e validação de imputs.
 
-- Ferramenta Figma;
-- Tags semânticas;
-- Estrutura do HTML;
-- Estrutura do CSS;
-- Trabalhar com inputs no HTML;
-- Funcionamento dos formulários na Web;
-- Métodos GET e POST;
-- Configurar o Live server no VS Code;
-- Trabalhar com *pseudo-elements* no CSS;
-- Validar campos de formulários;
+- Ferramenta Figma
+- Tags semânticas
+- Estrutura do HTML
+- Estrutura do CSS
+- Trabalhar com inputs no HTML
+- Funcionamento dos formulários na Web
+- Métodos GET e POST
+- Configurar o Live server no VS Code
+- Trabalhar com *pseudo-elements* no CSS
+- Validar campos de formulários
 - Responsividade Media *query*
 
 | **Fontes** |

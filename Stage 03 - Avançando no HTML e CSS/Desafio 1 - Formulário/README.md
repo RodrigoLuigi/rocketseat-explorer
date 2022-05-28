@@ -8,18 +8,18 @@
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
-Projeto de uma página estática, na qual trabalhamos com formulários para capturar dados através da web. Desenvolvemos um formulário clean com HTML e CSS, utilizamos campos de entrada(imput) , campos de texto, data e hora, submit, validação de imputs e configuração de estilos seguindo layout do Figma  .
+Projeto de uma página estática, na qual trabalhamos com formulários para capturar dados através da web. Desenvolvemos um formulário clean com HTML e CSS, utilizamos campos de entrada(imput) , campos de texto, data e hora, submit, validação de imputs e configuração de estilos seguindo layout do Figma.
 
-- Ferramenta Figma;
-- Tags semânticas;
-- Estrutura do HTML;
-- Estrutura do CSS;
-- Trabalhar com inputs no HTML;
-- Funcionamento dos formulários na Web;
-- Métodos GET e POST;
-- Configurar o Live server no VS Code;
-- Trabalhar com *pseudo-elements* no CSS;
-- Validar campos de formulários;
+- Ferramenta Figma
+- Tags semânticas
+- Estrutura do HTML
+- Estrutura do CSS
+- Trabalhar com inputs no HTML
+- Funcionamento dos formulários na Web
+- Métodos GET e POST
+- Configurar o Live server no VS Code
+- Trabalhar com *pseudo-elements* no CSS
+- Validar campos de formulários
 - Responsividade Media *query*
 
 | **Fontes** |

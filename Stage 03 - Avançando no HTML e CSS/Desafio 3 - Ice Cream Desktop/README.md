@@ -10,12 +10,15 @@
 
 Projeto de uma página estática com cabeçalho e uma sessão contendo cards de sorvetes, na qual trabalhamos com desenvolvimento mobile-first, design responsivo, unidades de medidas flexiveis e Grid para que o projeto se adapte para vários tipos de dispositivos. Desenvolvimento utilizando clean code e tags semânticas com HTML e CSS.
 
-- Ferramenta Figma;
-- Tags semânticas;
-- Estrutura do HTML;
-- Estrutura do CSS;
-- Trabalhando com unidades de medidas flexiveis;
-- Mobile-First;
+- Ferramenta Figma
+- Tags semânticas
+- Estrutura do HTML
+- Estrutura do CSS
+- Animation
+- Transition
+- Grid
+- Trabalhando com unidades de medidas flexiveis
+- Mobile-First
 - Responsividade Media *queries*
 
 | **Fontes** |

@@ -6,7 +6,7 @@
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
-Projeto de uma página estática, na qual trabalhamos com desenvolvimento mobile-first, design responsivo, e unidades de medidas flexiveis. Desenvolvimento utilizando clean code e tags semânticas com HTML e CSS.
+Projeto de uma página estática simples, na qual trabalhamos com desenvolvimento mobile-first, design responsivo, e unidades de medidas flexiveis. Desenvolvimento utilizando clean code e tags semânticas com HTML e CSS.
 
 - Ferramenta Figma;
 - Tags semânticas;
