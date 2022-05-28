@@ -31,8 +31,9 @@ Projeto de um **timer ou cronômetro** para marcar um determinado período de te
 
 | **Cores**               |                                                 |
 | ----------------- | ---------------------------------------------------------------- |
-| ![#FF9900](http://via.placeholder.com/12/FF9900) #FF9900       | ![#7D7987](http://via.placeholder.com/12/7D7987?text=+) #7D7987 |
-| ![#d9a7f1](http://via.placeholder.com/12/d9a7f1?text=+) #d9a7f1       | ![#835e99](http://via.placeholder.com/12/835e99?text=+) #835e99 |
+| ![#e0e4e5](http://via.placeholder.com/12/e0e4e5?text=+) #e0e4e5       | ![#02789c](http://via.placeholder.com/12/02789c?text=+) #02789c |
+| ![#80808096](http://via.placeholder.com/12/80808096?text=+) #80808096       | ![#020303](http://via.placeholder.com/12/020303?text=+) #020303 |
+| ![#ffffff](http://via.placeholder.com/12/ffffff?text=+) #ffffff       | |
 
 
 
