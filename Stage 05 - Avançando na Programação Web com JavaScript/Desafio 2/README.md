@@ -31,9 +31,9 @@ Projeto de um **timer ou cronômetro** para marcar um determinado período de te
 
 | **Cores**               |                                                 |
 | ----------------- | ---------------------------------------------------------------- |
-| ![#e0e4e5](https://via.placeholder.com/10/e0e4e5?text=+) #e0e4e5       | ![#02789c](https://via.placeholder.com/10/02789c?text=+) #02789c |
-| ![#80808096](https://via.placeholder.com/10/80808096?text=+) #80808096       | ![#020303](https://via.placeholder.com/10/020303?text=+) #020303 |
-| ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff       | ![#08f764](https://via.placeholder.com/10/08f764?text=+) #08f764 |
+| ![#e0e4e5](http://via.placeholder.com/12/e0e4e5?text=+) #e0e4e5       | ![#02789c](http://via.placeholder.com/12/02789c?text=+) #02789c |
+| ![#80808096](http://via.placeholder.com/12/80808096?text=+) #80808096       | ![#020303](http://via.placeholder.com/12/020303?text=+) #020303 |
+| ![#ffffff](http://via.placeholder.com/12/ffffff?text=+) #ffffff       | ![#08f764](http://via.placeholder.com/12/08f764?text=+) #08f764 |
 
 
 ## 📚 Stack utilizada
