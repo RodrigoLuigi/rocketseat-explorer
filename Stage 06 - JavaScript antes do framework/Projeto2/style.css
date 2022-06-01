@@ -90,10 +90,10 @@ table {
   width: 100%;
   border-collapse: collapse;
 
-  box-shadow: 0 1rem 2rem -1rem rgba(0, 0 ,0 ,0.3);
+  box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, 0.3);
 }
 
-table *{
+table * {
   font-size: 1.4rem;
   color: var(--text-color);
 }
@@ -105,11 +105,11 @@ table th {
   padding: 1.5rem;
 }
 
-table th:first-child{
+table th:first-child {
   border-top-left-radius: .4rem;
 }
 
-table th:last-child{
+table th:last-child {
   border-top-right-radius: .4rem;
 }
 
@@ -117,7 +117,7 @@ table tr:nth-child(even) {
   background: #eee;
 }
 
-table tr:nth-child(odd){
+table tr:nth-child(odd) {
   background: #ddd;
 }
 
@@ -132,13 +132,12 @@ td.user {
   gap: 1rem;
 }
 
-td.user img{
+td.user img {
   width: 5rem;
   height: 5rem;
 
   object-fit: cover;
   border-radius: 50%;
-
 }
 
 td.user a {
