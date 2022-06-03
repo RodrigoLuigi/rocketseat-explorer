@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+:root {
+  font-size: 62.5%;
+  --ff-primary: 'Roboto', sans-serif;
+
+  --ff-rick: 'Rick e Morty', sans-serif;
+  --bg-primary-color: black;
+  --text-color: #ffffff;
+}
+
+@font-face {
+  font-family: 'Rick e Morty';
+  src: url(./assets/fonts/get_schwifty.ttf);
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: var(--bg-primary-color);
+  color: var(--text-color);
+}
+
+/* Deixa o texto visivel somente para o leitor de telas */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.page {
+  padding: 4rem;
+
+  max-width: 120rem;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.logo {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+
+  gap: 2rem;
+
+  margin: 1rem 0 3.2rem 0;
+}
+
+.logo h1 {
+  font-family: var(--ff-rick);
+  color: greenyellow;
+  font-size: clamp(4rem, 3.5rem + 3.5vw, 6rem);
+  line-height: 8rem;
+  max-width: 40rem;
+  text-align: center;
+}
+
+.logo img {
+  width: 25rem;
+  border-radius: 50%;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+
+  margin: 2rem auto;
+}
+
+.search input {
+  height: 3.2rem;
+  border: 1px solid #ccc;
+  border-radius: .4rem 0 0 .4rem;
+  padding: 0 .8rem;
+}
+
+.search button {
+  background-color: goldenrod;
+  border-radius: 0 .4rem .4rem 0;
+  height: 3.4rem;
+  border: none;
+  padding: 0 1rem;
+
+  cursor: pointer;
+}
+
+.search button:hover {
+  filter: brightness(1.1);
+}
+
+/* ========== MAIN ============ */
+main {
+  display: flex;
+  justify-content: center;
+  font-family: var(--ff-primary);
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+  padding: 4rem 0;
+}
+
+.card {
+  border: 1px solid greenyellow;
+  box-shadow: 0 0 1.2rem 0 greenyellow;
+  /* margin: 4rem; */
+  border-radius: 1.2rem;
+  background-color: #5e5d5d4b;
+  max-width: 60rem;
+}
+
+
+
+.card-image img {
+  width: 100%;
+  border-radius: 1.2rem 1.2rem 0 0;
+}
+
+.card-info .section {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.card-info h2 {
+  color: rgb(175, 4, 255);
+}
+
+.card-info .scale-gray {
+  margin-bottom: 1.2rem;
+  color: gray;
+  font-weight: bold;
+}
+
+.card-info a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+@media (min-width: 1278px){
+  .card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 40em) {
+ 
+  .card {
+    display: flex;
+    height: 30rem;
+  }
+
+  .card-image img {
+    border-radius: 1.2rem 0 0 1.2rem;
+  }
+}
