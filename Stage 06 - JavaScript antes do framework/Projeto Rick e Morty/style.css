@@ -120,7 +120,7 @@ main {
 }
 
 .card {
-  border: 1px solid greenyellow;
+  /* border: 1px solid greenyellow; */
   box-shadow: 0 0 1.2rem 0 greenyellow;
   /* margin: 4rem; */
   border-radius: 1.2rem;
