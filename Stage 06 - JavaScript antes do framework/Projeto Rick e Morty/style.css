@@ -11,6 +11,8 @@
   --ff-rick: 'Rick e Morty', sans-serif;
   --bg-primary-color: black;
   --text-color: #ffffff;
+
+  -webkit-tap-highlight-color: transparent;
 }
 
 @font-face {
@@ -116,10 +118,11 @@ main {
   flex-direction: column;
   gap: 4rem;
 
-  padding: 4rem 0;
+  padding: 5rem 0;
 }
 
 .card {
+  position: relative;
   /* border: 1px solid greenyellow; */
   box-shadow: 0 0 1.2rem 0 greenyellow;
   /* margin: 4rem; */
@@ -128,7 +131,26 @@ main {
   max-width: 60rem;
 }
 
+.remove {
+  position: absolute;
+  top: 1;
+  right: 1rem;
 
+
+  font-size: 4rem;
+  line-height: 3rem;
+
+  background: none;
+  border: none;
+  color: red;
+  
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.remove:hover{
+  transform: scale(1.2);
+}
 
 .card-image img {
   width: 100%;
@@ -162,6 +184,9 @@ main {
   }
 }
 @media (min-width: 40em) {
+  .logo{
+    flex-direction: row;
+  }
  
   .card {
     display: flex;
