@@ -81,6 +81,7 @@ header {
 .search {
   display: flex;
   align-items: center;
+  gap: 4rem;
 
   margin: 2rem auto;
 }
@@ -100,6 +101,8 @@ header {
   padding: 0 1rem;
 
   cursor: pointer;
+
+  font-size: 3rem;
 }
 
 .search button:hover {

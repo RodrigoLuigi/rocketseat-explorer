@@ -118,7 +118,7 @@ export class FavoritesView extends Favorites {
     //   } = this.root.querySelector('.search input')
     //   this.add(value);
     // }
-    const addButtom = this.root.querySelector('.search button')
+    const addButtom = this.root.querySelector('.search .next-page')
     let x = 1
     let y = 7
     this.adicionar(x,y)
@@ -134,6 +134,22 @@ export class FavoritesView extends Favorites {
 
      }
     
+  }
+
+  ondown(){
+    const addButtom = this.root.querySelector('.search .down-page')
+   
+
+       addButtom.onclick = () => {
+    //   const {
+    //     value
+    //   } = this.root.querySelector('.search input')
+    //   this.add(value);
+    x += -6;
+    y+= -6;
+    this.adicionar(x,y)
+
+     }
   }
 
   update() {
