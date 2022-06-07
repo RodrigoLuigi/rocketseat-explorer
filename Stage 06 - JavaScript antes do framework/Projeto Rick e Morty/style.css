@@ -85,7 +85,8 @@ header {
 .search {
   display: flex;
   align-items: center;
-  gap: 4rem;
+  justify-content: space-between;
+  width: 25rem;
 
   margin: 2rem auto;
 }
@@ -98,15 +99,18 @@ header {
 }
 
 .search button {
-  background-color: goldenrod;
+
+  /* background-color: goldenrod; */
+  background-color: transparent;
   border-radius: 0 .4rem .4rem 0;
-  /* height: 3.4rem; */
+  color: red;
+  line-height: 8rem;
   border: none;
-  padding:  .3rem 1.2rem;
+  /* padding:  .3rem 1.2rem; */
 
   cursor: pointer;
 
-  font-size: 3rem;
+  font-size: 10rem;
 }
 
 .search button:hover {

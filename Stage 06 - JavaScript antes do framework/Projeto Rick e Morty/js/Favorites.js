@@ -31,33 +31,12 @@ export class Favorites {
     this.root = document.querySelector(root)
     this.load()
     this.id = 0;
-
-    // RickAndMortyCharacter.search('1')
-    //   .then(character => console.log(character))
   }
 
   load() {
     this.entries = JSON.parse(localStorage.getItem('@github-characters:')) || []
 
     console.log(this.entries)
-
-    // this.entries = [{
-    //     id: 43,
-    //     name: 'Big Morty',
-    //     status: 'Dead',
-    //     species: 'Human',
-    //     location: 'Citadel of Ricks',
-    //     episode: 'The Ricklantis Mixup'
-    //   },
-    //   {
-    //     id: 658,
-    //     name: 'Sonia Sotomayor',
-    //     status: 'Live',
-    //     specie: 'Human',
-    //     location: 'Universo mesclado',
-    //     episode: 'Episódio do tanque de ácido'
-    //   }
-    // ]
   }
 
   // async add(characterId) {
@@ -76,48 +55,27 @@ export class Favorites {
   //   }
   // }
 
-  delete(character) {
-    const filteredEntries = this.entries.filter(entry => entry.name !== character.name)
+  // delete(character) {
+  //   const filteredEntries = this.entries.filter(entry => entry.name !== character.name)
 
-    this.entries = filteredEntries
-    console.log(this.entries)
+  //   this.entries = filteredEntries
+  //   console.log(this.entries)
 
-    this.update()
-  }
+  //   this.update()
+  // }
 
-  async adicionar(){
+  async add() {
     const entrada = []
-    
-    for(let i=0; i<6; i++){
-      const character = await RickAndMortyCharacter.search(this.id+1)
-        entrada.push(character)
-        this.id= character.id
-    }
-   
-    this.entries = entrada
-    
-    this.update()
-    console.log(this.entries)
 
-  }
-
-  async diminuir(){
-    const entrada = []
-    this.id = this.entries[0].id
-    this.id = this.id-7
-    for(let i=1; i<7; i++){
-      const character = await RickAndMortyCharacter.search(this.id+1)
-      this.id= character.id
+    for (let i = 0; i < 6; i++) {
+      const character = await RickAndMortyCharacter.search(this.id + 1)
+      this.id = character.id
       entrada.push(character)
-
     }
-    
-    console.log(this.id)
-    this.entries = entrada
-    
-    this.update()
-    console.log(this.entries)
 
+    this.entries = entrada
+
+    this.update()
   }
 }
 
@@ -132,10 +90,9 @@ export class FavoritesView extends Favorites {
     // this.onadd()
     this.nextPage()
     this.previewsPage()
-    this.adicionar()
+    this.add()
 
   }
-
   // onadd() {
   //   const addButtom = this.root.querySelector('.search button')
   //   addButtom.onclick = () => {
@@ -146,78 +103,78 @@ export class FavoritesView extends Favorites {
   //   }
   // }
 
-  nextPage(){
+  nextPage() {
     const addButtom = this.root.querySelector('.search .next-page')
-  
-       addButtom.onclick = () => {
-        console.log(this.id)
-    
-     this.adicionar()
 
-     }
+    addButtom.onclick = () => {
+
+      this.add()
+    }
   }
 
-  previewsPage(){
+  previewsPage() {
     const addButtom = this.root.querySelector('.search .down-page')
-   
-       addButtom.onclick = () => {
-    //   const {
-    //     value
-    //   } = this.root.querySelector('.search input')
-    //   this.add(value);
-    // x += -6;
-    // y+= -6;
-    console.log(this.id)
 
-    this.diminuir()
+    addButtom.onclick = () => {
+      if(this.id > 6){
+        this.id = this.entries[0].id - 7     
+        
+        this.add()
+      }
+      
 
-     }
+    }
+  }
+
+  getEpisode(character) {
+    const leng = character.episode.length
+    const epis = character.episode[leng - 1]
+
+    const arr = epis.split('')
+
+    let ep = '';
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] >= 0) {
+        ep += arr[i]
+      }
+    }
+    return ep;
   }
 
   update() {
-
     this.removeAllCards();
-    // this.createCard();
-
 
     this.entries.forEach(character => {
-      const card = this.createCard();
+      const card = this.createCard()
+      const ep = this.getEpisode(character)
 
       card.querySelector('.card-image img').src = `https://rickandmortyapi.com/api/character/avatar/${character.id}.jpeg`
       card.querySelector('.card-info h2').textContent = character.name
       card.querySelector('.card-info .status').textContent = `${character.status} - ${character.species}`
       card.querySelector('.location p').textContent = character.location.name
-      
-      const leng = character.episode.length
-      const epis = character.episode[leng - 1]
-
-      const arr = epis.split('')
-
-      let ep = '';
-      for (let i = 0; i < arr.length; i++) {
-        if (arr[i] >= 0) {
-          ep += arr[i]
-        }
-      }
       card.querySelector('.episode p').textContent = `Episódio ${ep}`
-
-      card.querySelector('.remove').onclick = () => {
-        const isOk = confirm('Tem certeza que deseja deletar esse Card?')
-
-        if (isOk) {
-          this.delete(character);
-        }
-      }
 
       card.classList.add('card')
       this.cardWrapper.append(card)
+
+      // card.querySelector('.remove').onclick = () => {
+      //   const isOk = confirm('Tem certeza que deseja deletar esse Card?')
+      //   if (isOk) {
+      //     this.delete(character);
+      //   }
+      // }
     })
-    if(this.id == 6){
+
+    this.verifyPage()
+  }
+
+  verifyPage() {
+    if (this.id <= 6) {
       this.root.querySelector('.down-page span').classList.add('hide')
-      this.root.querySelector('.down-page').style.background = '#000'
-    }else{
+      // this.root.querySelector('.down-page').style.background = '#000'
+    } else {
       this.root.querySelector('.down-page span').classList.remove('hide')
-      this.root.querySelector('.down-page').style.background = 'goldenrod'
+      // this.root.querySelector('.down-page').style.background = 'goldenrod'
     }
   }
 
@@ -226,7 +183,6 @@ export class FavoritesView extends Favorites {
 
     card.innerHTML = `
     <div class="card-image">
-    <button class="remove">&times;</button>
       <img class="character-image" src="https://rickandmortyapi.com/api/character/avatar/43.jpeg"
         alt="Imagem do ">
     </div>
