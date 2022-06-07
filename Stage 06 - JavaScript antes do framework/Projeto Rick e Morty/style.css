@@ -39,6 +39,10 @@ body {
   border-width: 0;
 }
 
+.hide{
+  display: none;
+}
+
 .page {
   padding: 4rem;
 
@@ -96,9 +100,9 @@ header {
 .search button {
   background-color: goldenrod;
   border-radius: 0 .4rem .4rem 0;
-  height: 3.4rem;
+  /* height: 3.4rem; */
   border: none;
-  padding: 0 1rem;
+  padding:  .3rem 1.2rem;
 
   cursor: pointer;
 

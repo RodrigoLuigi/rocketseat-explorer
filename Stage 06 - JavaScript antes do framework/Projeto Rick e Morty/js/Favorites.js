@@ -30,6 +30,7 @@ export class Favorites {
   constructor(root) {
     this.root = document.querySelector(root)
     this.load()
+    this.id = 0;
 
     // RickAndMortyCharacter.search('1')
     //   .then(character => console.log(character))
@@ -73,21 +74,7 @@ export class Favorites {
   //   } catch (error) {
   //     alert(error.message)
   //   }
-
   // }
-  
-  async adicionar(x,y){
-    const entrada = []
-   
-    for(let i=x; i<y; i++){
-      const character = await RickAndMortyCharacter.search(i)
-      entrada.push(character)
-    }
-    this.entries = entrada
-    // x += 5;
-    // y += 5;
-    this.update()
-  }
 
   delete(character) {
     const filteredEntries = this.entries.filter(entry => entry.name !== character.name)
@@ -96,6 +83,41 @@ export class Favorites {
     console.log(this.entries)
 
     this.update()
+  }
+
+  async adicionar(){
+    const entrada = []
+    
+    for(let i=0; i<6; i++){
+      const character = await RickAndMortyCharacter.search(this.id+1)
+        entrada.push(character)
+        this.id= character.id
+    }
+   
+    this.entries = entrada
+    
+    this.update()
+    console.log(this.entries)
+
+  }
+
+  async diminuir(){
+    const entrada = []
+    this.id = this.entries[0].id
+    this.id = this.id-7
+    for(let i=1; i<7; i++){
+      const character = await RickAndMortyCharacter.search(this.id+1)
+      this.id= character.id
+      entrada.push(character)
+
+    }
+    
+    console.log(this.id)
+    this.entries = entrada
+    
+    this.update()
+    console.log(this.entries)
+
   }
 }
 
@@ -107,47 +129,47 @@ export class FavoritesView extends Favorites {
     this.cardWrapper = this.root.querySelector('.card-wrapper')
 
     this.update()
-    this.onadd()
+    // this.onadd()
+    this.nextPage()
+    this.previewsPage()
+    this.adicionar()
+
   }
 
-  onadd() {
-    // const addButtom = this.root.querySelector('.search button')
-    // addButtom.onclick = () => {
-    //   const {
-    //     value
-    //   } = this.root.querySelector('.search input')
-    //   this.add(value);
-    // }
-    const addButtom = this.root.querySelector('.search .next-page')
-    let x = 1
-    let y = 7
-    this.adicionar(x,y)
+  // onadd() {
+  //   const addButtom = this.root.querySelector('.search button')
+  //   addButtom.onclick = () => {
+  //     const {
+  //       value
+  //     } = this.root.querySelector('.search input')
+  //     this.add(value);
+  //   }
+  // }
 
+  nextPage(){
+    const addButtom = this.root.querySelector('.search .next-page')
+  
        addButtom.onclick = () => {
-    //   const {
-    //     value
-    //   } = this.root.querySelector('.search input')
-    //   this.add(value);
-    x += 6;
-    y+= 6;
-    this.adicionar(x,y)
+        console.log(this.id)
+    
+     this.adicionar()
 
      }
-    
   }
 
-  ondown(){
+  previewsPage(){
     const addButtom = this.root.querySelector('.search .down-page')
    
-
        addButtom.onclick = () => {
     //   const {
     //     value
     //   } = this.root.querySelector('.search input')
     //   this.add(value);
-    x += -6;
-    y+= -6;
-    this.adicionar(x,y)
+    // x += -6;
+    // y+= -6;
+    console.log(this.id)
+
+    this.diminuir()
 
      }
   }
@@ -189,9 +211,14 @@ export class FavoritesView extends Favorites {
 
       card.classList.add('card')
       this.cardWrapper.append(card)
-
     })
-
+    if(this.id == 6){
+      this.root.querySelector('.down-page span').classList.add('hide')
+      this.root.querySelector('.down-page').style.background = '#000'
+    }else{
+      this.root.querySelector('.down-page span').classList.remove('hide')
+      this.root.querySelector('.down-page').style.background = 'goldenrod'
+    }
   }
 
   createCard() {
