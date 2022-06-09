@@ -39,31 +39,6 @@ export class Favorites {
     console.log(this.entries)
   }
 
-  // async add(characterId) {
-  //   try {
-  //     const character = await RickAndMortyCharacter.search(characterId)
-  //     console.log(character)
-  //     if (character.id === undefined) {
-  //       throw new Error('Personagem não encontrado!')
-  //     }
-
-  //     this.entries = [character, ...this.entries]
-  //     this.update()
-
-  //   } catch (error) {
-  //     alert(error.message)
-  //   }
-  // }
-
-  // delete(character) {
-  //   const filteredEntries = this.entries.filter(entry => entry.name !== character.name)
-
-  //   this.entries = filteredEntries
-  //   console.log(this.entries)
-
-  //   this.update()
-  // }
-
   async add() {
     const entrada = []
 
@@ -85,29 +60,20 @@ export class FavoritesView extends Favorites {
     super(root)
 
     this.cardWrapper = this.root.querySelector('.card-wrapper')
+    this.page = 1
 
     this.update()
-    // this.onadd()
     this.nextPage()
     this.previewsPage()
     this.add()
 
   }
-  // onadd() {
-  //   const addButtom = this.root.querySelector('.search button')
-  //   addButtom.onclick = () => {
-  //     const {
-  //       value
-  //     } = this.root.querySelector('.search input')
-  //     this.add(value);
-  //   }
-  // }
-
+  
   nextPage() {
     const addButtom = this.root.querySelector('.search .next-page')
 
     addButtom.onclick = () => {
-
+      this.page += 1;
       this.add()
     }
   }
@@ -119,6 +85,8 @@ export class FavoritesView extends Favorites {
       if(this.id > 6){
         this.id = this.entries[0].id - 7     
         
+       this.page += -1;
+
         this.add()
       }
       
@@ -164,18 +132,24 @@ export class FavoritesView extends Favorites {
       //   }
       // }
     })
-
-    this.verifyPage()
+    this.updatePage()
+    this.verifyPreview()
   }
 
-  verifyPage() {
+  verifyPreview() {
     if (this.id <= 6) {
-      this.root.querySelector('.down-page span').classList.add('hide')
+      this.root.querySelector('.down-page').classList.add('hide')
+      this.root.querySelector('.down-page2').classList.remove('hide')
       // this.root.querySelector('.down-page').style.background = '#000'
     } else {
-      this.root.querySelector('.down-page span').classList.remove('hide')
+      this.root.querySelector('.down-page2').classList.add('hide')
+      this.root.querySelector('.down-page').classList.remove('hide')
       // this.root.querySelector('.down-page').style.background = 'goldenrod'
     }
+  }
+
+  updatePage(){
+    this.root.querySelector('.search p').textContent = `Page ${this.page} / 138`
   }
 
   createCard() {
@@ -183,7 +157,7 @@ export class FavoritesView extends Favorites {
 
     card.innerHTML = `
     <div class="card-image">
-      <img class="character-image" src="https://rickandmortyapi.com/api/character/avatar/43.jpeg"
+      <img src="https://rickandmortyapi.com/api/character/avatar/43.jpeg"
         alt="Imagem do ">
     </div>
 
@@ -195,12 +169,12 @@ export class FavoritesView extends Favorites {
 
       <div class="section">
         <span class="scale-gray">Último local conhecido:</span>
-        <a class="location" href=""><p>Citadel of Ricks</p></a>
+        <div class="location"><p class="location">Citadel of Ricks</p></div>
       </div>
 
       <div class="section">
         <span class="scale-gray">Visto pela última vez em:</span>
-        <a class="episode" href=""><p>The Ricklantis Mixup</p></a>
+        <div class="episode"><p>The Ricklantis Mixup</p></div>
       </div>
     </div>
     `

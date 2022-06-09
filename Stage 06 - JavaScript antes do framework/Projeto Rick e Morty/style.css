@@ -1,60 +1,50 @@
+/* ===== BASIC CSS RESET ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: 0;
 }
 
+/* ===== ROOT CONFIG ===== */
 :root {
   font-size: 62.5%;
   --ff-primary: 'Roboto', sans-serif;
 
   --ff-rick: 'Rick e Morty', sans-serif;
-  --bg-primary-color: black;
+  --bg-primary-color: #000000;
+  --bg-secondary-color: #5e5e5e4b;
   --text-color: #ffffff;
 
   -webkit-tap-highlight-color: transparent;
 }
 
+/* ===== FONT ===== */
 @font-face {
   font-family: 'Rick e Morty';
   src: url(./assets/fonts/get_schwifty.ttf);
 }
 
-body {
-  font-size: 1.6rem;
-  background-color: var(--bg-primary-color);
-  color: var(--text-color);
-}
-
-/* Deixa o texto visivel somente para o leitor de telas */
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
-
+/* ===== BASE ===== */
 .hide{
   display: none;
 }
 
-.page {
-  padding: 4rem;
-
-  max-width: 120rem;
-  min-height: 100vh;
-  margin: 0 auto;
+body {
+  font-size: 1.6rem;
+  background-color: var(--bg-primary-color);
 }
 
+/* ===== PAGE ===== */
+#page {
+  max-width: 120rem;
+  min-height: 100vh;
+  margin: 0 auto 2rem;
+}
+
+/* ===== HERO ===== */
 header {
   display: flex;
   flex-direction: column;
-
 }
 
 .logo {
@@ -71,8 +61,11 @@ header {
 .logo h1 {
   font-family: var(--ff-rick);
   color: greenyellow;
+
   font-size: clamp(4rem, 3.5rem + 3.5vw, 6rem);
+
   line-height: 8rem;
+
   max-width: 40rem;
   text-align: center;
 }
@@ -82,39 +75,50 @@ header {
   border-radius: 50%;
 }
 
+/* ===== NEXT AND PREVIEWS PAGE ===== */
 .search {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 25rem;
 
-  margin: 2rem auto;
+  margin: 2rem auto 0;
 }
 
-.search input {
-  height: 3.2rem;
-  border: 1px solid #ccc;
-  border-radius: .4rem 0 0 .4rem;
-  padding: 0 .8rem;
+.search p{
+  font-size: 2rem;
+  font-weight: bold;
+  color: greenyellow;
 }
 
 .search button {
-
-  /* background-color: goldenrod; */
   background-color: transparent;
-  border-radius: 0 .4rem .4rem 0;
-  color: red;
+  
+  color: rgb(122, 11, 11);
+  font-size: 10rem;
   line-height: 8rem;
+
   border: none;
-  /* padding:  .3rem 1.2rem; */
 
   cursor: pointer;
 
-  font-size: 10rem;
+  transition: all 200ms;
 }
 
 .search button:hover {
-  filter: brightness(1.1);
+  color: rgb(224, 4, 4);
+  transform: scale(1.2);
+}
+
+.down-page{
+  animation: leftToRight 900ms;
+}
+
+.down-page2{
+  animation: leftToRight 900ms;
+}
+.next-page {
+  animation: rightToLeft 900ms;
 }
 
 /* ========== MAIN ============ */
@@ -124,55 +128,38 @@ main {
   font-family: var(--ff-primary);
 }
 
+/* ===== SECTION CARDS ===== */
 .card-wrapper {
   display: flex;
   flex-direction: column;
   gap: 4rem;
 
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 
+/* ===== CARD ===== */
 .card {
-  position: relative;
-  /* border: 1px solid greenyellow; */
+  background-color: var(--bg-secondary-color);
   box-shadow: 0 0 1.2rem 0 greenyellow;
-  /* margin: 4rem; */
+  color: var(--text-color);
+
   border-radius: 1.2rem;
-  background-color: #5e5d5d4b;
-  max-width: 60rem;
 }
 
-.remove {
-  position: absolute;
-  top: 1;
-  right: 1rem;
+ .card-image img {
+   width: 100%;
+   border-radius: 1.2rem 1.2rem 0 0;
+} 
 
-
-  font-size: 4rem;
-  line-height: 3rem;
-
-  background: none;
-  border: none;
-  color: red;
-  
-  cursor: pointer;
-  transition: 200ms;
+.card-info{
+  width: 25rem;
 }
 
-.remove:hover{
-  transform: scale(1.2);
-}
-
-.card-image img {
-  width: 100%;
-  border-radius: 1.2rem 1.2rem 0 0;
-}
-
-.card-info .section {
+ .card-info .section {
   display: flex;
   flex-direction: column;
   padding: 2rem;
-}
+} 
 
 .card-info h2 {
   color: rgb(175, 4, 255);
@@ -188,12 +175,16 @@ main {
   text-decoration: none;
   color: var(--text-color);
 }
-@media (min-width: 1278px){
+
+/* ===== RESPONSIVE / MEDIA QUERIES ===== */
+@media (min-width: 1185px){
   .card-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
   }
 }
+
 @media (min-width: 40em) {
   .logo{
     flex-direction: row;
@@ -206,5 +197,28 @@ main {
 
   .card-image img {
     border-radius: 1.2rem 0 0 1.2rem;
+  }
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes rightToLeft{
+  0%{
+    opacity: 0;
+    transform: translatex(150px)
+  }
+  100%{
+    opacity: 1;
+    transform: translatex(0);
+  }
+}
+
+@keyframes leftToRight{
+  0%{
+    opacity: 0;
+    transform: translatex(-150px)
+  }
+  100%{
+    opacity: 1;
+    transform: translatex(0);
   }
 }
