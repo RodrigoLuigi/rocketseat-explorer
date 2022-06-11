@@ -92,7 +92,7 @@ export class FavoritesView extends Favorites {
       
 
     }
-  }
+  } 
 
   getEpisode(character) {
     const leng = character.episode.length
