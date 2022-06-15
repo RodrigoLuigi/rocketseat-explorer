@@ -1,32 +1,10 @@
-export class RickAndMortyCharacter {
-  static search(id) {
-    const endpoint = `https://rickandmortyapi.com/api/character/${id}`
-
-    return fetch(endpoint)
-      .then(data => data.json())
-      .then(({
-        id,
-        name,
-        status,
-        species,
-        location,
-        episode
-      }) => ({
-        id,
-        name,
-        status,
-        species,
-        location,
-        episode,
-      }))
-      .catch(e => console.log('encontrei erro', e))
-  }
-}
-// import { GithubUser } from "./GithubUser.js"
+import {
+  RickAndMortyCharacter
+} from "./RickAndMortyCharacter.js"
 
 // classe que vai conter a lógica dos dados
 // como os dados serão estruturados
-export class Favorites {
+export class Characters {
   constructor(root) {
     this.root = document.querySelector(root)
     this.load()
@@ -34,7 +12,7 @@ export class Favorites {
   }
 
   load() {
-    this.entries = JSON.parse(localStorage.getItem('@github-characters:')) || []
+    this.entries = []
 
     console.log(this.entries)
   }
@@ -49,13 +27,12 @@ export class Favorites {
     }
 
     this.entries = entrada
-
     this.update()
   }
 }
 
 // classe que vai criar a visualização e eventos do html
-export class FavoritesView extends Favorites {
+export class CharactersView extends Characters {
   constructor(root) {
     super(root)
 
@@ -68,7 +45,7 @@ export class FavoritesView extends Favorites {
     this.add()
 
   }
-  
+
   nextPage() {
     const addButtom = this.root.querySelector('.search .next-page')
 
@@ -82,17 +59,15 @@ export class FavoritesView extends Favorites {
     const addButtom = this.root.querySelector('.search .down-page')
 
     addButtom.onclick = () => {
-      if(this.id > 6){
-        this.id = this.entries[0].id - 7     
-        
-       this.page += -1;
+      if (this.id > 6) {
+        this.id = this.entries[0].id - 7
+
+        this.page += -1;
 
         this.add()
       }
-      
-
     }
-  } 
+  }
 
   getEpisode(character) {
     const leng = character.episode.length
@@ -124,14 +99,8 @@ export class FavoritesView extends Favorites {
 
       card.classList.add('card')
       this.cardWrapper.append(card)
-
-      // card.querySelector('.remove').onclick = () => {
-      //   const isOk = confirm('Tem certeza que deseja deletar esse Card?')
-      //   if (isOk) {
-      //     this.delete(character);
-      //   }
-      // }
     })
+
     this.updatePage()
     this.verifyPreview()
   }
@@ -140,15 +109,13 @@ export class FavoritesView extends Favorites {
     if (this.id <= 6) {
       this.root.querySelector('.down-page').classList.add('hide')
       this.root.querySelector('.down-page2').classList.remove('hide')
-      // this.root.querySelector('.down-page').style.background = '#000'
     } else {
       this.root.querySelector('.down-page2').classList.add('hide')
       this.root.querySelector('.down-page').classList.remove('hide')
-      // this.root.querySelector('.down-page').style.background = 'goldenrod'
     }
   }
 
-  updatePage(){
+  updatePage() {
     this.root.querySelector('.search p').textContent = `Page ${this.page} / 138`
   }
 
