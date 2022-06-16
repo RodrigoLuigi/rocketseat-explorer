@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+  background: #000;
+  color: #fff;
+}
+
+#page{
+  max-width: 112rem;
+  margin: 11.6rem 16rem;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.search{
+  display: flex;
+  gap: .8rem;
+}
+
+.search button{
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
