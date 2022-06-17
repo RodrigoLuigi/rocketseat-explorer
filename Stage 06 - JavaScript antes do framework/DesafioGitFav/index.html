@@ -2,51 +2,81 @@
 <html lang="pt-br">
 
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
 
+  <title>Github Favorites</title>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
   <div id="page">
+
     <header>
+
       <div class="logo">
-        <img src="assets/images/logo.svg" alt="">
+        <img src="assets/images/logo.svg" alt="Imagem de uma estrela branca entre chaves">
         <h1>GitFav</h1>
       </div>
 
       <div class="search">
-        <label for=""></label>
-        <input type="text">
+        <label for="input-search"></label>
+        <input type="text" id="input-search" placeholder="Digite o Github username que deseja favoritar">
         <button>
-          <img src="assets/images/star.svg" alt="">
-          <span>FAVORITAR</span>
+          <img src="assets/images/star.svg" alt="Imagem de uma estrela com bordas branca e fundo azul-marinho.">
+          <span>favoritar</span>
         </button>
       </div>
+
     </header>
 
     <main>
-      <table border="1" style="width: 100%; height: 30rem; margin-top: 87px;">
-        <thead>
-          <tr>
-            <th>Usuário</th>
-            <th>Repositories</th>
-            <th>Followers</th>
-            <th>Ação</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
+
+      <div class="favorites-table">
+        <table>
+          <thead>
+            <tr>
+              <th id="th-user">Usuário</th>
+              <th>Repositories</th>
+              <th>Followers</th>
+              <th>Ação</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>ASDas</td>
+              <td>asdasd</td>
+              <td>asdasd</td>
+              <td>asdads</td>
+            </tr>
+            <tr>
+              <td>ASDas</td>
+              <td>asdasd</td>
+              <td>asdasd</td>
+              <td>asdads</td>
+            </tr>
+            <tr>
+              <td>ASDas</td>
+              <td>asdasd</td>
+              <td>asdasd</td>
+              <td>asdads</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+     
     </main>
   </div>
+  
 </body>
 
 </html>

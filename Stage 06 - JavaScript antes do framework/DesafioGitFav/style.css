@@ -1,42 +1,153 @@
-*{
+/* ===== CSS RESET ===== */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-:root{
+
+/* ===== ROOT CONFIG ===== */
+:root {
   font-size: 62.5%;
+  --ff-base: 'Roboto', sans-serif;
+  --ff-heading: 'Roboto Mono', monospace;
+
+  --bg-color: #000000;
+
+  --fc-primary: #ffffff;
+  --fc-secondary: #E1E1E6;
 }
 
-body{
+/* ===== BASE ===== */
+body {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+
+
   font-size: 1.6rem;
-  background: #000;
-  color: #fff;
+  color: var(--fc-primary);
+  font-family: var(--ff-base);
+
+  background: var(--bg-color);
 }
 
-#page{
+h1 {
+  font-family: var(--ff-heading);
+}
+
+/* ===== PAGE CONTENT ===== */
+#page {
+  margin: 0 auto;
   max-width: 112rem;
-  margin: 11.6rem 16rem;
+  padding: 11.5rem 0; 
 }
 
-header{
+/* ===== HEADER / SEARCH ===== */
+header {
   display: flex;
   align-items: center;
-  border: 1px solid white;
   justify-content: space-between;
 }
 
-.logo{
+.logo {
   display: flex;
   align-items: center;
+  gap: 1.6rem;
 }
 
-.search{
+.search {
   display: flex;
   gap: .8rem;
 }
 
-.search button{
+.search input {
+  color: #7C7C8A;
+  font-weight: bold;
+
+  background: #06181C;
+
+  border-radius: .5rem;
+  border: none;
+
+  width: 46.2rem;
+  padding: 1.6rem;
+}
+
+.search button {
   display: flex;
   align-items: center;
   gap: .8rem;
+
+  padding: 1.2rem 3.2rem;
+
+  background: #065E7C;
+  border-radius: .5rem;
+  border: none;
+
+  color: var(--fc-primary);
+  font-weight: bold;
+  text-transform: uppercase;
+
+  cursor: pointer;
+}
+
+.search button:hover {
+  background: #05536d;
+}
+
+/* ===== MAIN / TABLE ===== */
+.favorites-table {
+  background: #030B0D;
+  background-image: url(assets/images/background-star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border: 1px solid #4A808C;
+  border-radius: 1.2rem;
+
+  margin-top: 8.7rem;
+
+  /* min-height: 68rem; */
+}
+
+table {
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table * {
+  font-size: 2rem;
+  color: var(--fc-secondary);
+}
+
+table th {
+  padding: 1.6rem 0 1.6rem 4rem;
+  background: #092D38;
+  width: 20rem;
+}
+
+table th:first-child {
+  border-top-left-radius: 1.2rem;
+}
+
+table th:last-child {
+  border-top-right-radius: 1.2rem;
+}
+
+table #th-user {
+  width: 50rem;
+}
+
+table tr:nth-child(even) {
+  background: #eee;
+}
+
+table tr:nth-child(odd) {
+  background: #ddd;
+}
+
+tbody td{
+  padding: 1.6rem 0 1.6rem 4rem;
+  
 }
