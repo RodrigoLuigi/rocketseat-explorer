@@ -35,11 +35,15 @@ h1 {
   font-family: var(--ff-heading);
 }
 
+a{
+  text-decoration: none;
+}
+
 /* ===== PAGE CONTENT ===== */
 #page {
   margin: 0 auto;
   max-width: 112rem;
-  padding: 11.5rem 0; 
+  padding: 11.5rem 0;
 }
 
 /* ===== HEADER / SEARCH ===== */
@@ -96,58 +100,111 @@ header {
 }
 
 /* ===== MAIN / TABLE ===== */
-.favorites-table {
-  background: #030B0D;
-  background-image: url(assets/images/background-star.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-
+ .favorites-table {
   border: 1px solid #4A808C;
   border-radius: 1.2rem;
 
   margin-top: 8.7rem;
-
-  /* min-height: 68rem; */
-}
+}   
 
 table {
-  text-align: left;
   width: 100%;
+
   border-collapse: collapse;
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+
+  overflow: hidden;
+
+  text-align: left;
 }
 
 table * {
   font-size: 2rem;
+  font-weight: bold;
   color: var(--fc-secondary);
 }
 
 table th {
   padding: 1.6rem 0 1.6rem 4rem;
-  background: #092D38;
   width: 20rem;
+
+  background: #092D38;
 }
 
-table th:first-child {
-  border-top-left-radius: 1.2rem;
-}
-
-table th:last-child {
-  border-top-right-radius: 1.2rem;
-}
-
-table #th-user {
+table th:first-child{
   width: 50rem;
+} 
+
+table tr{
+  border-top: 1px solid #4A808C;
+}
+
+table tr:first-child {
+  border-top: none;
+}
+
+table tr:last-child {
+  border-bottom: none;
 }
 
 table tr:nth-child(even) {
-  background: #eee;
+  background: rgba(133, 233, 255, 0.116);
 }
 
 table tr:nth-child(odd) {
-  background: #ddd;
+  background: black;
 }
 
 tbody td{
-  padding: 1.6rem 0 1.6rem 4rem;
+  padding: 2.4rem 0 2.4rem 4rem;
+}  
+
+td.user {
+  display: flex;
+  gap: 1.6rem;
+}
+
+td.user a{
+  display: flex;
+  flex-direction: column;
+}
+
+td.user img {
+  width: 5.6rem;
+  height: 5.6rem;
+
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #4A808C;
+}
+
+td.user span{
+  font-weight: normal;
+
+  padding-top: 8px;
+}
+
+td .remove {
+  background: none;
+  border: none;
+
+  color: red;
   
+  cursor: pointer;
+  transition: all ease 150ms;
+}
+
+td .remove:hover{
+  color: var(--fc-primary);
+  transform: scale(1.1);
+}
+
+.cleanTable{
+  background-image: url(assets/images/background-star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 68rem;
 }
