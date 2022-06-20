@@ -43,8 +43,10 @@ a{
 #page {
   margin: 0 auto;
   max-width: 112rem;
-  padding: 11.5rem 0;
+  padding: 1.5rem 0;
 }
+
+
 
 /* ===== HEADER / SEARCH ===== */
 header {
@@ -99,54 +101,78 @@ header {
   background: #05536d;
 }
 
+.search button img{
+  animation: rotate 5000ms linear infinite;
+
+}
+
 /* ===== MAIN / TABLE ===== */
  .favorites-table {
   border: 1px solid #4A808C;
-  border-radius: 1.2rem;
-
-  margin-top: 8.7rem;
-}   
-
-table {
-  width: 100%;
-
-  border-collapse: collapse;
   border-radius: 1.2rem;
   -webkit-border-radius: 1.2rem;
   -moz-border-radius: 1.2rem;
 
   overflow: hidden;
 
-  text-align: left;
+  margin-top: 8.7rem;
+}   
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  text-align: left; 
 }
 
 table * {
   font-size: 2rem;
   font-weight: bold;
   color: var(--fc-secondary);
-}
-
-table th {
-  padding: 1.6rem 0 1.6rem 4rem;
-  width: 20rem;
-
-  background: #092D38;
-}
-
-table th:first-child{
-  width: 50rem;
 } 
 
-table tr{
-  border-top: 1px solid #4A808C;
+.favorites-table tbody{
+  display: block;
+  overflow-y: overlay ;
+
+  width: 100%;
+  max-height: 40rem;
 }
 
-table tr:first-child {
-  border-top: none;
+.favorites-table table th {
+  padding: 1.6rem 0 1.6rem 4rem; 
+  min-width: 205px;
 }
 
-table tr:last-child {
-  border-bottom: none;
+.favorites-table table thead tr {
+  display: flex;
+  background: #092D38;
+
+}
+
+.favorites-table tbody td{
+  padding: 2.4rem 0 2.4rem 4rem;
+  min-width: 205px;
+
+} 
+
+ table th:first-child,
+table td:first-child{
+  min-width: 50rem;
+} 
+
+@media (max-width: 1128px){
+  #page{
+    padding-inline: 2rem;
+  }
+  header{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  table th:first-child,
+table td:first-child{
+  min-width: 25%;
+} 
 }
 
 table tr:nth-child(even) {
@@ -157,10 +183,28 @@ table tr:nth-child(odd) {
   background: black;
 }
 
-tbody td{
-  padding: 2.4rem 0 2.4rem 4rem;
+ .favorites-table tbody::-webkit-scrollbar {
+  width: 20px;
+}
+
+ .favorites-table tbody::-webkit-scrollbar-track {
+  background: transparent;
+} 
+
+.favorites-table tbody::-webkit-scrollbar-thumb {
+  padding: 2px;
+  border: 8px solid rgba(0, 0, 0, 0); 
+  background-clip: padding-box;
+  background-color: hsla(191, 31%, 42%, 1);
+  border-radius: 1rem;
+}
+
+.favorites-table tbody::-webkit-scrollbar-corner {
+  background-color: transparent;
 }  
 
+ 
+/* ===================================== */
 td.user {
   display: flex;
   gap: 1.6rem;
@@ -199,7 +243,7 @@ td .remove {
 td .remove:hover{
   color: var(--fc-primary);
   transform: scale(1.1);
-}
+} 
 
 .cleanTable{
   background-image: url(assets/images/background-star.svg);
@@ -207,4 +251,10 @@ td .remove:hover{
   background-repeat: no-repeat;
 
   height: 68rem;
+}
+
+@keyframes rotate{
+  to{
+    transform: rotate(360deg);
+  }
 }
