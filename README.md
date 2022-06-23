@@ -30,7 +30,7 @@
   🔗  [Desafio Recriando layout](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2002%20-%20Introdu%C3%A7%C3%A3o%20ao%20HTML%20e%20CSS/Desafio%20avan%C3%A7ado%20-%20Recriando%20layout)
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 03: Avançando no HTML e CSS**_](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2003%20-%20Avan%C3%A7ando%20no%20HTML%20e%20CSS)
-  Neste módulo desenvolvemos formulários no HTML e vários tipos de inputs. Aprenderemos sobre responsividade, para que o nosso projeto se adapte a vários tipos de dispositivos. Trabalhamos com Grid no CSS e transições a animações para deixar o nosso projeto ainda mais robusto.
+  Neste módulo desenvolvemos formulários no HTML e vários tipos de inputs. Aprendemos sobre responsividade, para que o nosso projeto se adapte a vários tipos de dispositivos. Trabalhamos com Grid no CSS e transições a animações para deixar o nosso projeto ainda mais robusto.
 
   🔗  [Projeto 1](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2003%20-%20Avan%C3%A7ando%20no%20HTML%20e%20CSS/Projeto%201)<br>
   🔗  [Projeto 2](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2003%20-%20Avan%C3%A7ando%20no%20HTML%20e%20CSS/Projeto%202)<br>
@@ -42,7 +42,7 @@
   🔗  [Desafio 03 - Ice Cream Desktop Responsivo](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2003%20-%20Avan%C3%A7ando%20no%20HTML%20e%20CSS/Desafio%203%20-%20Ice%20Cream%20Desktop)<br>
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 04 - Introdução à programação, lógica e algoritmos com JavaScript**_](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2004%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20programa%C3%A7%C3%A3o%2C%20l%C3%B3gica%20e%20algoritmos%20em%20Javascript)
-Neste módulo desenvolvemos exercícios de lógica e estrutura de dados como: Variáveis, operadores matemáticos, tipos de dados no JavaScript, operadores comparativos, estruturas de repetição e condicionais, Arrays e aprenderemos sobre funções no JavaScript e como utilizá-las.
+Neste módulo desenvolvemos exercícios de lógica e estrutura de dados como: Variáveis, operadores matemáticos, tipos de dados no JavaScript, operadores comparativos, estruturas de repetição e condicionais, Arrays e aprendemos sobre funções no JavaScript e como utilizá-las.
 
   🔗  [Projeto 1]()<br>
   🔗  [Projeto 2]()<br>
@@ -73,7 +73,7 @@ Neste módulo desenvolvemos exercícios de lógica e estrutura de dados como: Va
 
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 07 - Git & Github**_]()
- Neste módulo você aprendemos sobre: Git, uma ferramenta para controle de versões e como utilizar o Github para armazenar o código fonte dos projetos criando repositórios.
+ Neste módulo aprendemos sobre: Git, uma ferramenta para controle de versões e como utilizar o Github para armazenar o código fonte dos projetos criando repositórios.
 
  🔗 [Projeto 1]()<br>
  🔗 [Projeto 2]()<br>
