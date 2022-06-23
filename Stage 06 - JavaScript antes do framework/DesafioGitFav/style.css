@@ -63,7 +63,7 @@ header {
   align-items: center;
 
   width: 100%;
-  gap: 1.8rem; 
+  gap: .8rem; 
 }
 
 .search input {
@@ -244,6 +244,10 @@ td .remove:active{
     justify-content: space-between;
   } 
 
+  .search{
+    gap: 1.8rem;
+  }
+
   table{
     text-align: left;
   }
@@ -274,7 +278,7 @@ td .remove:active{
   }
 
   .cleanTable{
-    height: 42rem;
+    min-height: 38rem;
    
     background-size: cover;
   }
@@ -282,6 +286,7 @@ td .remove:active{
 
 @media (min-width: 1146px){
   #page{
+    padding: 6rem 2rem;
     max-width: 116.4rem;
 
   }
