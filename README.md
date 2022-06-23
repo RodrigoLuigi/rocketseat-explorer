@@ -63,13 +63,23 @@ Neste módulo desenvolvemos exercícios de lógica e estrutura de dados como: Va
  🔗 [Desafio Fase 02](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2005%20-%20Avan%C3%A7ando%20na%20Programa%C3%A7%C3%A3o%20Web%20com%20JavaScript/Desafio%202)<br>
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 06 - Javascript antes do framework**_](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2005%20-%20Avan%C3%A7ando%20na%20Programa%C3%A7%C3%A3o%20Web%20com%20JavaScript)
- Neste módulo veremos sobre: Conceitos de SPA (Single Page Application), trabalharemos com eventos no JavaScript, assincronismo, promises, conceitos de POO (Programação Orientada a Objetos) como classes, herança e polimorfismo. Também traremos conceitos sobre imutabilidade, trataremos erros da aplicação utilizando métodos try, catch e throw, trabalharemos com localStorage, consumiremos API do Github e muito mais.
+ Neste módulo aprendemos sobre: Conceitos de SPA (Single Page Application), trabalhamos com eventos no JavaScript, assincronismo, promises, conceitos de POO (Programação Orientada a Objetos) como classes, herança e polimorfismo. Também tratamos conceitos sobre imutabilidade, tratamos erros da aplicação utilizando métodos try, catch e throw, trabalhamos com localStorage, consumimos API do Github e muito mais.
 
  🔗 [Projeto 1](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/Projeto1)<br>
  🔗 [Projeto 2](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/Projeto2)<br>
 * **Desafios**<br>
  🔗 [Desafio 01 - SPA Universe](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/DesafioSPA)<br>
  🔗 [Desafio 02 - GitFav](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/DesafioGitFav)<br>
+
+
+### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 07 - Git & Github**_]()
+ Neste módulo você aprendemos sobre: Git, uma ferramenta para controle de versões e como utilizar o Github para armazenar o código fonte dos projetos criando repositórios.
+
+ 🔗 [Projeto 1]()<br>
+ 🔗 [Projeto 2]()<br>
+* **Desafios**<br>
+ 🔗 [Desafio 01 - SPA Universe]()<br>
+ 🔗 [Desafio 02 - GitFav]()<br>
 
   **Loading...**
 
