@@ -152,7 +152,7 @@ table td{
 table tbody{
   display: block;
   overflow-y: overlay;
-  max-height: 30rem;
+  max-height: 34rem;
 
   scroll-behavior: smooth;
 }
@@ -248,6 +248,10 @@ td .remove:active{
     gap: 1.8rem;
   }
 
+  .search input{
+    max-width: 46.2rem;
+  }
+
   table{
     text-align: left;
   }
@@ -266,6 +270,14 @@ td .remove:active{
 }
 
 @media (min-width: 900px){
+  .search{
+    width: auto;
+  }
+  
+  .search input{
+    width: 46.2rem;
+  }
+
   td.user {
     display: flex;
     gap: 1.6rem;
@@ -277,8 +289,13 @@ td .remove:active{
     flex-direction: column;
   }
 
+  td .remove:hover{
+    color: var(--fc-primary);
+    transform: scale(1.1);
+  } 
+
   .cleanTable{
-    min-height: 38rem;
+    min-height: 34rem;
    
     background-size: cover;
   }
@@ -286,15 +303,7 @@ td .remove:active{
 
 @media (min-width: 1146px){
   #page{
-    padding: 6rem 2rem;
     max-width: 116.4rem;
-
-  }
-  .search{
-    width: auto;
-  }
-  .search input{
-    width: 46.2rem;
   }
 
   .search button{
