@@ -65,11 +65,11 @@ Neste módulo desenvolvemos exercícios de lógica e estrutura de dados como: Va
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 06 - Javascript antes do framework**_](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2005%20-%20Avan%C3%A7ando%20na%20Programa%C3%A7%C3%A3o%20Web%20com%20JavaScript)
  Neste módulo veremos sobre: Conceitos de SPA (Single Page Application), trabalharemos com eventos no JavaScript, assincronismo, promises, conceitos de POO (Programação Orientada a Objetos) como classes, herança e polimorfismo. Também traremos conceitos sobre imutabilidade, trataremos erros da aplicação utilizando métodos try, catch e throw, trabalharemos com localStorage, consumiremos API do Github e muito mais.
 
- 🔗 [Projeto 1]()<br>
- 🔗 [Projeto 2]()<br>
+ 🔗 [Projeto 1](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/Projeto1)<br>
+ 🔗 [Projeto 2](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/Projeto2)<br>
 * **Desafios**<br>
- 🔗 [Desafio Fase 01]()<br>
- 🔗 [Desafio Fase 02]()<br>
+ 🔗 [Desafio SPA Universe](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/DesafioSPA)<br>
+ 🔗 [Desafio GitFav](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/DesafioGitFav)<br>
 
   **Loading...**
 

@@ -4,11 +4,11 @@
 
 
 
- 🔗 [Projeto 1]()<br>
- 🔗 [Projeto 2]()<br>
+ 🔗 [Projeto 1](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/Projeto1)<br>
+ 🔗 [Projeto 2](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/Projeto2)<br>
 * **Desafios**<br>
- 🔗 [Desafio Fase 01]()<br>
- 🔗 [Desafio Fase 02]()<br>
+ 🔗 [Desafio SPA Universe](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/DesafioSPA)<br>
+ 🔗 [Desafio GitFav](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/DesafioGitFav)<br>
  
 
 
