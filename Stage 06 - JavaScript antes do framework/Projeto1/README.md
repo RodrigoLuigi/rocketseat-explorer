@@ -8,7 +8,7 @@
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
- Foi desenvolvido uma página para trabalhar conceitos de SPA e POO. Desenvolvemos toda a estrutura do html em arquivos separados e trabalhamos com rotas para acessar os arquivos, estilização CSS, e funcionalidades através do JavaScript. Também foi criado um mini-servidor com **node lite-server** para rodar a aplicação.
+ Foi desenvolvido uma página para trabalhar conceitos de SPA e POO. Desenvolvemos toda a estrutura do html em arquivos separados, trabalhamos com rotas para acessar os arquivos e funcionalidades através do JavaScript. Também foi criado um mini-servidor com **node lite-server** para rodar a aplicação.
 
 
 -  Conceito SPA
@@ -18,12 +18,21 @@
 -  Assincronismo
 -  Promises
 -  Conceitos da POO
--  Classes
--  Herança
--  Polimorfismo
+-  Classe
 -  Refatoração;
 -  Clean-code
 -  Lite-server - *npm install lite-server
+
+| **Fontes** |
+| ----------------- | 
+| 🔗 **[]()** |
+| 🔗 **[]()** |
+    
+
+| **Cores**               |                                                 |
+| ----------------- | ---------------------------------------------------------------- |
+| ![#000000](http://via.placeholder.com/12/#000000?text=+) #000000 | ![#ffffff](http://via.placeholder.com/12/ffffff?text=+) #ffffff |      
+
 
 
 ## 📚 Stack utilizada

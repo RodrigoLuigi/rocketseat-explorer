@@ -36,7 +36,7 @@
 
 | **Cores**               |                                                 |
 | ----------------- | ---------------------------------------------------------------- |
-| ![##000000](http://via.placeholder.com/12/#000000?text=+) ##000000 | ![#E1E1E6](http://via.placeholder.com/12/E1E1E6?text=+) #E1E1E6 |      
+| ![#000000](http://via.placeholder.com/12/#000000?text=+) #000000 | ![#E1E1E6](http://via.placeholder.com/12/E1E1E6?text=+) #E1E1E6 |      
 | ![#ffffff](http://via.placeholder.com/12/ffffff?text=+) #ffffff    | ![#06181C](http://via.placeholder.com/12/06181C?text=+) #06181C | 
 | ![#065E7C](http://via.placeholder.com/12/065E7C?text=+) #065E7C    | ![#092D38](http://via.placeholder.com/12/092D38?text=+) #092D38 | 
 | ![#4A808C](http://via.placeholder.com/12/4A808C?text=+) #4A808C    | ![#ff0000](http://via.placeholder.com/12/ff0000?text=+) #ff0000 |
