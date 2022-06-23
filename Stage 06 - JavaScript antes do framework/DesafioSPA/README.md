@@ -8,7 +8,7 @@
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
- Foi desenvolvido um Website "SPA Universe" para trabalhar conceitos de SPA e POO contendo três seções, 'Home','About' e 'Exploration'. Foi desenvolvido toda a estrutura do html em arquivos separados, e foi trabalhado as rotas para acessar os arquivos, estilização CSS, e funcionalidades através do JavaScript.
+ Foi desenvolvido um Website "SPA Universe" para trabalhar conceitos de SPA e POO contendo três seções, 'Home','About' e 'Exploration'. Foi desenvolvido toda a estrutura do html em arquivos separados, e foi trabalhado as rotas para acessar os arquivos, estilização CSS, e funcionalidades através do JavaScript. Também foi criado um mini-servidor com **node lite-server** para rodar a aplicação.
 
 
 -  Tags semânticas;

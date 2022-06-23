@@ -8,7 +8,7 @@
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
- Foi desenvolvido uma página para trabalhar conceitos de SPA e POO. Desenvolvemos toda a estrutura do html em arquivos separados e trabalhamos com rotas para acessar os arquivos, estilização CSS, e funcionalidades através do JavaScript.
+ Foi desenvolvido uma página para trabalhar conceitos de SPA e POO. Desenvolvemos toda a estrutura do html em arquivos separados e trabalhamos com rotas para acessar os arquivos, estilização CSS, e funcionalidades através do JavaScript. Também foi criado um mini-servidor com **node lite-server** para rodar a aplicação.
 
 
 -  Conceito SPA
