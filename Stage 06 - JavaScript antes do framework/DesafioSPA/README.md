@@ -36,7 +36,8 @@
 
 | **Cores**               |                                                 |
 | ----------------- | ---------------------------------------------------------------- |
-| ![#c3c3cb](http://via.placeholder.com/12/c3c3cb?text=+) #c3c3cb       | ![#e0e0e5](http://via.placeholder.com/12/e0e0e5?text=+) #e0e0e5 |       ![#ffffff](http://via.placeholder.com/12/ffffff?text=+) #ffffff    |       
+| ![#c3c3cb](http://via.placeholder.com/12/c3c3cb?text=+) #c3c3cb       | ![#e0e0e5](http://via.placeholder.com/12/e0e0e5?text=+) #e0e0e5 |      
+| ![#ffffff](http://via.placeholder.com/12/ffffff?text=+) #ffffff    |      | 
 
 ## 📚 Stack utilizada
 
