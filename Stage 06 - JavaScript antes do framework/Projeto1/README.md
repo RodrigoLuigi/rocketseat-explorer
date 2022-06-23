@@ -31,7 +31,7 @@
 
 | **Cores**               |                                                 |
 | ----------------- | ---------------------------------------------------------------- |
-| ![##000000](http://via.placeholder.com/12/#000000?text=+) ##000000 | ![#ffffff](http://via.placeholder.com/12/ffffff?text=+) #ffffff |      
+| ![#000000](http://via.placeholder.com/12/#000?text=+) #000000 | ![#ffffff](http://via.placeholder.com/12/ffffff?text=+) #ffffff |      
 
 
 
