@@ -2,13 +2,13 @@
 
 ### **GitFav**
 
-### 📌 Projeto de uma aplicação para traser dados de usuários do Github e exibi-los em uma tabela com base em layout do figma.
+### 📌 Projeto de uma aplicação para buscar dados de usuários do Github e exibi-los em uma tabela com base em layout do figma.
 
 # <br>:book: Aprendizados
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
- Foi desenvolvido uma página em HTML **Github Favorites** , estilização CSS, e funcionalidades através do JavaScript. Trabalhamos conceitos de POO (programação orientada a objetos) , modulação do JavaScript, , funções assincronas (asyc / await), Promises, Classes , herança e o que é polimorfismo, imutabilidade de dados, tratamentos de erros de aplicação utilizando métodos try/catch e throw, e armazenamento de dados em localStorage.
+ Foi desenvolvido uma página em HTML, CSS, e JavaScript. Trabalhamos conceitos de POO (programação orientada a objetos) , modulação do JavaScript, , funções assincronas (asyc / await), Promises, Classes , herança e o que é polimorfismo, imutabilidade de dados, tratamentos de erros de aplicação utilizando métodos try/catch e throw, e armazenamento de dados em localStorage.
 
 
 -  Tags semânticas

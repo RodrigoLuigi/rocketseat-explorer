@@ -2,13 +2,13 @@
 
 ### **Github Favorites**
 
-### 📌  Projeto uma página em HTML **Github Favorites** , estilização CSS, e funcionalidades através do JavaScript para buscar dados de usuários do Github e exibi-los em uma tabela com base em layout do figma.
+### 📌  Projeto uma página **Github Favorites**  para buscar dados de usuários do Github através de uma API e exibi-los em uma tabela com base em layout do figma.
 
 # <br>:book: Aprendizados
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
- Foi desenvolvido uma página para traser dados de usuários do Github através de uma API gratuita da plataforma e exibi-los em uma tabela. Trabalhamos conceitos de POO (programação orientada a objetos) , modulação do JavaScript, , funções assincronas (asyc / await), Promises, Classes , herança e o que é polimorfismo, imutabilidade de dados, tratamentos de erros de aplicação utilizando métodos try/catch e throw, e armazenamento de dados em localStorage.
+ Foi desenvolvido uma página em HTML5, CSS3 e JavaScript para trazer dados de usuários do Github através de uma API gratuita da plataforma e exibi-los em uma tabela. Trabalhamos conceitos de POO (programação orientada a objetos) , modulação do JavaScript, , funções assincronas (asyc / await), Promises, Classes , herança e o que é polimorfismo, imutabilidade de dados, tratamentos de erros de aplicação utilizando métodos try/catch e throw, e armazenamento de dados em localStorage.
 
 
 -  Tags semânticas
