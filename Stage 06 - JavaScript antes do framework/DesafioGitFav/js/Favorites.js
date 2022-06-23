@@ -33,17 +33,18 @@ export class Favorites {
       }
 
       this.entries = [user, ...this.entries]
-
+      this.update()
+      this.save()
     }catch(error){
       alert(error.message)
     }
-    this.update()
-    this.save()
+   
   }
 
   deleteUser(user) {
     const filteredEntries = this.entries.filter(entry => entry.login !== user.login)
     this.entries = filteredEntries
+    this.save()
     this.update();
   }
 }
