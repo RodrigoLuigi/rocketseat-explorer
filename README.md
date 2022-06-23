@@ -68,8 +68,8 @@ Neste módulo desenvolvemos exercícios de lógica e estrutura de dados como: Va
  🔗 [Projeto 1](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/Projeto1)<br>
  🔗 [Projeto 2](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/Projeto2)<br>
 * **Desafios**<br>
- 🔗 [Desafio SPA Universe](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/DesafioSPA)<br>
- 🔗 [Desafio GitFav](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/DesafioGitFav)<br>
+ 🔗 [Desafio 01 - SPA Universe](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/DesafioSPA)<br>
+ 🔗 [Desafio 02 - GitFav](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/DesafioGitFav)<br>
 
   **Loading...**
 
