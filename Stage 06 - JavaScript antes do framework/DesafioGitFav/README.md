@@ -20,13 +20,13 @@
 -  Classes
 -  Herança
 -  Polimorfismo
+-  Fetch API
 -  Assincronismo (async/await)
 -  Promises
 -  try/catch e throw
 -  LocalStorage
 -  Refatoração
 -  Clean-code
--  Lite-server - *npm install lite-server
 
 | **Fontes** |
 | ----------------- | 
