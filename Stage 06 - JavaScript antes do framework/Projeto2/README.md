@@ -19,13 +19,24 @@
 -  Classes
 -  Herança
 -  Polimorfismo
+-  Fetch API
 -  Assincronismo (async/await)
 -  Promises
 -  try/catch e throw
 -  LocalStorage
 -  Refatoração
 -  Clean-code
--  Lite-server - *npm install lite-server
+
+| **Fontes** |
+| ----------------- | 
+| 🔗 **[Poppins - Google Fonts](https://fonts.google.com/specimen/Poppins)** |
+    
+
+| **Cores**               |                                                 |
+| ----------------- | ---------------------------------------------------------------- |
+| ![#f0fbff](http://via.placeholder.com/12/f0fbff?text=+) #f0fbff | ![#42d3ff](http://via.placeholder.com/12/42d3ff?text=+) #42d3ff |      
+| ![#eee](http://via.placeholder.com/12/ffffff?text=+) #ffffff    | ![#06181C](http://via.placeholder.com/12/eee?text=+) #eee | 
+| ![#ddd](http://via.placeholder.com/12/ddd?text=+) #ddd    |  | 
 
 
 ## 📚 Stack utilizada
