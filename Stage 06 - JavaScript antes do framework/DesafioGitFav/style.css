@@ -50,6 +50,8 @@ header {
 
   align-items: center;
   justify-content: center;
+
+  animation: topDown 900ms ;
 }
 
 .logo {
@@ -116,6 +118,8 @@ header {
   overflow: hidden;
 
   margin-top: 8.7rem;
+
+  animation: bottomToTop 900ms ;
 } 
 
 table{
@@ -230,6 +234,28 @@ td .remove:active{
 @keyframes rotate{
   to{
     transform: rotate(360deg);
+  }
+}
+
+@keyframes topDown{
+  0%{
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bottomToTop{
+  0%{
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
