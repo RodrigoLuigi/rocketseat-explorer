@@ -186,10 +186,6 @@ table tbody tr:nth-child(odd) {
   border-radius: 1rem;
 }
 
-.favorites-table tbody::-webkit-scrollbar-corner {
-  background-color: transparent;
-}  
-
 /* ===== USER ROW ===== */
 td.user img {
   width: 5.6rem;
