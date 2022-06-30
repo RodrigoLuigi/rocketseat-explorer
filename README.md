@@ -75,8 +75,7 @@ Neste módulo desenvolvemos exercícios de lógica e estrutura de dados como: Va
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 07 - Git & Github**_]()
  Neste módulo aprendemos sobre: Git, uma ferramenta para controle de versões e como utilizar o Github para armazenar o código fonte dos projetos criando repositórios.
 
- 🔗 [Projeto 1]()<br>
- 🔗 [Projeto 2]()<br>
+ 🔗 [Exercícios]()<br>
 * **Desafios**<br>
  🔗 [Desafio 01]()<br>
  🔗 [Desafio 02]()<br>
@@ -84,3 +83,13 @@ Neste módulo desenvolvemos exercícios de lógica e estrutura de dados como: Va
   **Loading...**
 
 
+### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 08 - Backend**_]()
+ Neste módulo aprendemos sobre: O que é o Node.js como ele funciona e suas vantagens. Construimos uma API completa utilizando Node.js e Express. Utilizamos o Insomnia para cadastrar nossas rotas e verificar os status codes das mesmas. Criamos um banco de dados utilizando SQLite, manipulamos o nosso DB utilizando a ferramenta Beekeper Studio juntamente com o Query Builder Knex.js.
+
+ 🔗 [Projeto 1]()<br>
+ 🔗 [Projeto 2]()<br>
+* **Desafios**<br>
+ 🔗 [Desafio 01]()<br>
+ 🔗 [Desafio 02]()<br>
+
+  **Loading...**
