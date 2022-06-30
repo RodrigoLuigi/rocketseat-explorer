@@ -78,8 +78,8 @@ Neste módulo desenvolvemos exercícios de lógica e estrutura de dados como: Va
  🔗 [Projeto 1]()<br>
  🔗 [Projeto 2]()<br>
 * **Desafios**<br>
- 🔗 [Desafio 01 - SPA Universe]()<br>
- 🔗 [Desafio 02 - GitFav]()<br>
+ 🔗 [Desafio 01]()<br>
+ 🔗 [Desafio 02]()<br>
 
   **Loading...**
 
