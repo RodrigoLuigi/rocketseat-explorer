@@ -4,11 +4,9 @@
 
 
 
- 🔗 [Projeto 1]()<br>
- 🔗 [Projeto 2]()<br>
+ 🔗 [Projeto 1](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2008%20-%20Backend/Projeto1)<br>
 * **Desafios**<br>
- 🔗 [Desafio 01 ]()<br>
- 🔗 [Desafio 02 ]()<br>
+ 🔗 [Desafio 01 - MovieNotes](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2008%20-%20Backend/Desafio1)<br>
  
 
 

@@ -10,21 +10,21 @@
 
  Foi desenvolvido uma API completa utilizando Node.js ,Express e banco de dados SQLite. Desenvolvemos uma aplicação backend para inserir dados de usuários em uma tabela em nosso DataBase e criamos notas de filmes com tags e links vinculados ao usuário que criou a nota. Então basicamente é uma aplicação em que o usuário poderá cadastrar notas de filmes e séries, com tags e links vinculados a nota. O usuário poderá fazer buscas de notas e tags , bem como lista-las.
 
-# Environment init
+## ♻️ Environment init
 
-  Clonando o repositório
+- Clonando o repositório
   **$ git clone**
 
-  Instalando node_modules
+- Instalando node_modules
   **$ npm init -y**
 
-  Inicializando projeto
+- Inicializando projeto
   **$ npm start**
 
-  Inicializando projeto modo Desenvolvimento
+- Inicializando projeto modo Desenvolvimento
   **$ npm run dev**
 
-  Inicializando Migrations
+- Inicializando Migrations
   **$ npm run migrate**
 
 ## 📚 Stack utilizada
