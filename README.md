@@ -62,7 +62,7 @@ Neste módulo desenvolvemos exercícios de lógica e estrutura de dados como: Va
  🔗 [Desafio Fase 01](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2005%20-%20Avan%C3%A7ando%20na%20Programa%C3%A7%C3%A3o%20Web%20com%20JavaScript/Desafio%201)<br>
  🔗 [Desafio Fase 02](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2005%20-%20Avan%C3%A7ando%20na%20Programa%C3%A7%C3%A3o%20Web%20com%20JavaScript/Desafio%202)<br>
 
-### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 06 - Javascript antes do framework**_](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2005%20-%20Avan%C3%A7ando%20na%20Programa%C3%A7%C3%A3o%20Web%20com%20JavaScript)
+### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 06 - Javascript antes do framework**_](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework)
  Neste módulo aprendemos sobre: Conceitos de SPA (Single Page Application), trabalhamos com eventos no JavaScript, assincronismo, promises, conceitos de POO (Programação Orientada a Objetos) como classes, herança e polimorfismo. Também tratamos conceitos sobre imutabilidade, tratamos erros da aplicação utilizando métodos try, catch e throw, trabalhamos com localStorage, consumimos API do Github e muito mais.
 
  🔗 [Projeto 1](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/Projeto1)<br>
@@ -72,14 +72,14 @@ Neste módulo desenvolvemos exercícios de lógica e estrutura de dados como: Va
  🔗 [Desafio 02 - GitFav](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2006%20-%20JavaScript%20antes%20do%20framework/DesafioGitFav)<br>
 
 
-### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 07 - Git & Github**_]()
+### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 07 - Git & Github**_](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2007%20-%20Git%20%26%20Github)
  Neste módulo aprendemos sobre: Git, uma ferramenta para controle de versões e como utilizar o Github para armazenar o código fonte dos projetos criando repositórios.
 
  🔗 [Git](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2007%20-%20Git%20%26%20Github/Git)<br>
  🔗 [Github](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2007%20-%20Git%20%26%20Github/GitHub)<br>
 
 
-### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 08 - Backend**_]()
+### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 08 - Backend**_](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2008%20-%20Backend)
  Neste módulo aprendemos sobre: O que é o Node.js como ele funciona e suas vantagens. Construimos uma API completa utilizando Node.js e Express. Utilizamos o Insomnia para cadastrar nossas rotas e verificar os status codes das mesmas. Criamos um banco de dados utilizando SQLite, manipulamos o nosso DB utilizando a ferramenta Beekeper Studio juntamente com o Query Builder Knex.js.
 
   🔗 [Projeto 1](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2008%20-%20Backend/Projeto1)<br>
