@@ -75,12 +75,8 @@ Neste módulo desenvolvemos exercícios de lógica e estrutura de dados como: Va
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 07 - Git & Github**_]()
  Neste módulo aprendemos sobre: Git, uma ferramenta para controle de versões e como utilizar o Github para armazenar o código fonte dos projetos criando repositórios.
 
- 🔗 [Exercícios]()<br>
-* **Desafios**<br>
- 🔗 [Desafio 01]()<br>
- 🔗 [Desafio 02]()<br>
-
-  **Loading...**
+ 🔗 [Git](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2007%20-%20Git%20%26%20Github/Git)<br>
+ 🔗 [Github](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2007%20-%20Git%20%26%20Github/GitHub)<br>
 
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 08 - Backend**_]()
