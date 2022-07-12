@@ -8,7 +8,7 @@
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
-  Desenvolvemos toda a estrutura do nosso projeto Node em modulos separados para escalabilidade e facilitar a manutenção da nossa aplicação. Trabalhamos com o Express para requisições HTTP e rotas para acessar os arquivos do controller e funcionalidades.Uma aplicação em que o usuário poderá cadastrar notas, com tags e links vinculados a nota. O usuário poderá fazer buscas de notas e tags , bem como lista-las.
+  Desenvolvemos toda a estrutura do nosso projeto Node em modulos separados para escalabilidade e facilitar a manutenção da nossa aplicação. Trabalhamos com o Express para requisições HTTP e rotas para acessar os arquivos do controller e funcionalidades. É uma aplicação em que o usuário poderá cadastrar notas, com tags e links vinculados a nota. O usuário poderá fazer buscas de notas e tags , bem como lista-las.
 
 * _**Criando uma aplicação Node.js**_
 - [x]  Iniciar um projeto Node.js;
