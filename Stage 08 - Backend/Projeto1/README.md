@@ -10,7 +10,7 @@
 
  Foi desenvolvido uma API completa utilizando Node.js ,Express e banco de dados SQLite. Desenvolvemos toda a estrutura do nosso projeto Node em modulos separados para escalabilidade e facilitar a manutenção da nossa aplicação. Trabalhamos com o Express para requisições HTTP e rotas para acessar os arquivos do controller e funcionalidades. 
 
-  _**Criando uma aplicação Node.js**_
+* _**Criando uma aplicação Node.js**_
 - [x]  Iniciar um projeto Node.js;
 - [x]  Adicionar Express no projeto;
 - [x]  O que é a pasta `node_modules`;
@@ -26,7 +26,7 @@
 - [x]  Middleware;
 - [x]  Lidar com erros na API;
 
-  _**SQL**_
+* _**SQL**_
 - [x]  O que é um banco de dados;
 - [x]  Como conectar um banco de dados SQLite;
 - [x]  Utilização da ferramenta Beekeper Studio;
@@ -37,7 +37,7 @@
 - [x]  Criptografar senhas no banco de dados;
 - [x]  Validações no back-end;
 
-  _**Query Builder**_
+* _**Query Builder**_
 - [x]  SQL Query Builder;
 - [x]  Instalar Knex/js;
 - [x]  Configurar Knex.js;
@@ -48,7 +48,7 @@
 - [x]  Inner Join;
 - [x]  Map e Filter;
 
-# Environment init
+## Environment init
 
   Clonando o repositório
   **$ git clone**
