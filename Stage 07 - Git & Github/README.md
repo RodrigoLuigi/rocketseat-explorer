@@ -5,4 +5,4 @@
  🔗 [Git](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2007%20-%20Git%20%26%20Github/Git)<br>
  🔗 [Github](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2007%20-%20Git%20%26%20Github/GitHub)<br>
 * **Desafios**<br>
- 🔗 Desafio - Git Push - Criar README.md para cada projeto do programa Explorer<br> 
+ Desafio - Git Push - Criar README.md para cada projeto do programa Explorer<br> 
