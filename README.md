@@ -85,3 +85,16 @@ Neste módulo desenvolvemos exercícios de lógica e estrutura de dados como: Va
   🔗 [Projeto 1](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2008%20-%20Backend/Projeto1)<br>
 * **Desafios**<br>
  🔗 [Desafio 01 - MovieNotes](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2008%20-%20Backend/Desafio1)<br>
+
+
+ ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 09 - Frontend**_]()
+ Neste módulo aprendemos sobre o ReactJS e construimos o nosso front-end do projeto RocketNotes. Além disso, aprendemos: Utilizar o Vite, estruturar arquivos e pastas, estilizar o projeto utilizando styled-components, navegação com React Router e muito mais.
+
+ 🔗 [Projeto 1]()<br>
+ 🔗 [Projeto 2]()<br>
+* **Desafios**<br>
+ 🔗 [Desafio 01]()<br>
+ 🔗 [Desafio 02]()<br>
+
+  **Loading...**
+ 
