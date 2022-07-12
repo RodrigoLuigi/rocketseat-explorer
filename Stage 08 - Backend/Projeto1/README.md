@@ -48,7 +48,7 @@
 - [x]  Inner Join;
 - [x]  Map e Filter;
 
-## Environment init
+## ♻️ Environment init
 
   Clonando o repositório
   **$ git clone**
@@ -57,6 +57,7 @@
   **$ npm init -y**
 
   Inicializando projeto
+
   **$ npm start**
 
   Inicializando projeto modo Desenvolvimento
