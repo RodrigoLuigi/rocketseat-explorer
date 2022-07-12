@@ -8,7 +8,7 @@
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
- Foi desenvolvido uma API completa utilizando Node.js ,Express e banco de dados SQLite. Desenvolvemos uma aplicação backend para inserir dados de usuários em uma tabela em nosso DataBase e criamos notas de filmes com tags e links vinculados ao usuário que criou a nota. Então basicamente é uma aplicação em que o usuário poderá cadastrar notas de filmes e séries, com tags e links vinculados a nota. O usuário poderá fazer buscas de notas e tags , bem como lista-las.
+  Desenvolvemos uma aplicação backend para inserir dados de usuários em uma tabela em nosso DataBase e criamos notas de filmes com tags e links vinculados ao usuário que criou a nota. Então basicamente é uma aplicação em que o usuário poderá cadastrar notas de filmes e séries, com tags e links vinculados a nota. O usuário poderá fazer buscas de notas e tags , bem como lista-las.
 
 ## ♻️ Environment init
 
