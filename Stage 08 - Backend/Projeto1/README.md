@@ -50,20 +50,19 @@
 
 ## ♻️ Environment init
 
-  Clonando o repositório
+- Clonando o repositório
   **$ git clone**
 
-  Instalando node_modules
+- Instalando node_modules
   **$ npm init -y**
 
-  Inicializando projeto
-
+- Inicializando projeto
   **$ npm start**
 
-  Inicializando projeto modo Desenvolvimento
+- Inicializando projeto modo Desenvolvimento
   **$ npm run dev**
 
-  Inicializando Migrations
+- Inicializando Migrations
   **$ npm run migrate**
 
 ## 📚 Stack utilizada
