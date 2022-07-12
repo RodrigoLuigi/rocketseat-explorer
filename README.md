@@ -82,10 +82,6 @@ Neste módulo desenvolvemos exercícios de lógica e estrutura de dados como: Va
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 08 - Backend**_]()
  Neste módulo aprendemos sobre: O que é o Node.js como ele funciona e suas vantagens. Construimos uma API completa utilizando Node.js e Express. Utilizamos o Insomnia para cadastrar nossas rotas e verificar os status codes das mesmas. Criamos um banco de dados utilizando SQLite, manipulamos o nosso DB utilizando a ferramenta Beekeper Studio juntamente com o Query Builder Knex.js.
 
- 🔗 [Projeto 1]()<br>
- 🔗 [Projeto 2]()<br>
+  🔗 [Projeto 1](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2008%20-%20Backend/Projeto1)<br>
 * **Desafios**<br>
- 🔗 [Desafio 01]()<br>
- 🔗 [Desafio 02]()<br>
-
-  **Loading...**
+ 🔗 [Desafio 01 - MovieNotes](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2008%20-%20Backend/Desafio1)<br>
