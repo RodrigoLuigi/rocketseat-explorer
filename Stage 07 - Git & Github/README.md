@@ -2,7 +2,7 @@
 
 ### 📌 Neste módulo aprendemos sobre: Git, uma ferramenta para controle de versões e como utilizar o Github para armazenar o código fonte dos projetos criando repositórios.
 
- 🔗 [Git]()<br>
+ 🔗 [Git](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2007%20-%20Git%20%26%20Github/Git)<br>
  🔗 [Github]()<br>
 * **Desafios**<br>
  🔗 [Desafio - Git Push]()<br> 
