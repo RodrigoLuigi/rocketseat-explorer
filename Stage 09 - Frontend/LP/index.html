@@ -12,22 +12,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pasta Buona</title>
 
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
-
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- FONTS -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
   <header id="header">
-    <nav class="container ">
-      <a href="" class="logo"><img src="./assets/images/logo-burguer.png" alt=""></a>
+    <nav class="container">
+      <a href="#home" class="logo"><img src="./assets/images/logo-burguer.png"
+          alt="Imagem de um pão de hamburger cortado ao meio na horizontal, com escrito House Burguer entre as duas metades."></a>
 
       <div class="menu">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="grid">
+          <li><a class="title" href="#home">Home</a></li>
+          <li><a class="title" href="#menu">Menu</a></li>
+          <li><a class="title" href="#">About Us</a></li>
+          <li><a class="title" href="#">Contact</a></li>
         </ul>
       </div>
       <!--/MENU NAVIGATION-->
@@ -39,17 +43,74 @@
   <main>
 
     <section class="section" id="home">
-      <div class="container">
+      <div class="container grid">
         <div class="image">
           <img src="./assets/images/hamburger.png" alt="">
         </div>
         <div class="text">
-          <h1>The Biggest Burguer</h1>
-          <p>Lorem ipsum dolor sit amet, consectetu <br> Assumenda est porro recusandae a architecto </p>
+          <h2 class="title">The Biggest Burguer</h2>
+          <p>Lorem ipsum dolor sit amet, consectetu
+            Assumenda est porro recusandae a architecto </p>
+
+          <a href="#" class="button">Faça seu pedido!</a>
         </div>
       </div>
     </section>
 
+    <div class="divider-1"></div>
+
+    <section class="section" id="menu">
+      <div class="container grid">
+        <header class="grid">
+          <img class="title" src="assets/images/menu.png" alt="">
+          <p class="subtitle">
+            Nós da <strong>House Burguer</strong> contamos com os melhores ingredientes escolhidos a dedo para atender
+            nossos clientes.
+          </p>
+        </header>
+
+        <div class="card-wrapper grid">
+          <div class="card">
+            <div class="image">
+              <img src="./assets/images/background-burguer.jpg" alt="">
+            </div>
+            <div class="text grid">
+              <h2 class="title">Big Cheddar</h2>
+              <p class="subtitle">Lorem ipsum dolor sit amet, consectetu
+                Assumenda est porro recusandae a architecto </p>
+
+              <a href="#" class="button">Faça seu pedido!</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="./assets/images/background-burguer1.jpg" alt="">
+            </div>
+            <div class="text grid">
+              <h2 class="title">Big Mountain + fries</h2>
+              <p class="subtitle">Lorem ipsum dolor sit amet, consectetu
+                Assumenda est porro recusandae a architecto </p>
+
+              <a href="#" class="button">Faça seu pedido!</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="image">
+              <img src="./assets/images/background-burguer2.jpg" alt="">
+            </div>
+            <div class="text grid">
+              <h2 class="title">Big Combo</h2>
+              <p>Lorem ipsum dolor sit amet, consectetu
+                Assumenda est porro recusandae a architecto </p>
+
+              <a href="#" class="button">Faça seu pedido!</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
 
 
 
