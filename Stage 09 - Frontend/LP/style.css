@@ -93,6 +93,7 @@ body {
 
 .section {
   padding: calc(8rem + var(--header-height)) 0;
+  /* padding: calc(8rem + var(--header-height)) 0 5rem; */
 }
 
 .section .title {
@@ -138,7 +139,11 @@ body {
   top: 0;
   left: 0;
   z-index: 100;
-}
+    
+  background-image: url(./assets/images/download.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
 
 /* ===== ON SCROLL / javascript */
 #header.scroll {
@@ -285,13 +290,13 @@ overflow: hidden;
   background-size: cover;
   background-position: center;  
   position: absolute;
-  top: -48.8%;
+  top: -50.8%;
 
-  z-index: -1;
+  z-index: 0;
 }
 
 #home .image img{
-  width: 100%;
+  position: relative;
 }
 
 #home .text {
@@ -309,9 +314,189 @@ overflow: hidden;
 }
 
 /* ================== MENU =============== */
-#menu.section header img{
+#menu{
+overflow: hidden;
+}
+
+#menu header{
+  margin: 4rem 2.4rem ;
+}
+#menu header img{
   max-width: 70%; 
   justify-self: center;
 }
 
+#menu .container {
+  margin: 0;
+  border-radius: 4rem;
+  background-image: url(./assets/images/bg.jpg);
+  
+}
 
+#menu .card-wrapper{
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);     
+  border-radius: 4rem;
+  box-shadow: 0 0 8px 0 gray;
+}
+
+.card{
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-color: #353534;
+  color: #242329;
+  text-align: center;
+  border: 5px solid #fff;
+  box-shadow: 0 0 5px 0 #00000048;
+  overflow: hidden;
+}
+
+.card_data{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  transform: translateY(-250px);
+  transition: transform .5s;
+}
+
+.card_img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .25s .35s;
+
+  position: relative;
+}
+
+.card_title{
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--second-color);
+  padding: 5px;
+  background-color: #61616127;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 0rem;
+  transition: transform .25s .35s;
+
+}
+
+.card .card_price{
+  color: var(--text-color-light);
+  font-size: 1.8rem;
+  font-weight: bold;
+
+  padding: 5px;
+
+  position: absolute;
+  top: 3.6rem;
+  left: 0;
+  transition: transform .25s .35s;
+}
+
+.card .title{
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--second-color);
+}
+
+.card_description{
+  padding: 10px;
+  margin-bottom: 15px;
+  color: var(--text-color);
+}
+
+.card_btn{
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #242329;
+  background-color: #fff;
+  transition: background-color .25s;
+}
+
+.card_btn:hover{
+  background-color: #242329;
+  color: #fff;
+}
+
+.card:hover .card_data{
+  transform: translateY(0px);
+}
+
+.card:hover .card_img,
+.card:hover .card_title,
+.card:hover span{
+  transform: translateY(250px);
+  transition-delay: 0s;
+}
+
+#menu .card_footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button_menu_complete{
+  background-color: rgba(84, 179, 21, 0);
+  color: var(--text-color);
+  height: 5.6rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 3.2rem;
+  border-radius: 0.4rem;
+  border: 1px solid var(--second-color);
+  font: 500 1.6rem var(--body-font);
+  transition: background 0.3s;
+  margin: 6rem 0;
+}
+  
+.button_menu_complete:hover {
+  background-color: var(--second-color);
+  color: var(--text-color-light);
+}
+
+/* ================== ABOUT =============== */
+
+#about {
+  overflow: hidden;
+}
+
+#about .container {
+  margin: 0;
+}
+
+#about .image {
+  position: relative;
+}
+
+#about .image::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: var(--second-color);
+  position: absolute;
+  top: -16.3%;
+  left: -33%;
+
+  z-index: 0;
+}
+
+#about .image img {
+  position: relative;
+}
+
+#about .image img,
+#about .image::before {
+  border-radius: 0.25rem;
+}
+
+#about .text{
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
