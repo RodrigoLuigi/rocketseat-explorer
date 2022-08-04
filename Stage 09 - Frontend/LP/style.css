@@ -31,6 +31,7 @@ img {
   --title-color: hsl(159 41% 10%);
   --text-color: hsl(0 0% 46%);
   --text-color-light: hsl(0 0% 98%);
+  --text-color-dark: hsl(0, 0%, 0%);
   --body-color: hsl(0 0% 98%);
 
   --bg-color: rgb(43, 43, 43);
@@ -81,10 +82,10 @@ body {
 
 /* ============== LAYOUT ============== */
 
-.container {
+/* .container {
   margin-left: 2.4rem;
   margin-right: 2.4rem;
-}
+} */
 
 .grid {
   display: grid;
@@ -109,6 +110,7 @@ body {
 }
 
 .section header strong {
+  
   color: var(--second-color);
 }
 
@@ -119,15 +121,15 @@ body {
 .divider-1 {
   height: 2px;
   background: linear-gradient(270deg,
-      hsla(var(--hue), 36%, 57%, 1),
-      hsla(var(--hue), 65%, 88%, 0.34));
+  hsla(49, 100%, 39%,1),
+  hsla(49, 100%, 39%,0.34));
 }
 
 .divider-2 {
   height: 2px;
   background: linear-gradient(270deg,
-      hsla(var(--hue), 65%, 88%, 0.34),
-      hsla(var(--hue), 36%, 57%, 1));
+  hsla(49, 100%, 39%,0.34),
+  hsla(49, 100%, 39%,1));
 }
 
 /* ================== HEADER ================== */
@@ -316,14 +318,20 @@ overflow: hidden;
 /* ================== MENU =============== */
 #menu{
 overflow: hidden;
+background-color: black;
 }
 
 #menu header{
   margin: 4rem 2.4rem ;
 }
+
 #menu header img{
   max-width: 70%; 
   justify-self: center;
+}
+
+#menu header .subtitle{
+  color: var(--text-color-dark);
 }
 
 #menu .container {
@@ -333,8 +341,8 @@ overflow: hidden;
   
 }
 
-#menu .card-wrapper{
-  background-color: rgba(255, 255, 255, 0.1);
+#menu .container-glass{
+  background-color: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);     
   border-radius: 4rem;
   box-shadow: 0 0 8px 0 gray;
@@ -443,16 +451,17 @@ overflow: hidden;
 }
 
 .button_menu_complete{
-  background-color: rgba(84, 179, 21, 0);
-  color: var(--text-color);
+  background-color:var(--bg-color);
+  color: var(--second-color);
+  font-weight: bold;
   height: 5.6rem;
   display: inline-flex;
   align-items: center;
   padding: 0 3.2rem;
   border-radius: 0.4rem;
-  border: 1px solid var(--second-color);
+  border: 2px solid var(--second-color);
   font: 500 1.6rem var(--body-font);
-  transition: background 0.3s;
+  transition: all  0.3s;
   margin: 6rem 0;
 }
   
@@ -500,3 +509,269 @@ overflow: hidden;
   margin-left: 2.4rem;
   margin-right: 2.4rem;
 }
+
+/* ================== CONTACT =============== */
+#contact{
+  background-color: black;
+  color: var(--text-color-light);
+}
+
+#contact .title{
+  color: var(--text-color-light);
+}
+#contact .text p {
+  margin-bottom: 3.2rem;
+}
+
+/* ================== FOOTER =============== */
+
+footer{
+  background-color: goldenrod; 
+  padding: 4rem 0;
+  text-align: center;
+}
+
+footer .icons{
+  display: flex; 
+  justify-content: center;
+  gap: 4rem; 
+}
+/*========== MEDIA QUERIES ===========*/
+/* extra large devices: 1200 > */
+@media (min-width: 1200px){
+  .container{
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section{
+    padding: 10rem 0;
+  }
+
+  .section header,
+  #testimonials header{
+    max-width: 32rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button{
+    height: 3.125rem;
+  }
+
+  /* NAVIGATION */
+
+  nav .menu{
+    opacity: 1;
+    visibility: visible;
+    top: 0rem;
+  }
+
+  nav .menu ul{
+    display: flex;
+    gap: 2rem;
+  }
+
+  nav .menu ul li a.title{
+    font: 400 1rem var(--body-font);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  nav .menu ul li a.active{
+    font-weight: bold;
+    -webkit-font-smoothing: auto;
+
+  }
+
+  nav .icon-menu{
+    display: none;
+  } 
+
+  /* LAYOUT */
+
+  main {
+    margin-top: var(--header-height);
+  }
+
+  /* home */
+  #home .container{
+    grid-auto-flow: column;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  #home .image{
+    order: 1;
+  }
+
+  #home .text{
+    max-width: 24rem;
+    text-align: left;
+    order: 0;
+  }
+
+  /* ABOUT */
+  #about .container{
+    grid-auto-flow: column;
+    margin: 0 auto;
+  }
+
+  /* SERVICES */
+  #services .cards{
+    grid-template-columns:  1fr 1fr 1fr;
+  }
+
+  .card{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  /* TESTIMONIALS */
+  #testimonials .container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* CONTACT */
+  #contact .container{
+    grid-auto-flow: column;
+    align-items: center;
+  }
+
+  #contact .text{
+    max-width: 25rem;
+  }
+
+  footer.section{
+    padding: 3.75rem 0;
+  }
+
+  footer .container{
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer .logo{
+    font-size: 2.25rem;
+  }
+
+}
+/* large devices: 1023 > */
+/* large devices: 992 > */
+@media (min-width: 992px) {
+  :root {
+    --title-font-size: 2.25rem;
+    --subtitle-font-size: 1.125rem;
+  }
+  
+}
+
+
+/* ================== RESPONSIVE =============== */
+/*@media (min-width: 42em){
+  /* .container {
+    max-width: 1120px;
+   /*  border: 2px solid greenyellow; 
+    margin: 0 auto;
+}
+
+.grid{
+  margin: 0 auto;
+}
+ */
+ /*  #home .grid{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+  }
+
+  #home{
+    position: relative;
+  }
+
+  #home .container:before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-image: url(./assets/images/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+    position: absolute;
+    top: 0px;
+  
+    z-index: -1;
+  }
+
+  #home .image::before{
+    content: none;
+  }
+
+  #home .image img{
+    width: 40rem;
+  }
+  
+  #home .text{
+    position: relative;
+    color: var(--text-color-light);
+    max-width: 40rem;
+  } */
+
+ /*  #home .title{
+    color: var(--second-color);
+  } */
+
+  /* #menu,
+  #contact{
+    background: rgb(255, 255, 255);
+  }
+
+  #menu .container {
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+    max-width: 101rem;
+    margin: 0 auto;
+  }
+
+  #menu header.grid{
+    justify-content: center;
+    text-align: center;
+  }
+
+  #menu header img {
+    max-width: 50%;
+  }
+
+  #menu .subtitle{
+    width: 40rem;
+  }
+
+  #menu .card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5rem;
+    margin: 0 auto;
+    column-gap: 1rem;
+  }
+
+  #menu .card{
+    width: 100%;
+  }
+
+  #about .grid,
+  #contact .grid{
+    grid-auto-flow: column;
+  }
+
+  #contact .links .grid{
+    grid-auto-flow: row;
+  }
+}
+ */
+  

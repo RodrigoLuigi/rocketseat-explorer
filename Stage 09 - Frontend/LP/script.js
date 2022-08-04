@@ -15,7 +15,7 @@ const navHeight = header.offsetHeight;
 function changeHeaderWhenScroll() {
   if (window.scrollY >= 45) {
     header.classList.add('scroll');
-    header.style.borderBottom = '1px solid white';
+    header.style.borderBottom = '2px solid black';
   } else {
     header.classList.remove('scroll');
     header.style.borderBottom = 'none';
