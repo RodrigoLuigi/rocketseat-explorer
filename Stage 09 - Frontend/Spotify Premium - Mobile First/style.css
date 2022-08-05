@@ -300,58 +300,76 @@ nav.show div.icon-close {
 #about header{
     width: 100%;
     padding: 0 0 7.3rem ;
-    text-align: center;
-    
+
     font-family: circular-bold;
     font-size: 2.63rem;
+
+    text-align: center;
 }
 
 #about .title{
     color: black;
 }
 
-#about .card-list{
-    display: flex;
-    flex-direction: column;/*  */
-    width: 100%;
-    list-style: none;
-    justify-content: space-between;
-}
-
-
 .card-list li{
     display: flex;
-    flex-direction: row;
-    justify-content: center;/*  */
-    align-items:flex-start;
-    flex-grow: 1;
-    text-align: center;
-    width: 270px;
-    margin: 0 0 20px;
-
+    margin-bottom: 20px;
 }
 
 .card-list li .image{
-    display: block;
-   
-    margin: 0px auto 40px;
+    display: inline-block;
+    background-image: url(https://i.scdn.co/image/ab671c3d0000f43009302fbaf6259b4c117c704f);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    margin-right: 20px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    width: 142px;
+    height: 142px;
 }
 
-.card-list li .image img{
-    height: 14.2rem;
-    width: 14.2rem;
+.card-list li:nth-child(2) .image{
+    background-image: url(https://i.scdn.co/image/ab671c3d0000f43098292b95d24a697c20df5137);
 }
 
-.card-list .text .titl{
-    font-family: spotify-circular-bold;
-    font-size: 2.1rem;
-    line-height: 1.3em;
-    margin-bottom: 10px;
+.card-list li:nth-child(3) .image{
+    background-image: url(https://i.scdn.co/image/ab671c3d0000f4306998d3ffd58aad6da6afdf67);
 }
 
-.card-list .text .subtitle{
-    font-family: spotify-circular-light;
-    font-size: 1.6rem;
+.card-list li:nth-child(4) .image{
+    background-image: url(https://i.scdn.co/image/ab671c3d0000f430cd6c528745e510c5be63a012);
+}
+
+.card-list .text{
+    display: inline-block;
+    width: 100%;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    margin: 16px 0px;
+}
+
+.card-list .text h2{
+    font-family: 'circular-black';
+    font-size: 21px;
     font-weight: bold;
+    line-height: 1.3em;
+
+    margin-bottom: 10px;
+    padding: 0px;
 }
- 
+
+.card-list p{
+    display: inline-block;
+
+    font-family: 'circular-book';
+    font-size: 16px;
+    line-height: 1.5;
+
+    padding: 0px;
+}
+
+/*=========== CHOICE YOUR PLAN ===========*/
+
+
