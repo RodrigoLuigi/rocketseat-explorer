@@ -10,6 +10,10 @@
     font-family: spotify-circular-light;
     src: url(fonts/CircularStd-Light.otf);
 }
+@font-face {
+    font-family: spotify-circular-book;
+    src: url(fonts/CircularStd-Book.otf);
+}
 
 *{
     margin: 0;
@@ -167,12 +171,6 @@ ul{
 }
 
 /* ================ABOUT PREMIUM=============== */
-
-#about{
-    
-   
-}
-
 #about header{
     width: 100%;
     padding: 0 0 7.3rem ;
@@ -334,10 +332,14 @@ ul{
     color: rgb(13, 114, 234)
 }
 
-.current-plan,
-.card-body{
+.current-plan{
     font-family: spotify-circular-light, Helvetica, Arial, sans-serif;
     font-weight: bold;
+}
+
+.card-body{
+    font-family: spotify-circular-book, Helvetica, Arial, sans-serif;
+
 }
 
 .current-plan h3{
@@ -429,70 +431,3 @@ ul{
     font-weight: 400;
     text-align: left;
 }
-
-/* .card{
-    width: 270px;
-    background-color: white;
-    border-radius: 10px;
-    padding: 16px;
-    box-shadow: rgb(255, 255, 255) 0px 0px 8px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px 0px;
-
-    font-family: spotify-circular-bold, Helvetica, Arial, sans-serif;
-
-}
-
-.card + .card{
-    margin-left: 16px;
-}
-
-.card ul{
-    padding-bottom: 16px;
-}
-
-.card ul li{
-    display: flex; 
-    font: 400 1.7rem spotify-circular-light;
-    line-height: 22px;
-    gap: 1rem;
-    margin-bottom: 5px;
-}
-
-.card-buttom{
-    display: flex; 
-    justify-content: center;
-}
-
-.card-buttom .button{
-    display: flex; 
-    width: 100%; 
-    justify-content: center;
-}
-
-.card .info-terms{
-    color: black;
-}
-
-.card .free-month span{
-display: inline-block;
-background-color: rgb(13, 114, 234);
-border-radius: 4px;
-color: rgb(255, 255, 255);
-font-size: 14px;
-font-weight: 900;
-
-margin-bottom: 10px;
-
-padding: 4px 8px;
-
-text-align: left;
-}
-
-.card .current-plan{
-    display: grid;
-    gap: 5px
-}
-
-.card hr{
-    margin: 2rem 0;
-}
- */

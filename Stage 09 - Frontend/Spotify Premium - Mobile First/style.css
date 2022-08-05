@@ -1,0 +1,357 @@
+@font-face {
+    font-family: circular-black;
+    src: url(fonts/fonts/CircularStd-Black.otf);
+}
+@font-face {
+    font-family: circular-bold;
+    src: url(fonts/fonts/CircularStd-Bold.otf);
+}
+@font-face {
+    font-family: circular-book;
+    src: url(fonts/fonts/CircularStd-Book.otf);
+}
+@font-face {
+    font-family: circular-light;
+    src: url(fonts/fonts/CircularStd-Light.otf);
+}
+@font-face {
+    font-family: circular-medium;
+    src: url(fonts/fonts/CircularStd-Medium.otf);
+}
+
+/*=========== RESET ===============================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul { 
+    list-style: none;
+}
+
+/*=========== VARIAVEIS / ROOT CONFIG ===============================*/
+:root {
+    font-size: 62.5%;
+
+    --title-font-size: 2.875rem;
+
+    --title-color: rgb(255, 255, 255);
+}
+
+/*=========== BASE ===============================*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    min-height: 100vh;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+/*=========== LAYOUT ===============================*/
+.section{
+    padding: 3.5rem 0;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+.container {
+    padding: 0 1.5rem;
+}
+
+.grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.title {
+    font: 700 var(--title-font-size) arial;/* ** */
+    color: var(--title-color);
+    -webkit-font-smoothing: auto;
+}
+
+
+/*=========== HEADER ===============================*/
+#header {
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100; */
+
+    width: 100%;
+    min-height: 5.4rem;
+
+    background: #000;
+}
+
+#header nav {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 75rem;
+    height: 5.4rem;
+
+    margin: 0 auto;
+}
+
+/* =====================LOGO====================== */
+
+.logo {
+    display: inline-block;
+
+    height: 2.7rem;
+    width: 8.9rem;
+
+    margin-top: 13px;
+}
+
+.logo svg {
+    width: 100%;
+}
+
+.logo svg path {
+    fill: #fff;
+}
+
+/*=========== NAVIGATION ===============================*/
+nav ul li {
+    text-align: center;
+    color: #fff;
+}
+  
+nav ul li a {
+    transition: color 0.2s;
+    position: relative;
+}
+  
+nav ul li a:hover,
+nav ul li a.active {
+    color: greenyellow;
+}
+  
+nav ul li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: greenyellow;
+  
+    position: absolute;
+    left: 0;
+    bottom: -1.5rem;
+  
+    transition: width 0.2s;
+}
+  
+nav ul li a:hover::after,
+nav ul li a.active::after {
+    width: 100%;
+}
+  
+  
+nav .menu {
+    opacity: 0;
+    visibility: hidden;
+    right: -20rem;
+    transition: .2s all ease-in-out;
+}
+  
+nav .menu ul {
+    display: none;
+}
+
+/*==== MOSTRAR MENU ===========================*/
+nav.show .menu {
+    display: grid;
+    place-content: center;
+  
+    opacity: 1;
+    visibility: visible;
+  
+    background: #000;
+  
+    height: 100vh;
+    width: 100vw;
+  
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+  
+nav.show .menu ul {
+    display: grid;
+} 
+  
+nav.show ul.grid {
+    gap: 4rem;
+}
+
+
+/* Toggle Menu (abre e fecha)*/
+.toggle {
+    color: white;
+    font-size: 2.7rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav .icon-menu {
+    margin-top: 13px;
+}
+
+nav .icon-close {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    top: -1.5rem;
+    right: 1.5rem;
+  
+    transition: .2s;
+}
+
+nav.show div.icon-close {
+    visibility: visible;
+    opacity: 1;
+    top: 1.3rem;
+}
+
+/*=========== MAIN ===============================*/
+
+
+/*=========== HOME ===========*/
+#home{
+    background-color: rgb(29, 117, 222);
+    color: white;
+}
+
+#home.section{
+    padding: 4.8rem 0 2.4rem;
+}
+
+#home .title{
+    font:  clamp(2.2rem, 2.2rem + 1vw, 2.8rem) circular-black;
+}
+
+#home .subtitle{
+    font: 1.8rem circular-book ;
+
+    line-height: 1.5;
+    margin: 15px 0px 0px;
+}
+
+.btn-home{
+    margin: 20px 0px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.button{
+    display: inline-block;
+    padding: 1.5rem 3.2rem;
+
+    background-color: black;
+
+    border: 2px solid black;
+    border-radius: 50rem;
+
+    font: 1.4rem circular-bold;
+    color: white;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    transition: all .00s;
+}
+
+.button:hover{
+    transform: scale(1.033);
+}
+
+.btn-home .button:nth-child(2){
+    border: 2px solid white;
+    background-color: transparent;
+}
+.btn-home .button:nth-child(2):hover{
+    background-color: #1A69C7;
+   
+}
+.info-terms{
+    margin-top: 4.5rem;
+
+    font:  1.1rem circular-book;
+    color: #ffffff;
+}
+
+.info-terms a{
+    color: #ffffff;
+    text-decoration: underline;
+    line-height: 1.6rem;
+}
+
+/*=========== ABOUT ===========*/
+
+#about header{
+    width: 100%;
+    padding: 0 0 7.3rem ;
+    text-align: center;
+    
+    font-family: circular-bold;
+    font-size: 2.63rem;
+}
+
+#about .title{
+    color: black;
+}
+
+#about .card-list{
+    display: flex;
+    flex-direction: column;/*  */
+    width: 100%;
+    list-style: none;
+    justify-content: space-between;
+}
+
+
+.card-list li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;/*  */
+    align-items:flex-start;
+    flex-grow: 1;
+    text-align: center;
+    width: 270px;
+    margin: 0 0 20px;
+
+}
+
+.card-list li .image{
+    display: block;
+   
+    margin: 0px auto 40px;
+}
+
+.card-list li .image img{
+    height: 14.2rem;
+    width: 14.2rem;
+}
+
+.card-list .text .titl{
+    font-family: spotify-circular-bold;
+    font-size: 2.1rem;
+    line-height: 1.3em;
+    margin-bottom: 10px;
+}
+
+.card-list .text .subtitle{
+    font-family: spotify-circular-light;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+ 
