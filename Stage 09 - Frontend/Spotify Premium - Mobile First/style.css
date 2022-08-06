@@ -282,9 +282,8 @@ nav.show div.icon-close {
     background-color: #1A69C7;
    
 }
-.info-terms{
-    margin-top: 4.5rem;
 
+.info-terms{
     font:  1.1rem circular-book;
     color: #ffffff;
 }
@@ -294,6 +293,12 @@ nav.show div.icon-close {
     text-decoration: underline;
     line-height: 1.6rem;
 }
+
+#home .info-terms{
+    margin-top: 4.5rem;
+
+}
+
 
 /*=========== ABOUT ===========*/
 
@@ -371,5 +376,249 @@ nav.show div.icon-close {
 }
 
 /*=========== CHOICE YOUR PLAN ===========*/
+#choice{
+    min-height: 100vh;/*  */
+    background-color: #EFEFEF;
+}
 
 
+#choice header .title{
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -1.28px;
+    line-height: 1;
+    text-align: center;
+    color: black;/*  */
+    margin: 0px;
+    padding: 0px;
+    font-family: 'circular-bold';
+}
+
+#choice header .subtitle{
+    font-family: 'circular-book';
+    font-size: 16px;
+    font-weight: normal;
+    margin: 10px 0px;
+    text-align: center;
+    padding: 0px;
+}
+
+.payment{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.payment ul{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.payment ul li{
+    margin-right: 7px;
+}
+
+.payment ul li .payment-image{
+    background-image: url(https://content-tooling.spotifycdn.com/images/52f004ea-a49a-420b-8dca-14f5304ff4bf_visa.svg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+
+    width: 29px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.payment ul li:nth-child(2) .payment-image {
+    background-image: url(https://content-tooling.spotifycdn.com/images/3a865441-c6d4-4f92-a4be-6c96c0e96d1f_mastercard.svg);
+}
+
+.payment ul li:nth-child(3) .payment-image {
+    background-image: url(https://content-tooling.spotifycdn.com/images/d4dd3e5b-f7d9-4cd0-80f1-b65f19c5e55c_amex.svg);
+}
+
+.payment ul li:nth-child(4) .payment-image {
+    background-image: url(https://content-tooling.spotifycdn.com/images/0a5cdc06-7024-4d04-999f-18e8b225b581_elo.svg);
+}
+
+.payment ul li:nth-child(5) .payment-image {
+    background-image: url(https://content-tooling.spotifycdn.com/images/46c5bd7a-bdb3-43a8-916d-889887b02d80_hiper.svg);
+}
+
+
+.payment .more-payments span{
+    text-decoration: underline;
+    font-family: circular-book;
+}
+
+
+/* ======================= */
+
+.space {
+    background-color: rgb(255, 255, 255);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 400px;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    /* margin: 0px 16px 0px 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: rgb(255, 255, 255); */
+}
+
+.container-wrapper{
+    margin: 50px 0px 26px;
+    /* display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-flow: column;
+    margin: 50px 0px 26px; */
+}
+
+.card-header{
+    position: relative;
+    color: rgb(0, 0, 0);
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+    /* grid-row: 1 / auto;*/
+}
+
+.card-header ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-header ul li{
+    border-radius: 4px;
+
+    font-family: 'circular-black';
+
+    font-size: 14px;
+    padding: 4px 8px;
+    display: inline-block;
+    font-weight: 900;
+    margin: 0px 4px 10px 0px;
+    margin-block: 0px 10px;
+}
+
+.card-header ul li:nth-child(1) {
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 114, 234);
+}
+
+.card-header ul li:nth-child(2) {
+    color: rgb(13, 114, 234);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(13, 114, 234);
+} 
+
+.card-header h3{
+    font-family: 'circular-bold';
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0px 0px 5px;
+    padding: 0px;
+}
+
+.card-header p{
+    font-family: 'circular-book';
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0px 0px 2px;
+}
+
+.card-header p:last-of-type{
+    margin-bottom: 20px;
+
+}
+
+.card-header hr{
+    align-self: stretch;
+    border-color: rgb(204, 204, 204);
+    margin: auto 0px 0px;
+}
+
+/* ==================================================== */
+
+.card-body{
+    padding-top: 32px;
+    padding-bottom: 16px;
+    list-style: none;
+    box-shadow: rgb(0 0 0 / 30%) 0px 0px 8px;
+    margin-top: 0px;    
+    /* grid-row: 2 / auto;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    list-style: none;
+    box-shadow: rgb(0 0 0 / 30%) 0px 0px 8px;
+    margin-top: 0px; */
+}
+
+.card-body li{
+    display: flex;
+    margin-bottom: 5px;
+    font-family: 'circular-book';
+}
+
+.card-body li .list-img{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    padding: 0px 10px 0px 0px;
+}
+
+.card-body li p{
+    color: rgb(0, 0, 0);
+    line-height: 22px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-buttom{
+    box-shadow: rgb(255 255 255) 0px -9px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+    padding-bottom: 0px;
+    text-align: center;
+    /* grid-row: 3 / auto; */ 
+}
+
+.card-buttom .button{
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+    position: relative;
+}
+
+.container-wrapper .info-terms{
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgb(255 255 255) 0px -9px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+    padding-top: 4px;
+    padding-bottom: 20px;
+    margin-bottom: 16px;
+}
+
+.container-wrapper .info-terms p,
+.container-wrapper .info-terms a{
+    color: rgb(83, 83, 83);
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+}
