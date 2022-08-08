@@ -94,7 +94,7 @@ body {
     display: flex;
     justify-content: space-between;
 
-    max-width: 75rem;
+    /* max-width: 75rem; */ /* ***** */
     height: 5.4rem;
 
     margin: 0 auto;
@@ -135,7 +135,7 @@ nav ul li a.active {
     color: greenyellow;
 }
   
-nav ul li a::after {
+/* nav ul li a::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -143,7 +143,7 @@ nav ul li a::after {
   
     position: absolute;
     left: 0;
-    bottom: -1.5rem;
+    bottom: -0.5rem;
   
     transition: width 0.2s;
 }
@@ -151,7 +151,7 @@ nav ul li a::after {
 nav ul li a:hover::after,
 nav ul li a.active::after {
     width: 100%;
-}
+} */
   
   
 nav .menu {
@@ -219,6 +219,14 @@ nav.show div.icon-close {
     opacity: 1;
     top: 1.3rem;
 }
+
+/* nav.show li.separator {
+    display: inline-block;
+    height: 1px;
+    width: 16px;
+    background: currentColor;
+    margin: auto 17px;
+} */
 
 /*=========== MAIN ===============================*/
 
@@ -304,16 +312,20 @@ nav.show div.icon-close {
 
 #about header{
     width: 100%;
-    padding: 0 0 7.3rem ;
 
-    font-family: circular-bold;
-    font-size: 2.63rem;
-
+    
     text-align: center;
+
+    margin-bottom: 30px;
 }
 
-#about .title{
+#about header .title{
     color: black;
+    font-family: 'circular-medium';
+    font-size: 2.8rem;
+    line-height: 1.5;
+
+
 }
 
 .card-list li{
@@ -770,12 +782,74 @@ footer.section{
 }
 
 /*=========== RESPONSIVE ===========*/
+@media (min-width: 480px){
+#home .title {
+    font-size: 28px;
+}
+
+#home .subtitle{
+    margin: 30px 0px 50px; /* ** */
+}
+
+}
+
+/* ======================= */
 
 @media (min-width: 768px){
-#footer .container{
+.section {
+    padding: 75px 0;
+}
+.container{
     width: 750px;
     margin: 0 auto;
 }
+
+#home .title {
+    font-size: 40px;
+}
+
+#home .subtitle {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.btn-home {
+    flex-direction: row;
+    margin: 35px 0px 0px;
+}
+
+
+
+#about header{
+    margin-bottom: 72px;
+}
+
+#about header .title {
+    font-size: 40px;
+    line-height: 46px;
+}
+
+#about .card-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about .card-list li {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 #footer .top-links {
     flex-direction: row;
@@ -794,4 +868,150 @@ footer.section{
 .bottom-links span{
     font-size: 12px;
 }
+}
+
+/* ======================= */
+
+@media (min-width: 992px){
+
+.container {
+    width: 970px;
+}
+
+#header nav {
+    height: 80px;
+}
+
+.logo {
+    margin-top: 20px;
+    height: 40px;
+    width: 132px;
+}
+
+nav .menu{
+    display: flex;
+    align-items: center;
+    opacity: 1;
+    visibility: visible;
+    top: 0rem;
+  }
+
+  nav .menu ul{
+    display: flex;
+    gap: 0rem;
+  }
+
+  nav .menu ul li a.title{
+    padding: 28px 17px;
+    font: 400 1.6rem 'circular-bold';
+    -webkit-font-smoothing: antialiased;
+  }
+
+  nav .menu ul li:last-child a{
+    padding-right: 0;
+  }
+
+  nav .menu ul li a.active{
+    font-weight: bold;
+    -webkit-font-smoothing: auto;
+
+  }
+
+  nav .icon-menu{
+    display: none;
+  } 
+
+nav li.separator {
+    display: inline-block;
+    height: 16px;
+    width: 1px;
+    background: currentColor;
+    margin: auto 17px;
+}
+
+footer.section {
+    padding: 80px 0 50px;
+}
+
+#footer .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    padding-right: 15px;
+    width: 16.66666667%;  
+    min-height: 346px  
+}
+
+.top-links {
+    width: 50%;
+    flex: 0 0 auto;
+}
+
+.top-links dt{
+    margin: 20px 0;
+}
+
+.social-icons {
+    margin: 0 0 0 auto;
+}
+
+.country,
+.bottom-links {
+    width: 100%;
+}
+
+
+}
+
+/* ======================= */
+
+@media (min-width: 1200px){
+.container {
+    width: 1170px;
+}
+
+#home.section {
+    text-align: inherit;
+    padding-top: 72px;
+    padding-bottom: 40px;
+}
+
+#about .card-list {
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+#about .card-list li {
+    display: block;
+    width: 270px;
+}
+
+#about .card-list .image {
+    display: block;
+    margin: 0px auto 40px;
+}
+
+.card-list .text {
+    display: block;
+    text-align: center;
+}
+
+#choice .container-wrapper {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-auto-flow: column;
+    column-gap: 1.6rem;
+    grid-template-columns: repeat(4, 1fr);
+    -webkit-box-pack: center;
+    justify-content: center;
+
+}
+
+#choice .card-buttom {
+    width: 100%;
+}
+
 }
