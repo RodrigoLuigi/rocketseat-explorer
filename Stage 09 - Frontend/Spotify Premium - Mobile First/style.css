@@ -630,7 +630,8 @@ footer.section{
     background-color: black;
 }
 
-#footer{
+#footer,
+.bottom-links a{ /* **** */
     font-size: 16px;
     font-family: 'circular-book';
     font-weight: 400;
@@ -640,6 +641,7 @@ footer.section{
     margin-top: 0;
 }
 
+/* ======================= */
 .top-links{
     display: flex;
     flex-direction: column;
@@ -668,6 +670,7 @@ footer.section{
     text-decoration: none;
 }
 
+/* ======================= */
 .social-icons {
     margin: 120px 0 15px;
 }
@@ -708,4 +711,87 @@ footer.section{
 
 .social-icons ul li:nth-child(3) span{
     background-image: url(./facebook.svg);
+}
+
+/* ======================= */
+.country {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.country a{
+    color: #919496;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 10px;
+    text-decoration: none;  
+    padding: 0;
+}
+
+.country svg {
+    margin: 0 8px 0 0;
+}
+/* ======================= */
+.bottom-links {
+    display: flex;
+}
+
+.bottom-links ul{
+    margin: 0 45px 0 0;
+}
+
+.bottom-links ul li {
+    margin-right: 24px;
+    list-style: none;
+    display: inline-block;
+    line-height: normal;
+    letter-spacing: 0;
+}
+
+.bottom-links ul li a{
+    color: #919496;
+    padding: 1em 0;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.bottom-links span {
+    padding: 1em 0;
+    flex-shrink: 0;
+    font-size: 10px;
+    color: #919496;
+    margin: 0 0 0 auto;
+}
+
+/*=========== RESPONSIVE ===========*/
+
+@media (min-width: 768px){
+#footer .container{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#footer .top-links {
+    flex-direction: row;
+}
+.top-links dl + dl{
+    padding-left:15px;
+    margin: 0;
+}
+
+.top-links dl{
+    flex: 1 0;
+}
+
+.country a,
+.bottom-links ul li a,
+.bottom-links span{
+    font-size: 12px;
+}
 }
