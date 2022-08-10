@@ -24,7 +24,7 @@
 
 | **Cores**               |                                                 |
 | ----------------- | ---------------------------------------------------------------- |
-| ![#FFFFFF](https://via.placeholder.com/12/FFFFFF?text=+) #FFFFFF | ![#000000](http://via.placeholder.com/12/000000?text=+) #000000 |      
+| ![#FFFFFF](https://via.placeholder.com/12/#FFFFFF?text=+) #FFFFFF | ![#000000](http://via.placeholder.com/12/000000?text=+) #000000 |      
 | ![#adff2f](http://via.placeholder.com/12/adff2f?text=+) #adff2f    | ![#1d75de](http://via.placeholder.com/12/1d75de?text=+) #1d75de | 
 | ![#EFEFEF](http://via.placeholder.com/12/EFEFEF?text=+) #EFEFEF    | ![#535353](http://via.placeholder.com/12/535353?text=+) #535353  | 
 | ![#919496](http://via.placeholder.com/12/919496?text=+) #919496    | ![#535353](http://via.placeholder.com/12/535353?text=+) #535353  | 
