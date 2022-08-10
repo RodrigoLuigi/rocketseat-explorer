@@ -24,10 +24,10 @@
 
 | **Cores**               |                                                 |
 | ----------------- | ---------------------------------------------------------------- |
-| ![#FFFFFF](http://via.placeholder.com/12/FFFFFF?text=+a) #FFFFFF    | ![#000000](http://via.placeholder.com/12/000000?text=+a) #000000 |      
-| ![#adff2f](http://via.placeholder.com/12/adff2f?text=+a) #adff2f    | ![#1d75de](http://via.placeholder.com/12/1d75de?text=+a) #1d75de | 
-| ![#EFEFEF](http://via.placeholder.com/12/EFEFEF?text=+a) #EFEFEF    | ![#535353](http://via.placeholder.com/12/535353?text=+a) #535353  | 
-| ![#919496](http://via.placeholder.com/12/919496?text=+a) #919496    | ![#535353](http://via.placeholder.com/12/535353?text=+a) #535353  | 
+| ![#FFFFFF](http://via.placeholder.com/12/FFFFFF?text=+) #FFFFFF    | ![#000000](http://via.placeholder.com/12/000000?text=+) #000000 |      
+| ![#adff2f](http://via.placeholder.com/12/adff2f?text=+) #adff2f    | ![#1d75de](http://via.placeholder.com/12/1d75de?text=+) #1d75de | 
+| ![#EFEFEF](http://via.placeholder.com/12/EFEFEF?text=+) #EFEFEF    | ![#535353](http://via.placeholder.com/12/535353?text=+) #535353  | 
+| ![#919496](http://via.placeholder.com/12/919496?text=+) #919496    | ![#535353](http://via.placeholder.com/12/535353?text=+) #535353  | 
 
 
 ## 📚 Stack utilizada
