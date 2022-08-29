@@ -1,3 +1,4 @@
+import { FiSearch } from 'react-icons/fi'
 import { Input } from '../Input'
 
 import { Container, Brand, Search, Profile } from './styles';
@@ -10,7 +11,7 @@ export function Header(){
         </Brand>
 
         <Search>
-          <Input type="text" placeholder='Pesquisar pelo título'/>
+          <Input type="text" placeholder='Pesquisar pelo título'icon={FiSearch}/>
         </Search>
         
         <Profile> 
