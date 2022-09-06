@@ -38,9 +38,8 @@ export function Preview(){
               </div>
 
               <div>
-              <FiClock />
-              <span>23/05/2022 às 08:00</span>
-
+                <FiClock />
+                <span>23/05/2022 às 08:00</span>
               </div>
             </AuthorInfo>
 
