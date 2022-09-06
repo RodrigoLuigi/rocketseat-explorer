@@ -1,4 +1,6 @@
-import { FiSearch } from 'react-icons/fi'
+import { FiSearch } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
+
 
 import { Input } from '../../components/Input';
 
@@ -22,7 +24,9 @@ export function Header(){
           </div>
         </div>
 
-        <img src="https://github.com/RodrigoLuigi.png" alt="Foto do usuário" />
+        <Link to='/profile'>
+          <img src="https://github.com/RodrigoLuigi.png" alt="Foto do usuário" />
+        </Link>
       </Profile>
       
     </Container>

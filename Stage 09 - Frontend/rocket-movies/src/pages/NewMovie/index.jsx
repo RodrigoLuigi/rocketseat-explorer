@@ -1,4 +1,5 @@
-import { FiArrowLeft } from 'react-icons/fi'
+import { FiArrowLeft } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 import { Input } from '../../components/Input';
 import { Header } from '../../components/Header';
@@ -6,7 +7,6 @@ import { Button } from '../../components/Button';
 import { Section } from '../../components/Section';
 import { Textarea } from '../../components/Textarea';
 import { NoteItem } from '../../components/NoteItem';
-import { ButtonText } from '../../components/ButtonText';
 
 import { Container, Content, Form } from './styles';
 
@@ -17,7 +17,10 @@ export function NewMovie(){
 
       <main>
         <Content>
-          <ButtonText icon={FiArrowLeft} title="Voltar"/>
+          <Link to='/'>
+            <FiArrowLeft />
+            Voltar
+          </Link> 
           
           <Form>
             <h1>Novo Filme</h1>
@@ -37,7 +40,7 @@ export function NewMovie(){
             </Section>
 
             <div>
-              <Button title='Excluir Filme' customStyle={{backgroundColor: 'gray'}} />
+              <Button title='Excluir Filme' className='btn-delete' />
               <Button title='Salvar Alterações' />
             </div>
 

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   width: 100%;
@@ -45,7 +46,7 @@ export const Content = styled.div`
     }
 `;
 
-export const NewMovie = styled.a`
+export const NewMovie = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,8 +67,8 @@ export const NewMovie = styled.a`
 `;
 
 export const MovieNotes = styled.div`
-  overflow-y: auto;
-  max-height: 716px;
+  overflow-y: none;
+  max-height: 768px;
   margin-top: 37px;
   padding-right: 8px;
 

@@ -32,8 +32,15 @@ export const Container = styled.div`
 export const Content = styled.div`
   max-width: 1137px;
   margin: 40px auto;
+  
+  > a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 
-  > button:first-child {
+    gap: 8px;
+
+    color: ${({ theme }) => theme.COLORS.ROSE};
     margin-bottom: 24px;
   }
 
@@ -53,15 +60,16 @@ export const Content = styled.div`
 
 export const Form = styled.div`
   max-width: 1137px;
-  max-height: 716px;
+  max-height: 768px;
 
-  overflow-y: auto;
+  overflow-y: none;
 
   display: flex;
   flex-direction: column;
   gap: 40px;
 
   padding-right: 8px;
+  padding-bottom: 12px;
 
   h1 { 
     font-size: 36px;
@@ -89,5 +97,10 @@ export const Form = styled.div`
 
   ::-webkit-scrollbar-track{
     background-color: transparent;    
+  }
+
+  .btn-delete {
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
+    color: ${({ theme }) => theme.COLORS.ROSE};
   }
 `;

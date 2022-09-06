@@ -1,10 +1,10 @@
 import { FiArrowLeft, FiClock} from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 import { Tag } from '../../components/Tag';
 import { Stars } from '../../components/Stars';
 import { Section } from '../../components/Section';
 import { Header } from '../../components/Header';
-import { ButtonText } from '../../components/ButtonText';
 
 import { Container, Content, MovieNote, MovieInfo, AuthorInfo } from "./styles.js";
 
@@ -16,7 +16,10 @@ export function Details(){
       
       <main>
         <Content>
-          <ButtonText icon={FiArrowLeft} title="Voltar"/>
+          <Link to='/'>
+            <FiArrowLeft />
+            Voltar
+          </Link> 
 
           <MovieNote>
             <header>

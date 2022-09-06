@@ -54,15 +54,20 @@ export const Profile = styled.div`
     }
   }
 
-  > img {
+  > a {
     width: 64px;
     height: 64px;
 
+    img {
+    width: 100%;
+    height: 100%;
+
     border-radius: 50%;
     border: 1px solid ${({ theme }) => theme.COLORS.BACKGROUND_600};
+    }
   }
 `;
 
 export const Search = styled.div`
-width: 100%;
+  width: 100%;
 `;

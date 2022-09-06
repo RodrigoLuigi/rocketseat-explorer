@@ -12,9 +12,20 @@ export const Container = styled.div `
         padding: 0 124px;
 
         svg {
-            color: ${({ theme }) => theme.COLORS.ROSE};
-            font-size: 24px;
+          color: ${({ theme }) => theme.COLORS.ROSE};
+          font-size: 24px;
         }
+
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+
+          gap: 8px;
+
+          color: ${({ theme }) => theme.COLORS.ROSE};
+          margin-bottom: 24px;
+        }     
     }
 `;
 

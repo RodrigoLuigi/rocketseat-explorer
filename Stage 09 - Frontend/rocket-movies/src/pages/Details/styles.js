@@ -32,6 +32,17 @@ export const Content = styled.div`
   max-width: 1137px;
   margin: 40px auto;
 
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 8px;
+
+    color: ${({ theme }) => theme.COLORS.ROSE};
+    margin-bottom: 24px;
+  }      
+
   .tags {
     margin: 40px 0;
   }
@@ -44,8 +55,8 @@ export const Content = styled.div`
 `;
 
 export const MovieNote = styled.div`
-  overflow-y: auto;
-  max-height: 380px;
+  overflow-y: none;
+  max-height: 768px;
   margin: 24px 0;
 
   ::-webkit-scrollbar{

@@ -1,6 +1,5 @@
 import { FiPlus } from 'react-icons/fi'
 
-import { Section } from '../../components/Section';
 import { Header } from '../../components/Header';
 import { Movie } from '../../components/Movie';
 
@@ -16,7 +15,7 @@ export function Home(){
         <header>
           <h1>Meus Filmes</h1>
 
-          <NewMovie>
+          <NewMovie to="/new">
             <FiPlus />
             <span>Adicionar filme</span>
           </NewMovie>
