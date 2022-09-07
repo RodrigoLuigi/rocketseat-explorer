@@ -49,10 +49,6 @@ export const Profile = styled.div`
         color: ${({ theme }) => theme.COLORS.WHITE};
       }
 
-      span {
-        align-self: flex-end;        
-      }
-
       button {
         font-size: 14px;
         font-weight: 400;
@@ -61,9 +57,13 @@ export const Profile = styled.div`
         background: none;
         border: none;
       }
+
+      div {
+        align-self: flex-end;        
+      }
     }
 
-    > a img {
+    img {
       width: 64px;
       height: 64px;
 

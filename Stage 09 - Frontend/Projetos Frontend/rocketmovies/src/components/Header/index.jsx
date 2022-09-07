@@ -18,13 +18,13 @@ export function Header(){
           <div>
             <strong>Rodrigo Luigi</strong>
             
-            <span>
+            <div>
             <button>sair</button>     
-            </span>
+            </div>
           </div>
           
           <a href="#">
-          <img src="https://github.com/RodrigoLuigi.png" alt="Foto do usuário" />          
+            <img src="https://github.com/RodrigoLuigi.png" alt="Foto do usuário" />          
           </a>        
         </Profile>
       </Container>
