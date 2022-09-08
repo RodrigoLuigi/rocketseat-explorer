@@ -10,6 +10,8 @@ export default {
   
       WHITE: "#F4EDE8",
       SNOW: "#E5E5E5",
+      ROSE1: "brown",
+      ROSE2: "#f3b200", 
       ROSE: "#FF859B",
       ROSE_900: "#FF859B0D",
   
