@@ -15,6 +15,7 @@ export default {
       ROSE: "#FF859B",
       ROSE_900: "#FF859B0D",
   
+      GRAY: "#CAC4CF",
       GRAY_100: "#948F99",
       GRAY_200: "#999591",
       GRAY_300: "#666360",
