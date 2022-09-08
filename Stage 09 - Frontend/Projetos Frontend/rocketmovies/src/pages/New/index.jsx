@@ -16,7 +16,7 @@ export function New(){
 
         <main>
           <Content>
-            <ButtonText href="/" title="Voltar"/>
+            <ButtonText to="/" title="Voltar"/>
 
             <Form>
               <h1>Novo Filme</h1>

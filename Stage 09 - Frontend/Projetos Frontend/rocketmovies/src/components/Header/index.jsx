@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom';
 import { FiSearch } from 'react-icons/fi'
+
 import { Input } from '../Input'
 
 import { Container, Brand, Search, Profile } from './styles';
@@ -6,7 +8,7 @@ import { Container, Brand, Search, Profile } from './styles';
 export function Header(){
     return(
       <Container>
-        <Brand href="#">
+        <Brand to="/">
           <h1>RocketMovies</h1>
         </Brand>
 
@@ -23,9 +25,9 @@ export function Header(){
             </div>
           </div>
           
-          <a href="#">
+          <Link to="/profile">
             <img src="https://github.com/RodrigoLuigi.png" alt="Foto do usuário" />          
-          </a>        
+          </Link>        
         </Profile>
       </Container>
     );

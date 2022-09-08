@@ -14,7 +14,7 @@ export function Details(){
 
       <main>
         <Content>
-          <ButtonText href="/" title="Voltar"/>
+          <ButtonText to="/" title="Voltar"/>
 
           <MovieDetails>
             <div>

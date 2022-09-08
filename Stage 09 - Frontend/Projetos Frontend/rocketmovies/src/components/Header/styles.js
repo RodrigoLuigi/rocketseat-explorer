@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import styled from 'styled-components';
 
 export const Container = styled.header`
@@ -19,7 +21,7 @@ export const Container = styled.header`
 
 `;
 
-export const Brand = styled.a`
+export const Brand = styled(Link)`
   h1 {
     font-size: 24px;
     font-weight: 700;
