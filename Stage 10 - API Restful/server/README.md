@@ -78,3 +78,4 @@
 
 <img src="">
 
+Utilizamos a biblioteca Multer para fazer upload de imagens e criamos o arquivo de config 
