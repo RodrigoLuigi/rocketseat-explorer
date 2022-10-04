@@ -1,3 +1,5 @@
+import avatarPlaceHolder from '../../assets/avatar_placeholder.svg';
+
 import { RiShutDownLine } from 'react-icons/ri'
 import { useAuth } from '../../hooks/auth'
 
