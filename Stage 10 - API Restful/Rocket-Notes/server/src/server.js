@@ -1,5 +1,5 @@
 require("express-async-errors");
-const migrationsRun = require("./database/sqlite/migrations")
+const migrationsRun = require("./database/sqlite/migrations");
 const AppError = require("./utils/AppError")
 const uploadConfig = require("./configs/upload");
 
