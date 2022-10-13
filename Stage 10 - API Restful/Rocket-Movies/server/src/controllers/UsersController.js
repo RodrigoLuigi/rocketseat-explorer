@@ -29,10 +29,11 @@ class UsersController {
 
   async update(request, response){
     const {name, email, password, old_password} = request.body;
-    const { id } = request.params;
+    const user_id = request.user.id;
+    console.log(password, old_password)
 
     const database = await sqliteConnection();
-    const user = await database.get("SELECT * FROM users WHERE id = (?)", [id]);
+    const user = await database.get("SELECT * FROM users WHERE id = (?)", [user_id]);
 
     if(!user){
       throw new AppError("Usuário não encontrado.")
@@ -48,7 +49,7 @@ class UsersController {
     user.email = email ?? user.email;
 
     if(password && !old_password){
-      throw new AppError("Você precisa informar a senha antiga para definir a senha nova!")
+      throw new AppError("Você precisa informar a senha antiga para definir a senha nova!");
     }
 
     if(password && old_password){
@@ -68,7 +69,7 @@ class UsersController {
     password = ?,
     updated_at = DATETIME('now')
     WHERE id = ?`,
-    [user.name, user.email, user.password, id]
+    [user.name, user.email, user.password, user_id]
     );
 
     return response.status(200).json();
