@@ -1,5 +1,8 @@
+import { useState } from 'react';
 import { FiArrowLeft } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+
+import { api } from '../../services/api';
 
 import { Input } from '../../components/Input';
 import { Header } from '../../components/Header';
@@ -9,11 +12,15 @@ import { Textarea } from '../../components/Textarea';
 import { NoteItem } from '../../components/NoteItem';
 
 import { Container, Content, Form } from './styles';
-import { useState } from 'react';
 
 export function NewMovie(){
+  const [title, setTitle] = useState("");
+  const [rating, setRating] = useState(0);
+  const [description, setDescription] = useState("");
   const [tags, setTags] = useState([]);
   const [newTag, setNewTag] = useState("");
+
+  const navigate = useNavigate();
 
   function handleAddTag() {
     setTags(prevState => [...prevState, newTag]);
@@ -22,6 +29,30 @@ export function NewMovie(){
 
   function handleRemoveTag(deleted) {
     setTags(prevState => prevState.filter(tag => tag !== deleted));
+  }
+
+  async function handleNewNote() {
+    if(!title) {
+      return alert("Digite o título da nota");
+    }
+
+    if(rating == 0) {
+      return alert("Dê uma nota para o Filme.");
+    }
+
+   if(newTag) {
+    return alert("Você deixou uma tag no campo para adicionar, mas não clicou em adicionar. Clique para adicionar ou deixe o campo vazio.");
+   }
+
+    await api.post("/notes", {
+      title,
+      rating,
+      description,
+      tags
+    });
+
+    alert("Nota criada com sucesso!");
+    navigate(-1);
   }
 
   return(
@@ -39,11 +70,21 @@ export function NewMovie(){
             <h1>Novo Filme</h1>
 
             <div>
-              <Input placeholder="Título"/>
-              <Input placeholder="Sua nota (de 0 a 5)"/>
+              <Input 
+                placeholder="Título"
+                onChange={e => setTitle(e.target.value)}
+              />
+
+              <Input 
+                placeholder="Sua nota (de 0 a 5)"
+                onChange={e => setRating(e.target.value)}
+              />
             </div>
 
-            <Textarea placeholder="Obsevações"/>
+            <Textarea 
+              placeholder="Obsevações"
+              onChange={e => setDescription(e.target.value)}
+            />
 
             <Section title="Marcadores">
 
@@ -71,7 +112,11 @@ export function NewMovie(){
 
             <div>
               <Button title='Excluir Filme' className='btn-delete' />
-              <Button title='Salvar Alterações' />
+
+              <Button 
+                title='Salvar Alterações' 
+                onClick={handleNewNote}
+              />
             </div>
 
         </Form>
