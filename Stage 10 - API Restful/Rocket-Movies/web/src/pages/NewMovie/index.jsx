@@ -9,8 +9,21 @@ import { Textarea } from '../../components/Textarea';
 import { NoteItem } from '../../components/NoteItem';
 
 import { Container, Content, Form } from './styles';
+import { useState } from 'react';
 
 export function NewMovie(){
+  const [tags, setTags] = useState([]);
+  const [newTag, setNewTag] = useState("");
+
+  function handleAddTag() {
+    setTags(prevState => [...prevState, newTag]);
+    setNewTag("");
+  }
+
+  function handleRemoveTag(deleted) {
+    setTags(prevState => prevState.filter(tag => tag !== deleted));
+  }
+
   return(
     <Container>
       <Header />
@@ -33,9 +46,26 @@ export function NewMovie(){
             <Textarea placeholder="Obsevações"/>
 
             <Section title="Marcadores">
+
               <div className='tags'>
-                <NoteItem value="Família" />
-                <NoteItem isNew placeholder="Nova tag" />
+                {
+                  tags.map((tag, index) => (
+                    <NoteItem 
+                      key={String(index)}
+                      value={tag}
+                      onClick={()=>{handleRemoveTag(tag)}}
+                    />
+                  ))
+                }
+
+                <NoteItem 
+                  isNew
+                  placeholder="Nova tag" 
+                  onChange={e => setNewTag(e.target.value)}
+                  value={newTag}
+                  onClick={handleAddTag}
+                />
+
               </div>
             </Section>
 

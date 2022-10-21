@@ -51,7 +51,7 @@ export const Content = styled.div`
 
     gap: 24px;
 
-    height: 88px;
+    height: auto;
     padding: 16px;
     
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
