@@ -68,6 +68,3 @@ export const Profile = styled.div`
   }
 `;
 
-export const Search = styled.div`
-  width: 100%;
-`;

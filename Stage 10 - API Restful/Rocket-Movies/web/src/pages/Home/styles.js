@@ -89,3 +89,7 @@ export const MovieNotes = styled.div`
     margin-bottom: 0;
   }
 `;
+
+export const Search = styled.div`
+  width: 100%;
+`;

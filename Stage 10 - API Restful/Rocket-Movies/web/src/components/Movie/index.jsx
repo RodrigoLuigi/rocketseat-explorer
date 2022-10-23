@@ -9,9 +9,9 @@ export function Movie({data, ...rest}){
       
       <h1>{data.title}</h1>
 
-      <Stars ratings={data.ratings}/>
+      <Stars ratings={data.rating}/>
 
-      <p>{data.text}</p>
+      <p>{data.description}</p>
 
       {
         data.tags && 

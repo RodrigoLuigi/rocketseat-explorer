@@ -1,4 +1,3 @@
-import { FiSearch } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 import { useAuth } from '../../hooks/auth';
@@ -6,23 +5,18 @@ import { api } from '../../services/api';
 
 import avatarPlaceholder from '../../assets/avatar_placeholder.svg';
 
-import { Input } from '../../components/Input';
+import { Container, Profile } from './styles';
 
-import { Container, Profile, Search } from './styles';
-
-export function Header(){
+export function Header({children}){
   const { signOut, user } = useAuth();
 
   const avatarUrl = user.avatar ? `${api.defaults.baseURL}/files/${user.avatar}` : avatarPlaceholder;
-
 
   return(
     <Container>
       <span>RocketMovies</span>
       
-      <Search>
-        <Input placeholder="Digite aqui"icon={FiSearch}/>
-      </Search>
+      {children}
 
       <Profile>
         <div>
