@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 import { useAuth } from '../../hooks/auth';
 import { api } from '../../services/api';
@@ -12,6 +12,12 @@ export function Header({children}){
 
   const avatarUrl = user.avatar ? `${api.defaults.baseURL}/files/${user.avatar}` : avatarPlaceholder;
 
+  const navigate = useNavigate();
+
+  function handleSignOut(){
+    navigate("/");
+    signOut();
+  }
   return(
     <Container>
       <span>RocketMovies</span>
@@ -25,7 +31,7 @@ export function Header({children}){
           <div>
           <button
           type='button'
-          onClick={signOut}
+          onClick={handleSignOut}
           >
             sair
           </button>
