@@ -1,12 +1,12 @@
-import { FiArrowLeft, FiClock} from 'react-icons/fi';
-import { Link, useParams } from 'react-router-dom';
+import { FiArrowLeft, FiClock, FiTrash2} from 'react-icons/fi';
+import { useParams, useNavigate } from 'react-router-dom';
 
 import { api } from '../../services/api';
 import avatarPlaceholder from '../../assets/avatar_placeholder.svg';
 
-
 import { Tag } from '../../components/Tag';
 import { Stars } from '../../components/Stars';
+import { ButtonText } from '../../components/ButtonText';
 import { Section } from '../../components/Section';
 import { Header } from '../../components/Header';
 
@@ -19,9 +19,22 @@ export function Details(){
   const { user } = useAuth();
 
   const params = useParams();
+  const navigate = useNavigate();
 
   const avatarUrl = user.avatar ? `${api.defaults.baseURL}/files/${user.avatar}` : avatarPlaceholder;
 
+  function handleBack() {
+    navigate(-1)
+  }
+
+  async function handleRemoveNote(){
+    const confirm = window.confirm("Deseja realmente remover a nota do filme?");
+
+    if(confirm) {
+      await api.delete(`/notes/${params.id}`)
+      navigate(-1);
+    } 
+  }
 
   useEffect(() => {
     async function fatchNote(){
@@ -37,20 +50,30 @@ export function Details(){
 
       <Header />
       {
-        data &&
+      data &&
       <main>
         <Content>
-          <Link to='/'>
-            <FiArrowLeft />
-            Voltar
-          </Link> 
+          <ButtonText 
+            title="Voltar" 
+            icon={FiArrowLeft}
+            onClick={handleBack}
+          />
 
           <MovieNote>
             <header>
               <MovieInfo>
-                <h2>{data.title}</h2>
-                <Stars ratings={data.rating}/>
+                <div>
+                  <h2>{data.title}</h2>
+                  <Stars ratings={data.rating}/>
+                </div>
+
+              <ButtonText 
+                title="Excluir Nota" 
+                icon={FiTrash2}
+                onClick={handleRemoveNote}
+              />
               </MovieInfo>
+
 
               <AuthorInfo>
                 <div>
@@ -65,17 +88,19 @@ export function Details(){
                 </div>
               </AuthorInfo>
 
+             { 
+              data.tags &&
               <Section>
-                {
-                  data.tags.map(tag => (
-                    <Tag 
-                      key={String(tag.id)}
-                      title={tag.name} 
-                    />
-                  ))
-                }
-                
-              </Section>
+                  {
+                    data.tags.map(tag => (
+                      <Tag 
+                        key={String(tag.id)}
+                        title={tag.name} 
+                      />
+                    ))
+                  }
+                </Section>
+              }
             </header>
 
             <p>{data.description}</p>

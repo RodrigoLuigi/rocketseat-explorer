@@ -16,7 +16,7 @@ export const Container = styled.div `
           font-size: 24px;
         }
 
-        a {
+        button {
           display: flex;
           align-items: center;
           justify-content: flex-start;

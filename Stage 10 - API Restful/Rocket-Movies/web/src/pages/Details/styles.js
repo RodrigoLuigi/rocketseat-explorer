@@ -32,7 +32,7 @@ export const Content = styled.div`
   max-width: 1137px;
   margin: 40px auto;
 
-  a {
+  button {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -55,8 +55,8 @@ export const Content = styled.div`
 `;
 
 export const MovieNote = styled.div`
-  overflow-y: none;
-  max-height: 768px;
+  overflow-y: scroll;
+  max-height: 568px;
   margin: 24px 0;
 
   ::-webkit-scrollbar{
@@ -74,18 +74,34 @@ export const MovieNote = styled.div`
 `;
 
 export const MovieInfo = styled.div`
+  width: 100%;
   display: flex;
-  align-items: center;
-  gap: 19px;
+  justify-content: space-between;
 
   margin-bottom: 24px;
 
-  h2 {
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 47px;
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 19px;
 
-    color: ${({ theme }) => theme.COLORS.WHITE};
+    h2 {
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 47px;
+
+      color: ${({ theme }) => theme.COLORS.WHITE};
+    }
+
+  }
+
+  button {
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
+    color: ${({ theme }) => theme.COLORS.ROSE};
+    padding: 16px;
+    border-radius: 10px;
+
+    font-weight: 500;
   }
 `; 
 

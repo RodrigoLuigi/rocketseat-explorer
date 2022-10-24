@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { FiArrowLeft } from 'react-icons/fi';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import { api } from '../../services/api';
 
 import { Input } from '../../components/Input';
 import { Header } from '../../components/Header';
 import { Button } from '../../components/Button';
+import { ButtonText } from '../../components/ButtonText';
 import { Section } from '../../components/Section';
 import { Textarea } from '../../components/Textarea';
 import { NoteItem } from '../../components/NoteItem';
@@ -21,7 +22,11 @@ export function NewMovie(){
   const [newTag, setNewTag] = useState("");
 
   const navigate = useNavigate();
-
+  
+  function handleBack() {
+    navigate(-1)
+  }
+  
   function handleAddTag() {
     setTags(prevState => [...prevState, newTag]);
     setNewTag("");
@@ -30,6 +35,7 @@ export function NewMovie(){
   function handleRemoveTag(deleted) {
     setTags(prevState => prevState.filter(tag => tag !== deleted));
   }
+
 
   async function handleNewNote() {
     if(!title) {
@@ -61,10 +67,11 @@ export function NewMovie(){
 
       <main>
         <Content>
-          <Link to='/'>
-            <FiArrowLeft />
-            Voltar
-          </Link> 
+          <ButtonText 
+            title="Voltar" 
+            icon={FiArrowLeft} 
+            onClick={handleBack} 
+          />
           
           <Form>
             <h1>Novo Filme</h1>
@@ -111,7 +118,7 @@ export function NewMovie(){
             </Section>
 
             <div>
-              <Button title='Excluir Filme' className='btn-delete' />
+             {/*  <Button title='Excluir Filme' className='btn-delete' /> */}
 
               <Button 
                 title='Salvar Alterações' 

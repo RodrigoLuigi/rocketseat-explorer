@@ -13,7 +13,7 @@ export const Container = styled.div`
 
   > main {
     grid-area: content;
-    overflow-y: auto;
+    overflow-y: hidden;
 
     ::-webkit-scrollbar{
       width: 1px;
@@ -67,8 +67,8 @@ export const NewMovie = styled(Link)`
 `;
 
 export const MovieNotes = styled.div`
-  overflow-y: none;
-  max-height: 768px;
+  overflow-y: scroll;
+  max-height: 568px;
   margin-top: 37px;
   padding-right: 8px;
 

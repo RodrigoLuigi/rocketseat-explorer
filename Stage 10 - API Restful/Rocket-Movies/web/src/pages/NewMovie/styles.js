@@ -13,7 +13,7 @@ export const Container = styled.div`
 
   > main {
     grid-area: content;
-    overflow-y: auto;
+    overflow-y: hidden;
 
     ::-webkit-scrollbar{
       width: 1px;
@@ -33,7 +33,7 @@ export const Content = styled.div`
   max-width: 1137px;
   margin: 40px auto;
   
-  > a {
+  > button {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -44,30 +44,19 @@ export const Content = styled.div`
     margin-bottom: 24px;
   }
 
-  .tags {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-
-    gap: 24px;
-
-    height: auto;
-    padding: 16px;
-    
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
-  }
+  
 `;
 
-export const Form = styled.div`
+export const Form = styled.form`
   max-width: 1137px;
-  max-height: 768px;
+  max-height: 600px;
 
-  overflow-y: none;
+  overflow-y: scroll;
 
   display: flex;
   flex-direction: column;
   gap: 40px;
-
+  
   padding-right: 8px;
   padding-bottom: 12px;
 
@@ -79,11 +68,29 @@ export const Form = styled.div`
 
   > div {
     display: flex;
+    justify-content: center;
     gap: 40px;
+
+    button {
+      width: 50%;
+    }
   }
 
   > section {
     margin: 0;
+
+    .tags {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    gap: 24px;
+
+    height: auto;
+    padding: 16px;
+    
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
+  }
   }
 
   ::-webkit-scrollbar{
@@ -99,8 +106,11 @@ export const Form = styled.div`
     background-color: transparent;    
   }
 
-  .btn-delete {
+  
+  
+
+  /* .btn-delete {
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
     color: ${({ theme }) => theme.COLORS.ROSE};
-  }
+  } */
 `;
