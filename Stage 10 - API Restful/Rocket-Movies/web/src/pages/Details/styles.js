@@ -56,7 +56,7 @@ export const Content = styled.div`
 
 export const MovieNote = styled.div`
   overflow-y: scroll;
-  max-height: 568px;
+  max-height: 450px;
   margin: 24px 0;
 
   ::-webkit-scrollbar{

@@ -68,7 +68,7 @@ export const NewMovie = styled(Link)`
 
 export const MovieNotes = styled.div`
   overflow-y: scroll;
-  max-height: 568px;
+  max-height: 410px;
   margin-top: 37px;
   padding-right: 8px;
 

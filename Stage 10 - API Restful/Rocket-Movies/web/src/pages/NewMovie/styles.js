@@ -49,7 +49,7 @@ export const Content = styled.div`
 
 export const Form = styled.form`
   max-width: 1137px;
-  max-height: 600px;
+  max-height: 450px;
 
   overflow-y: scroll;
 
