@@ -1,4 +1,4 @@
-# <h1 id="top" align="center"> :pencil2: Rocket**Notes** 🗒️</h1>
+# <h1 id="top" align="center">🎬 Rocket**Movies** 📽</h1>
 
 <p align="center">
   <a href="#sobre">Sobre</a> &#xa0; | &#xa0; 
@@ -12,19 +12,19 @@
 ## Screenshots
 
 <div align="center">
-  <img src="" width="270px" height="200px">
-  <img src="" width="270px" height="200px">
-  <img src="" width="270px" height="200px">
-  <img src="" width="270px" height="200px">
-  <img src="" width="270px" height="200px">
-  <img src="" width="270px" height="200px">
+  <img src="./public/assets/signin.png" width="270px" height="200px">
+  <img src="./public/assets/home.png" width="270px" height="200px">
+  <img src="./public/assets/create-movie.png" width="270px" height="200px">
+  <img src="./public/assets/signup.png" width="270px" height="200px">
+  <img src="./public/assets/profile.png" width="270px" height="200px">
+  <img src="./public/assets/movie-preview.png" width="270px" height="200px">
 </div>
 
 <br><hr>
 
 ## <img id="sobre" src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
-📌 RocketNotes é uma Aplicação para gerenciar anotações com tags e links vinculados à nota. O usuário poderá cadastrar notas. O usuário poderá fazer buscas de notas cadastradas tanto por tags quanto por links, bem como lista-las. Cada usuário terá seu próprio perfil e também poderá atualiza-lo.
+📌 RocketMovies é uma Aplicação para gerenciar anotações sobre filmes e séries. O usuário poderá cadastrar notas, atribuir ranking para cada filme com tags vinculados a nota. O usuário poderá fazer buscas de notas cadastradas, bem como lista-las. Cada usuário terá seu próprio perfil e também poderá atualiza-lo.
 
 ## :gear: Features
 
@@ -54,9 +54,9 @@ _**As seguintes bibliotecas foram utilizadas neste projeto:**_
 
 ```bash
 # Clone este projeto
-$ git clone https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2009%20-%20Frontend/Projeto%201/rocketnotes.git
+$ git clone https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2009%20-%20Frontend/Desafio%201/rocket-movies.git
 # Acesse o projeto
-$ cd rocketnotes
+$ cd rocket-movies
 # Instale as dependências
 $ npm install
 # Execute o projeto com npm
