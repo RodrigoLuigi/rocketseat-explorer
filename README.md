@@ -103,7 +103,7 @@ Neste módulo aprendemos sobre o ReactJS e construimos o nosso front-end do proj
 🔗 [Projeto 1](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2009%20-%20Frontend/Projeto%201/rocketnotes)<br>
 
 - **Desafios**<br>
-  🔗 [Desafio 01](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2009%20-%20Frontend/Desafio%201/rocket-movies)<br>
-  🔗 [Desafio 02](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2009%20-%20Frontend/Spotify%20Premium%20-%20Mobile%20First)<br>
+  🔗 [Desafio 01 - RocketMovies](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2009%20-%20Frontend/Desafio%201/rocket-movies)<br>
+  🔗 [Desafio 02 - Digify Premium(projeto pessoal)](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2009%20-%20Frontend/Spotify%20Premium%20-%20Mobile%20First)<br>
 
   **Loading...**
