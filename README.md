@@ -94,7 +94,7 @@ Neste módulo aprendemos sobre: O que é o Node.js como ele funciona e suas vant
 🔗 [Projeto 1](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2008%20-%20Backend/Projeto1)<br>
 
 - **Desafios**<br>
-  🔗 [Desafio 01 - MovieNotes](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2008%20-%20Backend/Desafio1)<br>
+  🔗 [Desafio 01 - RocketMovies API](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2008%20-%20Backend/Desafio1)<br>
 
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 09 - Frontend**_]()
 
