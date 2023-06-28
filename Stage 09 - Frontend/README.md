@@ -6,4 +6,4 @@
 
 - **Desafios**<br>
   🔗 [Desafio 01 - Rocket Movies](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2009%20-%20Frontend/Desafio%201/rocket-movies)<br>
-  🔗 [Desafio 02 - Digify Premium ](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2009%20-%20Frontend/Desafio%201/rocket-movies)<br>
+  🔗 [Desafio 02 - Digify Premium ](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2009%20-%20Frontend/Spotify%20Premium%20-%20Mobile%20First)<br>
