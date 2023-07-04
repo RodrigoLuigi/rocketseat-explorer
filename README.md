@@ -106,13 +106,13 @@ Neste módulo aprendemos sobre o ReactJS e construimos o nosso front-end do proj
   🔗 [Desafio 01 - RocketMovies](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2009%20-%20Frontend/Desafio%201/rocket-movies)<br>
   🔗 [Desafio 02 - Digify Premium(projeto pessoal)](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2009%20-%20Frontend/Spotify%20Premium%20-%20Mobile%20First)<br>
 
-### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 10 - Frontend**_]()
+### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 10 - API Restful**_](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2010%20-%20API%20Restful)
 
 Neste módulo faremos a integração entre o back-end e o front-end da aplicação. O módulo será dividido em três partes, a primeira parte implementaremos a autenticação de usuários no back-end, na segunda etapa faremos o upload de imagens e na última parte faremos todas as funcionalidades para que a integração entre o front-end e back-end funcione corretamente.
 
-🔗 [Projeto 1 - Integração RocketNotes]()<br>
+🔗 [Projeto 1 - Integração RocketNotes](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2010%20-%20API%20Restful/Rocket-Notes)<br>
 
 - **Desafios**<br>
-  🔗 [Desafio 01 - Integração RocketMovies]()<br>
+  🔗 [Desafio 01 - Integração RocketMovies](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2010%20-%20API%20Restful/Rocket-Movies)<br>
 
   **Loading...**
