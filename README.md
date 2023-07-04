@@ -56,8 +56,6 @@ Neste módulo desenvolvemos exercícios de lógica e estrutura de dados como: Va
   🔗 [Desafio 01](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2004%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20programa%C3%A7%C3%A3o%2C%20l%C3%B3gica%20e%20algoritmos%20em%20Javascript/Desafio%201)<br>
   🔗 [Desafio 02](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2004%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20programa%C3%A7%C3%A3o%2C%20l%C3%B3gica%20e%20algoritmos%20em%20Javascript/Desafio%202)<br>
 
-**Loading...**
-
 ### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> [_**Stage 05 - Avançando na programação Web com JavaScript**_](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2005%20-%20Avan%C3%A7ando%20na%20Programa%C3%A7%C3%A3o%20Web%20com%20JavaScript)
 
 Neste módulo aprendemos sobre: Como manipular o navegador utilizando a DOM, funções callbacks, recursividade, princípios do Clean Code, ES6 Modules, padrão Factory, injeção de dependências, refatoração de código , trabalhar com sons através do javascript e muito mais...
@@ -114,5 +112,3 @@ Neste módulo faremos a integração entre o back-end e o front-end da aplicaç�
 
 - **Desafios**<br>
   🔗 [Desafio 01 - Integração RocketMovies](https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2010%20-%20API%20Restful/Rocket-Movies)<br>
-
-  **Loading...**
