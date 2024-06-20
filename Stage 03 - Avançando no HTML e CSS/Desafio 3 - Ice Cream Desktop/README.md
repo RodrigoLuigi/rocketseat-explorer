@@ -35,10 +35,12 @@ Projeto de uma página estática com cabeçalho e uma sessão contendo cards de 
 
 ## 📚 Stack utilizada
 
-## <img src="https://imgur.com/JvOmHZg.png" width="42px" align="center">  **HTML**
-## <img src="https://imgur.com/dsdsHjr.png" width="42px" align="center">  **CSS**
+<div style="display: inline-block">
+  <img align="center" alt="Logo HTML5" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Logo CSS3" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+</div>
 
 
 ## Screenshots
 
-<img src="">
+<img src="./assets/images/ice-cream.png">
