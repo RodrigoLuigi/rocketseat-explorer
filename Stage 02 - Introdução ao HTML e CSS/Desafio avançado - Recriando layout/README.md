@@ -1,6 +1,6 @@
 # <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Desafio Recriando layout
 
-### ****Rocket.sect Website - Recriando layout**
+### **Rocket.sect Website - Recriando layout**
 
 
 ### 📌 Trabalhando com a ferramenta Figma foi densenvolvido o projeto para transformar um layout em html e css do Zero. Estruturação HTML com tags semânticas, estilização CSS e acessibilidade.
