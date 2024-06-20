@@ -1,12 +1,12 @@
 # <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Desafio Recriando layout
 
-### **Recriando layout**
+### ****Rocket.sect Website - Recriando layout**
 
-### 📌 Nesse projeto trabalhamos com a ferramenta Figma e desenvolvemos o projeto para transformar um layout em html e css do Zero. Estruturação HTML com tags semânticas, estilização CSS e acessibilidade.
 
-# <br>:book: Aprendizados
+### 📌 Trabalhando com a ferramenta Figma foi densenvolvido o projeto para transformar um layout em html e css do Zero. Estruturação HTML com tags semânticas, estilização CSS e acessibilidade.
 
-### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
+🔗 Link -> <a href="https://rodrigoluigi.github.io/LP-Rocket.sect/" target="_blank">Rocket.sect</a>
+# <br><img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
 Projeto simples de uma página estática. Desenvolvemos toda a estrutura html, buscando sempre as melhores tags para se utilizar de forma semântica, utilizamos fontes e cores personalizadas, links, posicionamentos , espaçamentos , bordas, alinhamentos, conceitos de **Flexbox** e **BoxModel**.
 
@@ -41,11 +41,13 @@ Projeto simples de uma página estática. Desenvolvemos toda a estrutura html, b
 
 ## 📚 Stack utilizada
 
-## <img src="https://imgur.com/JvOmHZg.png" width="42px" align="center">  **HTML**
-## <img src="https://imgur.com/dsdsHjr.png" width="42px" align="center">  **CSS**
+<div style="display: inline-block">
+  <img align="center" alt="Logo HTML5" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Logo CSS3" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+</div>  
 
 
 ## Screenshots
 
-<img src="">
+<img src="./images/rocketsect.png">
 
