@@ -1,12 +1,11 @@
 # <img src="https://imgur.com/X4HdxWx.png"  width="50px" align="center" alt="Logo Explorer em formato de Hexagono Azul com detalhes azul claro"> Explorer - Desafio GitFav
 
-### **GitFav**
+**GitFav**
 
 ### 📌 Projeto de uma aplicação para buscar dados de usuários do Github e exibi-los em uma tabela com base em layout do figma.
 
-# <br>:book: Aprendizados
-
-### <img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
+🔗 Link-> <a href="https://rodrigoluigi.github.io/Github-Favorites/">Github Favorites</a>
+# <br><img src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
  Foi desenvolvido uma página em HTML, CSS, e JavaScript. Trabalhamos conceitos de POO (programação orientada a objetos) , modulação do JavaScript, , funções assincronas (asyc / await), Promises, Classes , herança e o que é polimorfismo, imutabilidade de dados, tratamentos de erros de aplicação utilizando métodos try/catch e throw, e armazenamento de dados em localStorage.
 
@@ -36,18 +35,21 @@
 
 | **Cores**               |                                                 |
 | ----------------- | ---------------------------------------------------------------- |
-| ![#000000](http://via.placeholder.com/12/000000?text=+) #000000 | ![#E1E1E6](http://via.placeholder.com/12/E1E1E6?text=+) #E1E1E6 |      
+| ![#000000](https://via.placeholder.com/12/000000) #000000 | ![#E1E1E6](http://via.placeholder.com/12/E1E1E6?text=+) #E1E1E6 |      
 | ![#ffffff](http://via.placeholder.com/12/ffffff?text=+) #ffffff    | ![#06181C](http://via.placeholder.com/12/06181C?text=+) #06181C | 
 | ![#065E7C](http://via.placeholder.com/12/065E7C?text=+) #065E7C    | ![#092D38](http://via.placeholder.com/12/092D38?text=+) #092D38 | 
 | ![#4A808C](http://via.placeholder.com/12/4A808C?text=+) #4A808C    | ![#ff0000](http://via.placeholder.com/12/ff0000?text=+) #ff0000 |
 
 ## 📚 Stack utilizada
 
-## <img src="https://imgur.com/JvOmHZg.png" width="42px" align="center">  **HTML**
-## <img src="https://imgur.com/dsdsHjr.png" width="42px" align="center">  **CSS**
-## <img src="" width="42px" align="center">  **JS**
+<div style="display: inline-block">
+  <img align="center" alt="Logo HTML5" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Logo CSS3" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Logo JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+</div>
 
 
 ## Screenshots
 
-<img src="">
+<img src="./assets/images/gitfav.png">
+<img src="./assets/images/gitfav2.png">
