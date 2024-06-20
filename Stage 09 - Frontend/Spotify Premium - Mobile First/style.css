@@ -1,22 +1,22 @@
 @font-face {
     font-family: circular-black;
-    src: url(./assets/fonts/fonts/CircularStd-Black.otf);
+    src: url(./fonts/fonts/CircularStd-Black.otf);
 }
 @font-face {
     font-family: circular-bold;
-    src: url(./assets/fonts/fonts/CircularStd-Bold.otf);
+    src: url(./fonts/fonts/CircularStd-Bold.otf);
 }
 @font-face {
     font-family: circular-book;
-    src: url(./assets/fonts/fonts/CircularStd-Book.otf);
+    src: url(./fonts/fonts/CircularStd-Book.otf);
 }
 @font-face {
     font-family: circular-light;
-    src: url(./assets/fonts/fonts/CircularStd-Light.otf);
+    src: url(./fonts/fonts/CircularStd-Light.otf);
 }
 @font-face {
     font-family: circular-medium;
-    src: url(./assets/fonts/fonts/CircularStd-Medium.otf);
+    src: url(./fonts/fonts/CircularStd-Medium.otf);
 }
 
 /*=========== RESET ===============================*/
@@ -99,14 +99,15 @@ body {
 .logo {
     display: inline-block;
 
-    height: 2.7rem;
+    height: 4.7rem;
     width: 8.9rem;
 
-    margin-top: 13px;
+    margin-top: 4px;
 }
 
 .logo svg {
     width: 100%;
+    height: 100%;
 }
 
 .logo svg path {
@@ -829,8 +830,12 @@ footer.section{
 }
 
 .logo {
-    margin-top: 20px;
+    /* margin-top: 20px;
     height: 40px;
+    width: 132px; */
+
+    margin-top: 13px;
+    height: 60px;
     width: 132px;
 }
 
