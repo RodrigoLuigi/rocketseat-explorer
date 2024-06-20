@@ -38,12 +38,15 @@ Projeto de um **timer ou cronômetro** para marcar um determinado período de te
 
 ## 📚 Stack utilizada
 
-## <img src="https://imgur.com/JvOmHZg.png" width="42px" align="center">  **HTML**
-## <img src="https://imgur.com/dsdsHjr.png" width="42px" align="center">  **CSS**
-## <img src="" width="42px" align="center">  **JS**
+<div style="display: inline-block">
+  <img align="center" alt="Logo HTML5" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Logo CSS3" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Logo JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+</div>
 
 
 ## Screenshots
 
-<img src="">
+<img src="./assets/images/focus-timer-pomodoro.png">
+<img src="./assets/images/focus-timer-pomodoro2.png">
 
