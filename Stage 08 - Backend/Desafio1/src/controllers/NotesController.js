@@ -2,8 +2,9 @@ const knex = require("../database/knex");
 
 class NotesController{
   async create(request, response){
-    const { title, description, rating, tags, links } = request.body;
-    const {user_id} = request.params;
+    //const { title, description, rating, tags, links } = request.body;
+    const { title, description, rating, tags } = request.body;
+    const user_id = request.user.id;
 
     const note_id = await knex("notes").insert({
       title,
@@ -12,14 +13,15 @@ class NotesController{
       user_id
     });
 
-    const linksInsert = links.map(link =>{
+    //Criad handleAddLink no cadastro de nostes no frontend
+    /* const linksInsert = links.map(link =>{
       return{
         note_id,
         url: link
       }
-    });
+    }); */
 
-    await knex("links").insert(linksInsert)
+    //await knex("links").insert(linksInsert)
 
     const tagsInsert = tags.map(name =>{
       return{
@@ -57,7 +59,10 @@ class NotesController{
   }
 
   async index(request, response){
-    const { title, user_id, tags } = request.query;
+    const { title, tags } = request.query;
+
+    const user_id = request.user.id;
+
     let notes;
 
     if(tags){
@@ -74,6 +79,7 @@ class NotesController{
       .whereLike("notes.title", `%${title}%`)
       .whereIn("name", filterTags)
       .innerJoin("notes", "notes.id", "tags.note_id" )
+      .groupBy("notes.id")
       .orderBy("notes.title")
     }else{
       notes = await knex("notes")
