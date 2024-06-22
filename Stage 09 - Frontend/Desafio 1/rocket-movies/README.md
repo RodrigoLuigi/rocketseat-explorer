@@ -10,7 +10,6 @@
 </p>
 
 ## Screenshots
-
 <div align="center">
   <img src="./public/assets/signin.png" width="270px" height="200px">
   <img src="./public/assets/home.png" width="270px" height="200px">
@@ -20,43 +19,43 @@
   <img src="./public/assets/movie-preview.png" width="270px" height="200px">
 </div>
 
-<br><hr>
+ <br><hr>
 
 ## <img id="sobre" src="https://imgur.com/VhTBbHg.png" alt="imagem de um notebook" align="center" width="30px"> _**O que desenvolvemos neste Projeto?**_
 
-📌 RocketMovies é uma Aplicação para gerenciar anotações sobre filmes e séries. O usuário poderá cadastrar notas, atribuir ranking para cada filme com tags vinculados a nota. O usuário poderá fazer buscas de notas cadastradas, bem como lista-las. Cada usuário terá seu próprio perfil e também poderá atualiza-lo.
+📌 RocketMovies é uma Aplicação para gerenciar anotações sobre filmes e séries. O usuário poderá cadastrar notas, atribuir ranking para cada filme com tags vinculados a nota. O usuário poderá fazer buscas de notas cadastradas, bem como lista-las. Cada usuário terá seu próprio perfil e também poderá atualiza-lo. 
+## :gear: Features ##
 
-## :gear: Features
-
-:heavy_check_mark: Cadastro de usuário\
+:heavy_check_mark:  Cadastro de usuário\
 :heavy_check_mark: Login\
 :heavy_check_mark: Perfil do usuário\
 :heavy_check_mark: Cadastro de Notas\
 :heavy_check_mark: Pesquisar por Notas\
 :heavy_check_mark: Listar Notas\
 :heavy_check_mark: Detalhes da Nota
-
-## :books: Bibliotecas
+## :books: Bibliotecas ##
 
 _**As seguintes bibliotecas foram utilizadas neste projeto:**_
 
 - [ReactJs]()
 - [Styled-Components]()
+- [Axios]()
+- [Toastify]()
+- [react-confirm-alert]()
 - [react-icons]()
+## 📝 Requisitos ##
 
-## 📝 Requisitos
-
-- [Git](https://git-scm.com)
+- [Git](https://git-scm.com) 
 - [Node](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
 
-## :checkered_flag: Iniciando
+## :checkered_flag: Iniciando ##
 
 ```bash
 # Clone este projeto
-$ git clone https://github.com/RodrigoLuigi/Explorer---RocketSeat/tree/master/Stage%2009%20-%20Frontend/Desafio%201/rocket-movies.git
+$ git clone https://github.com/RodrigoLuigi/RocketMovies-Frontend.git
 # Acesse o projeto
-$ cd rocket-movies
+$ cd RocketMovies-Frontend
 # Instale as dependências
 $ npm install
 # Execute o projeto com npm
@@ -64,8 +63,10 @@ $ npm run dev
 # O Server irá inicializar em http://localhost:3333
 ```
 
+
 &#xa0;
 
-_**Feito por <a href="https://github.com/RodrigoLuigi" target="_blank">Rodrigo Luigi</a>**_ 👨‍🚀
+_**Feito por <a href="https://github.com/RodrigoLuigi" target="_blank">Rodrigo Luigi</a>**_  👨‍🚀
 
 <a href="#top">Back to top</a>
+

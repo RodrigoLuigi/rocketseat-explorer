@@ -1,12 +1,39 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-export const Container = styled.div`
+/* export const Container = styled.div`
   width: 100%;
   height: 100vh;
 
   display: grid;
   grid-template-rows: 116px auto;
+  grid-template-areas: 
+  "header"
+  "content";
+
+  > main {
+    grid-area: content;
+    overflow-y: hidden;
+
+    ::-webkit-scrollbar{
+      width: 1px;
+    }
+
+    ::-webkit-scrollbar-thumb{
+      background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
+    }
+
+    ::-webkit-scrollbar-track{
+      background-color: transparent;
+    }
+  }
+`; */
+export const Container = styled.div`
+  width: 100%;
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: max-content auto;
   grid-template-areas: 
   "header"
   "content";
@@ -30,20 +57,28 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
+  max-width: 1160px;
+  margin: 40px auto;
+  padding: 0 2.3rem; 
 
-    max-width: 1137px;
-    margin: 40px auto;
+  > header {
+    width: 100%;
 
-    > header {
-      width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: center;
+    gap: 2.2rem;
 
-      display: flex;
-      justify-content: space-between;
-
-      h1 {
-        font-size: 32px;
-      }
+    h1 {
+      font-size: 32px;
     }
+
+
+    @media (min-width: 477px) {
+      justify-content: space-between;
+    }
+  }
 `;
 
 export const NewMovie = styled(Link)`
@@ -67,25 +102,47 @@ export const NewMovie = styled(Link)`
 `;
 
 export const MovieNotes = styled.div`
-  overflow-y: none;
-  max-height: 768px;
+ 
+  /* max-height: 410px; */ /* modificado */
   margin-top: 37px;
-  padding-right: 8px;
-
-  ::-webkit-scrollbar{
-    width: 8px;
-  }
-
-  ::-webkit-scrollbar-thumb{
-    background-color: ${({ theme }) => theme.COLORS.ROSE};
-    border-radius: 5px;
-  }
-
-  ::-webkit-scrollbar-track{
-    background-color: transparent;    
-  }
   
-  > :last-child {
-    margin-bottom: 0;
+
+  @media (min-width: 900px){
+    overflow-y: scroll;
+    padding-right: 8px;
+
+    ::-webkit-scrollbar{
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-thumb{
+      background-color: ${({ theme }) => theme.COLORS.ROSE};
+      border-radius: 5px;
+    }
+
+    ::-webkit-scrollbar-track{
+      background-color: transparent;    
+    }
+    
+    > :last-child {
+      margin-bottom: 0;
+    }
   }
+`;
+
+export const Search = styled.div`
+  width: 100%;
+`;
+
+export const EmptyNote = styled.div`
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  border: 1px dashed ${({theme}) => theme.COLORS.ROSE};
+  background-color: ${({theme}) => theme.COLORS.ROSE_900};
+  padding: 22px;
+  border-radius: 8px;
 `;

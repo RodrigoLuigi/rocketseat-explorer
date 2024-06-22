@@ -9,14 +9,14 @@ export const Container = styled.div `
         background: ${({ theme }) => theme.COLORS.ROSE_900};
         display: flex;
         align-items: center;
-        padding: 0 124px;
+        padding: 0 2.3rem;
 
         svg {
           color: ${({ theme }) => theme.COLORS.ROSE};
           font-size: 24px;
         }
 
-        a {
+        button {
           display: flex;
           align-items: center;
           justify-content: flex-start;
@@ -25,7 +25,11 @@ export const Container = styled.div `
 
           color: ${({ theme }) => theme.COLORS.ROSE};
           margin-bottom: 24px;
-        }     
+        }   
+
+        @media (min-width: 40em) {
+          padding: 0 12.4rem;
+        }
     }
 `;
 
@@ -45,8 +49,10 @@ export const Avatar = styled.div `
     height: 186px;
 
     > img {
-        width: 100%;
-        border-radius: 50%;
+      width: 186px;
+      height: 186px;
+      border-radius: 50%;
+      object-fit: cover;
     }
 
     > label {
